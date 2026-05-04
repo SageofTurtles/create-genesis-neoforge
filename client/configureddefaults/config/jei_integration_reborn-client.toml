@@ -1,0 +1,19 @@
+[Tooltip_Options]
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	burnTimeTooltip = "DISABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	durabilityTooltipMode = "ENABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	enchantabilityTooltipMode = "DISABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	foodTooltipMode = "DISABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	registryNameMode = "DEBUG"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	maxStackSizeTooltipMode = "DISABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	tagsTooltipMode = "SHIFT_AND_DEBUG"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	translationKeyTooltipMode = "DISABLE"
+	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
+	dataComponentsMode = "SHIFT_AND_DEBUG"

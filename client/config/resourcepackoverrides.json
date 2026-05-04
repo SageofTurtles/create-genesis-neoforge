@@ -1,0 +1,10 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "moonlight:merged_pack",
+    "railways:green_signals",
+    "file/CreateSophBackpacks.zip"
+  ]
+}
