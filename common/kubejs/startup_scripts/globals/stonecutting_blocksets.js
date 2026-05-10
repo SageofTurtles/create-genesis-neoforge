@@ -1,5 +1,3 @@
-// priority: 200
-
 global['STONECUTTING_BLOCKSETS'] = [
   {
     name: 'andesite_tile',
@@ -1606,7 +1604,7 @@ global['STONECUTTING_BLOCKSETS'] = [
   },
   {
     name: 'warped_plank',
-    block: 'inecraft:warped_planks',
+    block: 'minecraft:warped_planks',
     slab: 'minecraft:warped_slab',
     stairs: 'minecraft:warped_stairs',
     wall: null
