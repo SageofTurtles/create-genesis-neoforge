@@ -5,6 +5,22 @@
     "mod_resources",
     "moonlight:merged_pack",
     "railways:green_signals",
-    "file/CreateSophBackpacks.zip"
-  ]
+    "file/CreateSophBackpacks.zip",
+    "file/Better-Goggles_v1.0.2.zip"
+  ],
+  "pack_overrides": {
+    "1": [
+      "vanilla",
+      "mod_resources",
+      "moonlight:merged_pack",
+      "railways:green_signals",
+      "file/CreateSophBackpacks.zip",
+      "file/Better-Goggles_v1.0.2.zip"
+    ],
+    "$$1": {
+      "default_position": "TOP",
+      "force_compatible": true,
+      "required": true
+    }
+  }
 }
