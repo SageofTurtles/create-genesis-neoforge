@@ -10,4 +10,7 @@ ServerEvents.tags('block', event => {
   global.BLACKLISTED_ITEMS.forEach(entry => {
     removeAll(entry)
   })
+  global.BLACKLISTED_REGEX_ITEMS.forEach(entry => {
+    removeAll(entry)
+  })
 })

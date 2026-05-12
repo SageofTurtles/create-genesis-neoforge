@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:mangrove_trapdoor",
+    "mcwtrpdoors:mangrove_bamboo_trapdoor",
+    "mcwtrpdoors:mangrove_bark_trapdoor",
+    "mcwtrpdoors:mangrove_barn_trapdoor",
+    "mcwtrpdoors:mangrove_barred_trapdoor",
+    "mcwtrpdoors:mangrove_barrel_trapdoor",
+    "mcwtrpdoors:mangrove_beach_trapdoor",
+    "mcwtrpdoors:mangrove_blossom_trapdoor",
+    "mcwtrpdoors:mangrove_classic_trapdoor",
+    "mcwtrpdoors:mangrove_cottage_trapdoor",
+    "mcwtrpdoors:mangrove_four_panel_trapdoor",
+    "mcwtrpdoors:mangrove_glass_trapdoor",
+    "mcwtrpdoors:mangrove_mystic_trapdoor",
+    "mcwtrpdoors:mangrove_paper_trapdoor",
+    "mcwtrpdoors:mangrove_ranch_trapdoor",
+    "mcwtrpdoors:mangrove_tropical_trapdoor",
+    "mcwtrpdoors:mangrove_whispering_trapdoor"
+  ]
+}

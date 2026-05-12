@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:spruce_trapdoor",
+    "mcwtrpdoors:spruce_bamboo_trapdoor",
+    "mcwtrpdoors:spruce_bark_trapdoor",
+    "mcwtrpdoors:spruce_barn_trapdoor",
+    "mcwtrpdoors:spruce_barred_trapdoor",
+    "mcwtrpdoors:spruce_barrel_trapdoor",
+    "mcwtrpdoors:spruce_beach_trapdoor",
+    "mcwtrpdoors:spruce_blossom_trapdoor",
+    "mcwtrpdoors:spruce_classic_trapdoor",
+    "mcwtrpdoors:spruce_four_panel_trapdoor",
+    "mcwtrpdoors:spruce_glass_trapdoor",
+    "mcwtrpdoors:spruce_mystic_trapdoor",
+    "mcwtrpdoors:spruce_paper_trapdoor",
+    "mcwtrpdoors:spruce_ranch_trapdoor",
+    "mcwtrpdoors:spruce_swamp_trapdoor",
+    "mcwtrpdoors:spruce_tropical_trapdoor",
+    "mcwtrpdoors:spruce_whispering_trapdoor"
+  ]
+}

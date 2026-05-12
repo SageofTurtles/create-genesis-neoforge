@@ -2,11 +2,17 @@
 
 ServerEvents.recipes(event => {
   // RECIPE FUNCTIONS
-  const output = (result) => {
-    event.remove({ output: result })
+  const output = (itemId) => {
+    event.remove({ output: itemId })
   }
-  const input = (ingredient) => {
-    event.remove({ input: ingredient })
+  const input = (itemId) => {
+    event.remove({ input: itemId })
+  }
+  const id = (recipeId) => {
+    event.remove({ id: recipeId })
+  }
+  const mod = (modId) => {
+    event.remove({ mod: modId })
   }
   const custom = (parameters) => {
     event.remove(parameters)
@@ -14,6 +20,11 @@ ServerEvents.recipes(event => {
 
   // BULK RECIPE CHANGES
   global.BLACKLISTED_ITEMS.forEach(entry => {
+    input(entry)
+    output(entry)
+  })
+
+  global.BLACKLISTED_REGEX_ITEMS.forEach(entry => {
     input(entry)
     output(entry)
   })
@@ -44,4 +55,16 @@ ServerEvents.recipes(event => {
       ])
     }
   })
+
+  custom({
+    mod: 'mcwdoors',
+    not: [
+      { id: /^mcwdoors:garage_.*/ },
+      { id: /mcwdoors:(iron|wooden)_portcullis/ }
+    ]
+  })
+
+  // TARGETED RECIPE CHANGES
+  id(/^createaddition:charging\/deoxidize.*/)
+  mod('mcwtrpdoors')
 })

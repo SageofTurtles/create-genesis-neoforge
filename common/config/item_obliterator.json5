@@ -16,6 +16,8 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "!mcwdoors:print_.*",
+    "!mcwtrpdoors:print_.*",
     "minecraft:elytra",
     "sophisticatedbackpacks:infinity_upgrade",
     "sophisticatedbackpacks:survival_infinity_upgrade",

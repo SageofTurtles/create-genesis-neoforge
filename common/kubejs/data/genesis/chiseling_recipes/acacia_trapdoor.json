@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:acacia_trapdoor",
+    "mcwtrpdoors:acacia_bamboo_trapdoor",
+    "mcwtrpdoors:acacia_bark_trapdoor",
+    "mcwtrpdoors:acacia_barn_trapdoor",
+    "mcwtrpdoors:acacia_barred_trapdoor",
+    "mcwtrpdoors:acacia_barrel_trapdoor",
+    "mcwtrpdoors:acacia_beach_trapdoor",
+    "mcwtrpdoors:acacia_blossom_trapdoor",
+    "mcwtrpdoors:acacia_classic_trapdoor",
+    "mcwtrpdoors:acacia_cottage_trapdoor",
+    "mcwtrpdoors:acacia_four_panel_trapdoor",
+    "mcwtrpdoors:acacia_glass_trapdoor",
+    "mcwtrpdoors:acacia_mystic_trapdoor",
+    "mcwtrpdoors:acacia_paper_trapdoor",
+    "mcwtrpdoors:acacia_ranch_trapdoor",
+    "mcwtrpdoors:acacia_swamp_trapdoor",
+    "mcwtrpdoors:acacia_whispering_trapdoor"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:iron_trapdoor",
+    "mcwtrpdoors:metal_full_trapdoor",
+    "mcwtrpdoors:metal_trapdoor",
+    "mcwtrpdoors:metal_warning_trapdoor"
+  ]
+}

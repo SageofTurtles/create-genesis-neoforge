@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:birch_trapdoor",
+    "mcwtrpdoors:birch_bamboo_trapdoor",
+    "mcwtrpdoors:birch_bark_trapdoor",
+    "mcwtrpdoors:birch_barn_trapdoor",
+    "mcwtrpdoors:birch_barred_trapdoor",
+    "mcwtrpdoors:birch_barrel_trapdoor",
+    "mcwtrpdoors:birch_beach_trapdoor",
+    "mcwtrpdoors:birch_blossom_trapdoor",
+    "mcwtrpdoors:birch_classic_trapdoor",
+    "mcwtrpdoors:birch_cottage_trapdoor",
+    "mcwtrpdoors:birch_four_panel_trapdoor",
+    "mcwtrpdoors:birch_glass_trapdoor",
+    "mcwtrpdoors:birch_mystic_trapdoor",
+    "mcwtrpdoors:birch_ranch_trapdoor",
+    "mcwtrpdoors:birch_swamp_trapdoor",
+    "mcwtrpdoors:birch_tropical_trapdoor",
+    "mcwtrpdoors:birch_whispering_trapdoor"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:bamboo_trapdoor",
+    "mcwtrpdoors:bamboo_bark_trapdoor",
+    "mcwtrpdoors:bamboo_barn_trapdoor",
+    "mcwtrpdoors:bamboo_barred_trapdoor",
+    "mcwtrpdoors:bamboo_barrel_trapdoor",
+    "mcwtrpdoors:bamboo_beach_trapdoor",
+    "mcwtrpdoors:bamboo_blossom_trapdoor",
+    "mcwtrpdoors:bamboo_classic_trapdoor",
+    "mcwtrpdoors:bamboo_cottage_trapdoor",
+    "mcwtrpdoors:bamboo_four_panel_trapdoor",
+    "mcwtrpdoors:bamboo_glass_trapdoor",
+    "mcwtrpdoors:bamboo_mystic_trapdoor",
+    "mcwtrpdoors:bamboo_paper_trapdoor",
+    "mcwtrpdoors:bamboo_swamp_trapdoor",
+    "mcwtrpdoors:bamboo_trapdoor",
+    "mcwtrpdoors:bamboo_tropical_trapdoor",
+    "mcwtrpdoors:bamboo_whispering_trapdoor"
+  ]
+}

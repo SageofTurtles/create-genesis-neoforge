@@ -1,0 +1,22 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "minecraft:dark_oak_trapdoor",
+    "mcwtrpdoors:dark_oak_bamboo_trapdoor",
+    "mcwtrpdoors:dark_oak_bark_trapdoor",
+    "mcwtrpdoors:dark_oak_barn_trapdoor",
+    "mcwtrpdoors:dark_oak_barred_trapdoor",
+    "mcwtrpdoors:dark_oak_barrel_trapdoor",
+    "mcwtrpdoors:dark_oak_beach_trapdoor",
+    "mcwtrpdoors:dark_oak_blossom_trapdoor",
+    "mcwtrpdoors:dark_oak_classic_trapdoor",
+    "mcwtrpdoors:dark_oak_cottage_trapdoor",
+    "mcwtrpdoors:dark_oak_glass_trapdoor",
+    "mcwtrpdoors:dark_oak_mystic_trapdoor",
+    "mcwtrpdoors:dark_oak_paper_trapdoor",
+    "mcwtrpdoors:dark_oak_ranch_trapdoor",
+    "mcwtrpdoors:dark_oak_swamp_trapdoor",
+    "mcwtrpdoors:dark_oak_tropical_trapdoor",
+    "mcwtrpdoors:dark_oak_whispering_trapdoor"
+  ]
+}
