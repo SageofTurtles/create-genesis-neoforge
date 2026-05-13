@@ -16,11 +16,27 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "!^createvintageneoforged:.*_curving_head$",
     "!mcwdoors:print_.*",
     "!mcwtrpdoors:print_.*",
+    "create_connected:fan_sanding_catalyst",
+    "createvintageneoforged:belt_grinder",
+    "createvintageneoforged:curving_press",
+    "createvintageneoforged:grinder_belt",
+    "createvintageneoforged:laser_item",
+    "createvintageneoforged:laser",
+    "createvintageneoforged:lathe",
+    "createvintageneoforged:netherite_sheet",
+    "createvintageneoforged:recipe_card",
+    "createvintageneoforged:spring_coiling_machine_wheel",
+    "createvintageneoforged:spring_coiling_machine",
+    "createvintageneoforged:vacuum_chamber",
     "minecraft:elytra",
+    "sophisticatedbackpacks:inception_upgrade",
     "sophisticatedbackpacks:infinity_upgrade",
+    "sophisticatedbackpacks:stack_upgrade_omega_tier",
     "sophisticatedbackpacks:survival_infinity_upgrade",
+    "sophisticatedbackpacks:xp_pump_upgrade",
     "sophisticatedcore:xp_bucket"
   ],
   // -----------------------------------------------------------

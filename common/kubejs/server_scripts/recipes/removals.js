@@ -2,21 +2,12 @@
 
 ServerEvents.recipes(event => {
   // RECIPE FUNCTIONS
-  const output = (itemId) => {
-    event.remove({ output: itemId })
-  }
-  const input = (itemId) => {
-    event.remove({ input: itemId })
-  }
-  const id = (recipeId) => {
-    event.remove({ id: recipeId })
-  }
-  const mod = (modId) => {
-    event.remove({ mod: modId })
-  }
-  const custom = (parameters) => {
-    event.remove(parameters)
-  }
+  const custom = (parameters) => { event.remove(parameters) }
+  const id = (recipeId) => { event.remove({ id: recipeId }) }
+  const input = (itemId) => { event.remove({ input: itemId }) }
+  const mod = (modId) => { event.remove({ mod: modId }) }
+  const output = (itemId) => { event.remove({ output: itemId }) }
+  const type = (recipeType) => { event.remove({ type: recipeType }) }
 
   // BULK RECIPE CHANGES
   global.BLACKLISTED_ITEMS.forEach(entry => {
@@ -67,4 +58,12 @@ ServerEvents.recipes(event => {
   // TARGETED RECIPE CHANGES
   id(/^createaddition:charging\/deoxidize.*/)
   mod('mcwtrpdoors')
+  type('createvintageneoforged:coiling')
+  type('createvintageneoforged:curving_convex')
+  type('createvintageneoforged:curving_concave')
+  type('createvintageneoforged:laser_cutting')
+  type('createvintageneoforged:polishing')
+  type('createvintageneoforged:vacuumizing')
+  type('createvintageneoforged:pressurizing')
+  type('createvintageneoforged:turning')
 })
