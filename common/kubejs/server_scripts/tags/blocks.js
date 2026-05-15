@@ -2,15 +2,19 @@
 
 ServerEvents.tags('block', event => {
   // TAG FUNCTIONS
-  const removeAll = (block) => {
+  const removeAllTags = (block) => {
     event.removeAllTagsFrom(block)
+  }
+  const removeAllBlocks = (tag) => {
+    event.removeAll(tag)
   }
 
   // BULK TAG CHANGES
   global.BLACKLISTED_ITEMS.forEach(entry => {
-    removeAll(entry)
+    removeAllTags(entry)
   })
   global.BLACKLISTED_REGEX_ITEMS.forEach(entry => {
-    removeAll(entry)
+    removeAllTags(entry)
   })
+  removeAllBlocks('minecraft:enderman_holdable')
 })
