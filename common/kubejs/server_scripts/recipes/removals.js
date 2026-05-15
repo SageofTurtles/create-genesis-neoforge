@@ -56,14 +56,16 @@ ServerEvents.recipes(event => {
   })
 
   // TARGETED RECIPE CHANGES
+  id('createvintageneoforged:centrifugation/ender_eye')
+  id('createvintageneoforged:hammering/netherite_ingot')
   id(/^createaddition:charging\/deoxidize.*/)
   mod('mcwtrpdoors')
   type('createvintageneoforged:coiling')
-  type('createvintageneoforged:curving_convex')
   type('createvintageneoforged:curving_concave')
+  type('createvintageneoforged:curving_convex')
   type('createvintageneoforged:laser_cutting')
   type('createvintageneoforged:polishing')
-  type('createvintageneoforged:vacuumizing')
   type('createvintageneoforged:pressurizing')
   type('createvintageneoforged:turning')
+  type('createvintageneoforged:vacuumizing')
 })
