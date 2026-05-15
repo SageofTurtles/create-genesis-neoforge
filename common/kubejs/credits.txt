@@ -1,0 +1,37 @@
+Credits:
+
+Vanilla Tweaks: https://vanillatweaks.net/
+  Selected Resource Packs:
+  	ConsistentDecorPot
+  	BrighterRibTrim
+  	PalettelessDyes
+  	MoreCrosshairs-4AngledDot
+  	SmootherFont
+  	NumberedHotbar
+  	WitherHearts
+  	UnobtrusiveParticles
+  	AlternateEnchantGlint
+  	TransparentPumpkin
+  	LowerShield
+  	LowerFire
+  	UnobtrusiveSnow
+  	UnobtrusiveRain
+  	VisualInfestedStoneItems
+  	VisualWaxedCopperItems (adapted to include modded items)
+  	UniqueSpawnEggs
+  	ClearBannerPatterns
+  	DifferentStems
+  	StickyPistonSides
+  	DirectionalHoppers
+  	VisualHoney
+  	NoteblockBanners
+  	DirectionalDispensersDroppers
+  	BetterObservers
+  	MusicDiscRedstonePreview
+  	NoCaveSounds
+  	QuieterConsumables
+  	BetterParticles
+  	HDShieldBanners
+  	1212RedstoneTorch
+  	AnimatedCampfireItem
+  	FencierFences
