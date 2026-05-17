@@ -25,6 +25,14 @@ ServerEvents.recipes(event => {
     output(Fluid.of(entry))
   })
 
+  global.METAL_TRAPDOORS.forEach(entry => {
+    const { name, material, trapdoor } = entry
+    custom({
+      type: 'minecraft:crafting_shaped',
+      output: trapdoor
+    })
+  })
+
   global.STONECUTTING_BLOCKSETS.forEach(entry => {
     const { name, block, slab, stairs, wall } = entry
     custom([
@@ -45,6 +53,13 @@ ServerEvents.recipes(event => {
         { type: 'minecraft:stonecutting', output: wall }
       ])
     }
+  })
+
+  global.WOOD_TYPES.forEach(entry => {
+    custom({
+      type: 'minecraft:crafting_shaped',
+      output: `minecraft:${entry}_trapdoor`
+    })
   })
 
   custom({
