@@ -75,6 +75,7 @@ ServerEvents.recipes(event => {
   id('createvintageneoforged:hammering/netherite_ingot')
   id(/^createaddition:charging\/deoxidize.*/)
   mod('mcwtrpdoors')
+  output(/(create|copycats):copycat_.*/)
   type('createvintageneoforged:coiling')
   type('createvintageneoforged:curving_concave')
   type('createvintageneoforged:curving_convex')

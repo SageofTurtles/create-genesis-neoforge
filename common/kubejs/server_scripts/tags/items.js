@@ -5,6 +5,9 @@ ServerEvents.tags('item', event => {
   const removeAll = (item) => {
     event.removeAllTagsFrom(item)
   }
+  const add = (tag, item) => {
+    event.add(tag, item)
+  }
 
   // BULK TAG CHANGES
   global.BLACKLISTED_ITEMS.forEach(entry => {
@@ -13,4 +16,9 @@ ServerEvents.tags('item', event => {
   global.BLACKLISTED_REGEX_ITEMS.forEach(entry => {
     removeAll(entry)
   })
+
+  // TARGETED TAG CHANGES
+  add('genesis:folding_doors', ['create:andesite_door', 'create:copper_door'])
+  add('genesis:sliding_doors', ['create:brass_door', 'create:train_door', 'create:framed_glass_door'])
+  add('genesis:stone_pressure_plates', ['minecraft:stone_pressure_plate', 'minecraft:polished_blackstone_pressure_plate'])
 })
