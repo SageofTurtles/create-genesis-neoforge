@@ -1,0 +1,33 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "dndecor:dolomite",
+    {
+      "block": "dndecor:cut_dolomite",
+      "slab": "dndecor:cut_dolomite_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_dolomite_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_dolomite",
+      "slab": "dndecor:polished_cut_dolomite_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_dolomite_stairs"
+    },
+    {
+      "block": "dndecor:cut_dolomite_bricks",
+      "slab": "dndecor:cut_dolomite_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_dolomite_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_dolomite_bricks",
+      "slab": "dndecor:small_dolomite_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_dolomite_brick_stairs"
+    },
+    "dndecor:layered_dolomite",
+    "dndecor:dolomite_pillar"
+  ],
+  "overwrite": false
+}

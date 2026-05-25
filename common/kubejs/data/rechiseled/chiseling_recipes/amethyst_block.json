@@ -1,0 +1,32 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "dndecor:cut_amethyst",
+      "slab": "dndecor:cut_amethyst_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_amethyst_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_amethyst",
+      "slab": "dndecor:polished_cut_amethyst_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_amethyst_stairs"
+    },
+    {
+      "block": "dndecor:cut_amethyst_bricks",
+      "slab": "dndecor:cut_amethyst_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_amethyst_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_amethyst_bricks",
+      "slab": "dndecor:small_amethyst_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_amethyst_brick_stairs"
+    },
+    "dndecor:layered_amethyst",
+    "dndecor:amethyst_pillar"
+  ],
+  "overwrite": false
+}

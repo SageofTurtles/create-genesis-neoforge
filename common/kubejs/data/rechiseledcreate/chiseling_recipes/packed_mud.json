@@ -1,0 +1,32 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "dndecor:cut_packed_mud",
+      "slab": "dndecor:cut_packed_mud_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_packed_mud_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_packed_mud",
+      "slab": "dndecor:polished_cut_packed_mud_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_packed_mud_stairs"
+    },
+    {
+      "block": "dndecor:cut_packed_mud_bricks",
+      "slab": "dndecor:cut_packed_mud_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_packed_mud_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_packed_mud_bricks",
+      "slab": "dndecor:small_packed_mud_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_packed_mud_brick_stairs"
+    },
+    "dndecor:layered_packed_mud",
+    "dndecor:packed_mud_pillar"
+  ],
+  "overwrite": false
+}

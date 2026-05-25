@@ -1,0 +1,32 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "dndecor:cut_netherrack",
+      "slab": "dndecor:cut_netherrack_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_netherrack_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_netherrack",
+      "slab": "dndecor:polished_cut_netherrack_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_netherrack_stairs"
+    },
+    {
+      "block": "dndecor:cut_netherrack_bricks",
+      "slab": "dndecor:cut_netherrack_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_netherrack_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_netherrack_bricks",
+      "slab": "dndecor:small_netherrack_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_netherrack_brick_stairs"
+    },
+    "dndecor:layered_netherrack",
+    "dndecor:netherrack_pillar"
+  ],
+  "overwrite": false
+}

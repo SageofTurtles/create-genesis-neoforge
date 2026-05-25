@@ -1,0 +1,33 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "dndecor:gabbro",
+    {
+      "block": "dndecor:cut_gabbro",
+      "slab": "dndecor:cut_gabbro_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_gabbro_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_gabbro",
+      "slab": "dndecor:polished_cut_gabbro_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_gabbro_stairs"
+    },
+    {
+      "block": "dndecor:cut_gabbro_bricks",
+      "slab": "dndecor:cut_gabbro_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_gabbro_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_gabbro_bricks",
+      "slab": "dndecor:small_gabbro_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_gabbro_brick_stairs"
+    },
+    "dndecor:layered_gabbro",
+    "dndecor:gabbro_pillar"
+  ],
+  "overwrite": false
+}

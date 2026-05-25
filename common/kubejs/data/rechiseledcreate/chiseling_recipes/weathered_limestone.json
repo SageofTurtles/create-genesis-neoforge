@@ -1,0 +1,33 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "dndecor:weathered_limestone",
+    {
+      "block": "dndecor:cut_weathered_limestone",
+      "slab": "dndecor:cut_weathered_limestone_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_weathered_limestone_stairs"
+    },
+    {
+      "block": "dndecor:polished_cut_weathered_limestone",
+      "slab": "dndecor:polished_cut_weathered_limestone_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:polished_cut_weathered_limestone_stairs"
+    },
+    {
+      "block": "dndecor:cut_weathered_limestone_bricks",
+      "slab": "dndecor:cut_weathered_limestone_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:cut_weathered_limestone_brick_stairs"
+    },
+    {
+      "block": "dndecor:small_weathered_limestone_bricks",
+      "slab": "dndecor:small_weathered_limestone_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "dndecor:small_weathered_limestone_brick_stairs"
+    },
+    "dndecor:layered_weathered_limestone",
+    "dndecor:weathered_limestone_pillar"
+  ],
+  "overwrite": false
+}

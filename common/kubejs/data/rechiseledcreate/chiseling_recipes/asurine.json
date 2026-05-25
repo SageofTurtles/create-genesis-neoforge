@@ -1,0 +1,12 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "bits_n_bobs:asurine_tiles",
+      "slab": "bits_n_bobs:asurine_tile_slab",
+      "slab_worth": 0.5,
+      "stairs": "bits_n_bobs:asurine_tile_stairs"
+    }
+  ],
+  "overwrite": false
+}
