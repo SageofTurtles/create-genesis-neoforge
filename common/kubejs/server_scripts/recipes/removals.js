@@ -25,6 +25,18 @@ ServerEvents.recipes(event => {
     output(Fluid.of(entry))
   })
 
+  global.COPPER_BLOCKSETS.forEach(entry => {
+    const { block, cut, grate } = entry
+    id(`minecraft:${cut}_from_${block}_stonecutting`)
+    id(`minecraft:${grate}_from_${block}_stonecutting`)
+    id(`minecraft:waxed_${cut}_from_waxed_${block}_stonecutting`)
+    id(`minecraft:waxed_${grate}_from_waxed_${block}_stonecutting`)
+  })
+
+  global.CREATE_STONE_TYPES.forEach(entry => {
+    id(`bits_n_bobs:${entry}_from_stone_types_${entry}_stonecutting`)
+  })
+
   global.METAL_TRAPDOORS.forEach(entry => {
     const { name, material, trapdoor } = entry
     custom({
@@ -62,18 +74,17 @@ ServerEvents.recipes(event => {
     })
   })
 
-  custom({
-    mod: 'mcwdoors',
-    not: [
-      { id: /^mcwdoors:garage_.*/ },
-      { id: /mcwdoors:(iron|wooden)_portcullis/ }
-    ]
-  })
-
   // TARGETED RECIPE CHANGES
+  id('create_aquatic_ambitions:smelting/veridium')
+  id('create:crushing/nether_gold_ore')
+  id('create:haunting/blackstone')
+  id('create:haunting/lapis_recycling')
   id('createvintageneoforged:centrifugation/ender_eye')
   id('createvintageneoforged:hammering/netherite_ingot')
-  id(/^createaddition:charging\/deoxidize.*/)
+  id('terralith:cobblestone_from_stone_slab')
+  id(/create:deploying\/.*_from_deoxidising/)
+  id(/create:deploying\/.*_from_removing_wax/)
+  id(/createaddition:charging\/deoxidize.*/)
   mod('mcwtrpdoors')
   output(/(create|copycats):copycat_.*/)
   type('createvintageneoforged:coiling')
@@ -84,4 +95,22 @@ ServerEvents.recipes(event => {
   type('createvintageneoforged:pressurizing')
   type('createvintageneoforged:turning')
   type('createvintageneoforged:vacuumizing')
+
+  custom({
+    mod: 'mcwdoors',
+    not: [
+      { id: /mcwdoors:garage_.*/ },
+      { id: /mcwdoors:(iron|wooden)_portcullis/ }
+    ]
+  })
+
+  custom({
+    id: /create:.*_slab_recycling$/,
+    type: 'minecraft:crafting_shapeless'
+  })
+
+  custom({
+    id: /dndecor:.*_slab_recycling$/,
+    type: 'minecraft:crafting_shapeless'
+  })
 })

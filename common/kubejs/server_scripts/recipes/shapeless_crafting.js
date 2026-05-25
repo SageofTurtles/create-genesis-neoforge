@@ -1,7 +1,10 @@
 ServerEvents.recipes(event => {
   // RECIPE FUNCTION
   const add = (recipeId, inputs, output, count) => {
-    event.shapeless(Item.of(output, count), inputs).id(`genesis:${recipeId}_shapeless`)
+    event.shapeless(
+      Item.of(output, count),
+      inputs
+    ).id(`genesis:${recipeId}_shapeless`)
   }
 
   // BULK RECIPE CHANGES

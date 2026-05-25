@@ -8,6 +8,14 @@ ServerEvents.recipes(event => {
   }
 
   // BULK RECIPE CHANGES
+  global.COPPER_BLOCKSETS.forEach(entry => {
+    const { block, cut, grate } = entry
+    add(`${block}_to_${cut}`, `minecraft:${block}`, `minecraft:${cut}`, 1)
+    add(`${block}_to_${grate}`, `minecraft:${block}`, `minecraft:${grate}`, 1)
+    add(`waxed_${block}_to_${cut}`, `minecraft:waxed_${block}`, `minecraft:waxed_${cut}`, 1)
+    add(`waxed_${block}_to_${grate}`, `minecraft:waxed_${block}`, `minecraft:waxed_${grate}`, 1)
+  })
+
   global.COPYCATS_DECORATIVE.forEach(entry => {
     const { count, base_name, base, crafted_name, crafted } = entry
     add(`copycat_${base_name}_to_${crafted_name}`, base, crafted, count)
