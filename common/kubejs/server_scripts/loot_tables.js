@@ -4,6 +4,10 @@ LootJS.lootTables(event => {
     .firstPool()
     .addEntry(LootEntry.of('minecraft:leather').applyEnchantmentBonus([0, 1]))
 
+  event.getLootTable('minecraft:entities/warden')
+    .firstPool()
+    .addEntry(LootEntry.of('minecraft:echo_shard').applyEnchantmentBonus([0, 1]))
+
   event.getLootTable('minecraft:entities/shulker')
     .clear()
     .firstPool()
