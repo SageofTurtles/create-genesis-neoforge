@@ -8,7 +8,7 @@
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
 	foodTooltipMode = "DISABLE"
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
-	registryNameMode = "DEBUG"
+	registryNameMode = "DISABLE"
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
 	maxStackSizeTooltipMode = "DISABLE"
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG

@@ -1,0 +1,20 @@
+{
+  "combineSimilarDatasets": true,
+  "showNoDataMessage": true,
+  "hiddenBlocks": [
+    "minecraft:tuff",
+    "minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:diorite",
+    "minecraft:infested_cobblestone",
+    "minecraft:infested_stone",
+    "minecraft:infested_deepslate",
+    "minecraft:blackstone",
+    "minecraft:sand",
+    "minecraft:clay",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:cobbled_deepslate",
+    "minecraft:soul_sand"
+  ]
+}
