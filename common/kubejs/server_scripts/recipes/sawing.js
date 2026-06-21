@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.cutting(
       Item.of(output, count),
       input
-    ).id(`genesis:${recipeId}_sawing`)
+    ).id(`kubejs:${recipeId}_sawing`)
   }
 
   // BULK RECIPE CHANGES

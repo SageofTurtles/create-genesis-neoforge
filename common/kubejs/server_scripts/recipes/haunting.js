@@ -4,9 +4,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.haunting(
       Item.of(output, count),
       input
-    ).id(`genesis:${recipeId}_haunting`)
+    ).id(`kubejs:${recipeId}_haunting`)
   }
 
   // RECIPE CHANGES
-  add('infested_cobblestone', 'minecraft:cobblestone', 'minecraft:infested_cobblestone', 1)
+  add('cobblestone', 'minecraft:cobblestone', 'minecraft:infested_cobblestone', 1)
+  add('raw_meat', Ingredient.of('#c:foods/raw_meat'), 'minecraft:rotten_flesh', 1)
+  add('sea_lantern', 'minecraft:sea_lantern', 'minecraft:shroomlight', 1)
 })

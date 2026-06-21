@@ -4,15 +4,17 @@ ServerEvents.recipes(event => {
     event.stonecutting(
       Item.of(output, count),
       input
-    ).id(`genesis:${recipeId}_stonecutting`)
+    ).id(`kubejs:${recipeId}_stonecutting`)
   }
 
   // BULK RECIPE CHANGES
   global.COPPER_BLOCKSETS.forEach(entry => {
-    const { block, cut, grate } = entry
+    const { block, cut, chiseled, grate } = entry
     add(`${block}_to_${cut}`, `minecraft:${block}`, `minecraft:${cut}`, 1)
+    add(`${block}_to_${chiseled}`, `minecraft:${block}`, `minecraft:${chiseled}`, 1)
     add(`${block}_to_${grate}`, `minecraft:${block}`, `minecraft:${grate}`, 1)
     add(`waxed_${block}_to_${cut}`, `minecraft:waxed_${block}`, `minecraft:waxed_${cut}`, 1)
+    add(`waxed_${block}_to_${chiseled}`, `minecraft:waxed_${block}`, `minecraft:waxed_${chiseled}`, 1)
     add(`waxed_${block}_to_${grate}`, `minecraft:waxed_${block}`, `minecraft:waxed_${grate}`, 1)
   })
 

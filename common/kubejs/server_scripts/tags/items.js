@@ -16,6 +16,10 @@ ServerEvents.tags('item', event => {
   global.BLACKLISTED_REGEX_ITEMS.forEach(entry => {
     removeAll(entry)
   })
+  global.CORAL_TYPES.forEach(entry => {
+    add(`genesis:${entry}_corals`, [`minecraft:${entry}_coral`, `minecraft:${entry}_coral_fan`])
+    add(`genesis:dead_${entry}_corals`, [`minecraft:dead_${entry}_coral`, `minecraft:dead_${entry}_coral_fan`])
+  })
 
   // TARGETED TAG CHANGES
   add('genesis:folding_doors', ['create:andesite_door', 'create:copper_door'])
