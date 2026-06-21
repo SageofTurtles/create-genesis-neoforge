@@ -1,0 +1,11 @@
+StartupEvents.registry('item', event => {
+  event.create('blank_music_disc')
+    .displayName('Blank Music Disc')
+    .maxStackSize(16)
+  event.create('empty_ink_sac')
+    .displayName('Empty Ink Sac')
+  event.create('incomplete_enchanted_golden_apple')
+    .displayName('Incomplete Echanted Golden Apple')
+    .texture('minecraft:item/golden_apple')
+    .maxStackSize(1)
+})
