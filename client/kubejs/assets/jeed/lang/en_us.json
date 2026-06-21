@@ -1,0 +1,5 @@
+{
+  "effect.minecraft.invisibility.description": "Grants invisibility, making the user invisible and reducing its detection range. Held or worn items will still be visible. Higher levels further decrease the detection range.",
+  "effect.minecraft.trial_omen.description": "Applied if a player approaches a trial spawner with the Bad Omen effect. Transforms nearby trial spawners into ominous trial spawners. Duration scales based on original Bad Omen effect level.",
+  "effect.minecraft.raid_omen.description": "Applied if a player enters a village with the Bad Omen effect. Starts a raid at the village's location after 30 seconds."
+}
