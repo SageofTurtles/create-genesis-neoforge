@@ -1,5 +1,9 @@
 {
+  "block.create.andesite_bars": "Decorative Andesite Bars",
+  "block.create.brass_bars": "Decorative Brass Bars",
+  "block.create.copper_bars": "Decorative Copper Bars",
   "block.create.andesite_door": "Andesite Folding Door",
   "block.create.brass_door": "Brass Sliding Door",
-  "block.create.copper_door": "Copper Folding Door"
+  "block.create.copper_door": "Copper Folding Door",
+  "block.create.placard": "White Placard"
 }
