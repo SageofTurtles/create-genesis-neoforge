@@ -8,5 +8,6 @@ ServerEvents.recipes(event => {
   }
 
   // RECIPE CHANGES
+  add('netherrack', 'minecraft:netherrack', '2x create:cinder_flour')
   add('rocky_dirt', 'decorative_blocks:rocky_dirt', 'minecraft:coarse_dirt')
 })

@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
   const one_by_two = (recipeId, input, output, count) => {
     event.shaped(Item.of(output, count), ['A', 'A'], { A: input }).id(`kubejs:${recipeId}_shaped`)
   }
+  const one_by_three = (recipeId, input, output, count) => {
+    event.shaped(Item.of(output, count), ['A', 'A', 'A'], { A: input }).id(`kubejs:${recipeId}_shaped`)
+  }
   const two_by_one = (recipeId, input, output, count) => {
     event.shaped(Item.of(output, count), ['AA'], { A: input }).id(`kubejs:${recipeId}_shaped`)
   }
@@ -18,6 +21,9 @@ ServerEvents.recipes(event => {
   const three_by_two = (recipeId, input, output, count) => {
     event.shaped(Item.of(output, count), ['AAA', 'AAA'], { A: input }).id(`kubejs:${recipeId}_shaped`)
   }
+  const three_by_three = (recipeId, input, output, count) => {
+    event.shaped(Item.of(output, count), ['AAA', 'AAA', 'AAA'], { A: input }).id(`kubejs:${recipeId}_shaped`)
+  }
   const eight = (recipeId, input, output, count) => {
     event.shaped(Item.of(output, count), ['AAA', 'A A', 'AAA'], { A: input }).id(`kubejs:${recipeId}_shaped`)
   }
@@ -27,15 +33,24 @@ ServerEvents.recipes(event => {
 
   // TARGETED RECIPE CHANGES
   eight_one('cying_obsidian', 'minecraft:obsidian', 'minecraft:ghast_tear', 'minecraft:crying_obsidian', 8)
+  event.shaped('2x create:industrial_iron_window', ['ABA', 'BCB'], { A: 'minecraft:iron_nugget', B: 'createdeco:industrial_iron_nugget', C: '#c:glass_blocks/colorless' }).id('kubejs:industrial_iron_window_shaped')
   event.shaped('4x decorative_blocks:rocky_dirt', ['AB', 'BA'], { A: 'minecraft:dirt', B: 'minecraft:cobblestone' }).id('kubejs:rocky_dirt_shaped')
+  event.shaped('create_vibrant_vaults:vertical_item_vault', ['A', 'B', 'A'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:vertical_item_vault_shaped')
+  event.shaped('create:item_vault', ['ABA'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:item_vault_shaped')
+  event.shaped('create:peculiar_bell', ['ABA', 'BCB'], { A: 'minecraft:stick', B: 'create:brass_sheet', C: 'create:brass_nugget' }).id('kubejs:peculiar_bell_shaped')
+  event.shaped('createvintageneoforged:centrifuge', ['A A', 'BCB', 'ADA'], { A: 'simulated:spring', B: '#minecraft:logs', C: 'create:shaft', D: 'create:andesite_casing' }).id('kubejs:centrifuge_shaped')
+  event.shaped('createvintageneoforged:vibrating_table', ['ABA', 'ACA'], { A: 'simulated:spring', B: '#minecraft:wooden_slabs', C: 'create:mechanical_piston' }).id('kubejs:vibrating_table_shaped')
   event.shaped('minecraft:bee_nest', ['AAA', 'BBB', 'AAA'], { A: '#minecraft:logs', B: 'minecraft:honeycomb' }).id('kubejs:bee_nest_shaped')
-  event.shaped('minecraft:bell', ['ABA', 'BCB'], { A: 'minecraft:stick', B: 'create:brass_ingot', C: 'create:brass_nugget' }).id('kubejs:bell_shaped')
+  event.shaped('minecraft:bell', ['ABA', 'BCB'], { A: 'minecraft:stick', B: 'create:golden_sheet', C: 'minecraft:gold_nugget' }).id('kubejs:bell_shaped')
   event.shaped('minecraft:dispenser', [' AB', 'ACB', ' AB'], { A: 'minecraft:stick', B: 'minecraft:string', C: 'minecraft:dropper' }).id('kubejs:dispenser_stackable_shaped')
   event.shaped('minecraft:ender_eye', [' A ', 'BCD', ' E '], { A: 'minecraft:wind_charge', B: 'create_aquatic_ambitions:spiky_shell', C: 'minecraft:ender_pearl', D: 'minecraft:echo_shard', E: 'minecraft:blaze_powder' }).id('kubejs:ender_eye_shaped')
   event.shaped('minecraft:lightning_rod', ['A', 'B', 'B'], { A: 'minecraft:copper_ingot', B: 'createaddition:copper_rod' }).id('kubejs:lightning_rod')
   event.shaped('minecraft:recovery_compass', [' A ', 'ABA', ' A '], { A: 'minecraft:iron_ingot', B: 'minecraft:echo_shard' }).id('kubejs:recovery_compass_shaped')
   event.shaped('minecraft:saddle', ['  A', 'AAA', 'B B'], { A: 'minecraft:leather', B: 'minecraft:iron_ingot' }).id('kubejs:saddle_shaped')
+  event.shaped('simulated:rope_coupling', ['ABA'], { A: 'minecraft:iron_nugget', B: 'farmersdelight:rope' }).id('kubejs:rope_coupling_shaped')
+  one_by_three('rope_from_string', 'minecraft:string', 'farmersdelight:rope', 1)
   three_by_one('paper_from_tree_bark', 'farmersdelight:tree_bark', 'minecraft:paper', 3)
+  three_by_three('rose_quartz_block', 'create:rose_quartz', 'create:rose_quartz_block', 1)
 
   // BULK RECIPE CHANGES
   global.COPYCATS_CONVERSION.forEach(entry => {
@@ -74,7 +89,7 @@ ServerEvents.recipes(event => {
   })
 
   global.CORAL_TYPES.forEach(entry => {
-    two_by_two(`dead_${entry}_coral_block`, `#genesis:dead_${entry}_corals`, `minecraft:dead_${entry}_coral_block`, 1)
+    two_by_two(`dead_${entry}_coral_block`, `#kubejs:dead_${entry}_corals`, `minecraft:dead_${entry}_coral_block`, 1)
   })
 
   global.HORSE_ARMORS.forEach(entry => {

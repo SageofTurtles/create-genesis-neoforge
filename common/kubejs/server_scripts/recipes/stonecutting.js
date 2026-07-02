@@ -8,7 +8,15 @@ ServerEvents.recipes(event => {
   }
 
   // BULK RECIPE CHANGES
-  global.COPPER_BLOCKSETS.forEach(entry => {
+  global.COPPER_BLOCKSETS_CREATE.forEach(entry => {
+    const { base, shingles, shingle_stairs, shingle_slab, tiles, tile_stairs, tile_slab } = entry
+    add(`${base}_to_${shingles}`, `minecraft:${base}`, `create:${shingles}`, 1)
+    add(`${base}_to_${tiles}`, `minecraft:${base}`, `create:${tiles}`, 1)
+    add(`waxed_${base}_to_${shingles}`, `minecraft:waxed_${base}`, `create:waxed_${shingles}`, 1)
+    add(`waxed_${base}_to_${tiles}`, `minecraft:waxed_${base}`, `create:waxed_${tiles}`, 1)
+  })
+
+  global.COPPER_BLOCKSETS_VANILLA.forEach(entry => {
     const { block, cut, chiseled, grate } = entry
     add(`${block}_to_${cut}`, `minecraft:${block}`, `minecraft:${cut}`, 1)
     add(`${block}_to_${chiseled}`, `minecraft:${block}`, `minecraft:${chiseled}`, 1)
@@ -36,4 +44,5 @@ ServerEvents.recipes(event => {
 
   // TARGETED RECIPE CHANGES
   add('copycat_block', 'create:zinc_ingot', 'copycats:copycat_block', 1)
+  add('iron_bars', 'minecraft:iron_ingot', 'minecraft:iron_bars', 4)
 })
