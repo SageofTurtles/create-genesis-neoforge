@@ -31,7 +31,7 @@ global['COPYCATS_FUNCTIONAL'] = [
   },
   {
     block: 'stone_pressure_plate',
-    base: '#genesis:stone_pressure_plates',
+    base: '#kubejs:stone_pressure_plates',
     count: 4
   },
   {
@@ -61,7 +61,7 @@ global['COPYCATS_FUNCTIONAL'] = [
   },
   {
     block: 'folding_door',
-    base: '#genesis:folding_doors',
+    base: '#kubejs:folding_doors',
     count: 1
   },
   {
@@ -86,7 +86,7 @@ global['COPYCATS_FUNCTIONAL'] = [
   },
   {
     block: 'sliding_door',
-    base: '#genesis:sliding_doors',
+    base: '#kubejs:sliding_doors',
     count: 1
   },
   {
