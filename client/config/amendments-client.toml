@@ -87,6 +87,8 @@
 	lantern_item_holding = true
 	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
 	lantern_item_holding_up = true
+	#Renders the swaying wall lantern through the item renderer so its shading comes from the model's normals instead of the block model's baked per-face shading. This makes the lantern shade correctly no matter which wall it faces, at the cost of losing block ambient occlusion. Only affects the animated (close-up) renderer
+	entity_shading = true
 
 	[lantern.swing_physics]
 		frequency = 0.6000000238418579
@@ -124,3 +126,5 @@
 	fixed_holding_animations = false
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
+	#Renders a flame particle on top of held torches
+	torch_item_flame = true
