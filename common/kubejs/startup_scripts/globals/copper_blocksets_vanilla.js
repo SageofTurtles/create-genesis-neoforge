@@ -1,4 +1,4 @@
-global['COPPER_BLOCKSETS'] = [
+global['COPPER_BLOCKSETS_VANILLA'] = [
   {
     block: 'copper_block',
     cut: 'cut_copper',
