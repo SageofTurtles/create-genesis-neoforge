@@ -6,7 +6,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | **Name**                                     |     **Version**      |       **Category**        | **Installed On** |                                     **Link**                                     |
 |----------------------------------------------|:--------------------:|:-------------------------:|:----------------:|:--------------------------------------------------------------------------------:|
 | Aeronautics Preflight Checklist              |        1.0.1         |      User Interface       |       Both       |       [Modrinth](https://modrinth.com/mod/aeronautics-preflight-checklist)       |
-| Amendments                                   |        2.1.4         |      Quality of Life      |       Both       |                 [Modrinth](https://modrinth.com/mod/amendments)                  |
+| Amendments                                   |        2.1.5         |      Quality of Life      |       Both       |                 [Modrinth](https://modrinth.com/mod/amendments)                  |
 | Another Furniture                            |        4.0.2         |         Building          |       Both       |              [Modrinth](https://modrinth.com/mod/another-furniture)              |
 | AntiPortals                                  |         2.2          |       Server Tools        |      Server      |                 [Modrinth](https://modrinth.com/mod/antiportals)                 |
 | AntiXray                                     |        1.4.8         |       Server Tools        |      Server      |                  [Modrinth](https://modrinth.com/mod/anti-xray)                  |
@@ -20,7 +20,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Better Than Mending                          |        2.2.0         |      Quality of Life      |       Both       |             [Modrinth](https://modrinth.com/mod/better-than-mending)             |
 | BetterF3                                     |        11.0.3        |      User Interface       |      Client      |                  [Modrinth](https://modrinth.com/mod/betterf3)                   |
 | BlueMap                                      |         5.7          |       Server Tools        |      Server      |                   [Modrinth](https://modrinth.com/mod/bluemap)                   |
-| Blueprint                                    |        8.1.0         |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/blueprint)                  |
+| Blueprint                                    |        8.1.1         |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/blueprint)                  |
 | Boat Item View                               |        0.0.6         |      Quality of Life      |      Client      |               [Modrinth](https://modrinth.com/mod/boat-item-view)                |
 | BoccHUD                                      |        0.4.1         |      User Interface       |      Client      |                   [Modrinth](https://modrinth.com/mod/bocchud)                   |
 | Bookshelf                                    |       21.1.81        |        Dependency         |      Client      |                [Modrinth](https://modrinth.com/mod/bookshelf-lib)                |
@@ -88,6 +88,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Cristel Lib                                  |        3.1.7         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/cristel-lib)                 |
 | Curios API                                   |        9.5.1         |      Quality of Life      |       Both       |                   [Modrinth](https://modrinth.com/mod/curios)                    |
 | Data Trades                                  |        3.0.1         |         Dev Tools         |       Both       |                 [Modrinth](https://modrinth.com/mod/data-trades)                 |
+| Datapatched                                  |        2.2.2         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/datapatched)                 |
 | Decorative Blocks Reborn                     |        6.0.2         |         Building          |       Both       |          [Modrinth](https://modrinth.com/mod/decorative-blocks-reborn)           |
 | DragonLib                                    |        3.0.28        |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/dragonlib)                  |
 | Easy Anvils                                  |        21.1.0        |      Quality of Life      |       Both       |                 [Modrinth](https://modrinth.com/mod/easy-anvils)                 |
@@ -100,7 +101,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | FerriteCore                                  |        7.0.3         |        Performance        |       Both       |                [Modrinth](https://modrinth.com/mod/ferrite-core)                 |
 | Freecam                                      |        1.3.0         |      User Interface       |      Client      |                   [Modrinth](https://modrinth.com/mod/freecam)                   |
 | Full Brightness Toggle                       |         4.4          |      User Interface       |      Client      |           [Modrinth](https://modrinth.com/mod/full-brightness-toggle)            |
-| Fusion                                       |        1.3.4         |        Dependency         |       Both       |          [Modrinth](https://modrinth.com/mod/fusion-connected-textures)          |
+| Fusion                                       |        1.3.5         |        Dependency         |       Both       |          [Modrinth](https://modrinth.com/mod/fusion-connected-textures)          |
 | Fzzy Config                                  |        0.7.6         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/fzzy-config)                 |
 | Gallery                                      |        2.0.1         |      Quality of Life      |       Both       |                   [Modrinth](https://modrinth.com/mod/gallery)                   |
 | Geophilic                                    |         3.6          |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/geophilic)                  |
@@ -114,13 +115,13 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Jade Addons                                  |        6.1.0         |      User Interface       |       Both       |              [Modrinth](https://modrinth.com/mod/jade-addons-forge)              |
 | JamLib                                       |        1.3.6         |        Dependency         |       Both       |                   [Modrinth](https://modrinth.com/mod/jamlib)                    |
 | JEI Integration: Reborn                      |        1.0.2         |      User Interface       |       Both       |           [Modrinth](https://modrinth.com/mod/jei-integration-reborn)            |
-| JEI WorldGen                                 |        1.3.0         |      User Interface       |       Both       |                [Modrinth](https://modrinth.com/mod/jei-worldgen)                 |
+| JEI WorldGen                                 |        1.3.1         |      User Interface       |       Both       |                [Modrinth](https://modrinth.com/mod/jei-worldgen)                 |
 | JourneyMap                                   |        6.0.0         |      User Interface       |       Both       |                 [Modrinth](https://modrinth.com/mod/journeymap)                  |
 | JourneyPAC                                   |        1.1.7         |      User Interface       |      Client      |                 [Modrinth](https://modrinth.com/mod/journey-pac)                 |
 | Just Enough Archaeology                      |        1.1.5         |      User Interface       |       Both       |           [Modrinth](https://modrinth.com/mod/just-enough-archaeology)           |
 | Just Enough Breeding (JEBr)                  |        3.1.0         |      User Interface       |       Both       |             [Modrinth](https://modrinth.com/mod/justenoughbreeding)              |
 | Just Enough Effect Descriptions (JEED)       |        2.3.2         |      User Interface       |       Both       |    [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)     |
-| Just Enough Items (JEI)                      |     19.27.0.344      |      User Interface       |       Both       |                     [Modrinth](https://modrinth.com/mod/jei)                     |
+| Just Enough Items (JEI)                      |     19.32.0.359      |      User Interface       |       Both       |                     [Modrinth](https://modrinth.com/mod/jei)                     |
 | Just Enough Resources (JER)                  |       1.6.0.17       |      User Interface       |       Both       |          [Modrinth](https://modrinth.com/mod/just-enough-resources-jer)          |
 | Just Zoom                                    |        2.1.0         |      User Interface       |      Client      |                  [Modrinth](https://modrinth.com/mod/just-zoom)                  |
 | Konkrete                                     |        1.9.9         |        Dependency         |      Client      |                  [Modrinth](https://modrinth.com/mod/konkrete)                   |
@@ -129,7 +130,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | KubeJS Create                                |  2101.3.1-build.18   |         Dev Tools         |       Both       |                [Modrinth](https://modrinth.com/mod/kubejs-create)                |
 | Leaves Be Gone                               |        21.1.1        |      Quality of Life      |       Both       |               [Modrinth](https://modrinth.com/mod/leaves-be-gone)                |
 | Lithium                                      |        0.15.4        |        Performance        |       Both       |                   [Modrinth](https://modrinth.com/mod/lithium)                   |
-| Lithostitched                                |        1.7.12        |        Dependency         |       Both       |                [Modrinth](https://modrinth.com/mod/lithostitched)                |
+| Lithostitched                                |        1.7.13        |        Dependency         |       Both       |                [Modrinth](https://modrinth.com/mod/lithostitched)                |
 | Log Begone                                   |        1.0.3         |         Dev Tools         |       Both       |                 [Modrinth](https://modrinth.com/mod/log-begone)                  |
 | Longer Chat History                          |         1.7          |      User Interface       |      Client      |             [Modrinth](https://modrinth.com/mod/longer-chat-history)             |
 | LootJS                                       |        3.7.0         |         Dev Tools         |       Both       |                   [Modrinth](https://modrinth.com/mod/lootjs)                    |
@@ -142,7 +143,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Maintenance Mode                             |        1.3.4         |       Server Tools        |      Server      |               [Modrinth](https://modrinth.com/mod/maintenancemode)               |
 | MidnightLib                                  |        1.9.3         |        Dependency         |      Client      |                 [Modrinth](https://modrinth.com/mod/midnightlib)                 |
 | Model Gap Fix                                |         1.1          |      Quality of Life      |      Client      |                  [Modrinth](https://modrinth.com/mod/modelfix)                   |
-| ModernFix                                    |       5.27.14        |        Performance        |       Both       |                  [Modrinth](https://modrinth.com/mod/modernfix)                  |
+| ModernFix                                    |       5.27.15        |        Performance        |       Both       |                  [Modrinth](https://modrinth.com/mod/modernfix)                  |
 | Moonlight Lib                                |        3.0.22        |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/moonlight)                  |
 | Mouse Tweaks                                 |        2.26.1        |      User Interface       |      Client      |                [Modrinth](https://modrinth.com/mod/mouse-tweaks)                 |
 | Nature's Compass                             |        3.4.0         |      Quality of Life      |       Both       |               [Modrinth](https://modrinth.com/mod/natures-compass)               |
@@ -152,7 +153,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Nullscape                                    |        1.2.14        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/nullscape)                  |
 | Observable                                   |        5.4.4         |        Performance        |       Both       |                 [Modrinth](https://modrinth.com/mod/observable)                  |
 | OPAC Bonus Claims                            |        1.2.0         |       Server Tools        |       Both       |              [Modrinth](https://modrinth.com/mod/opac-bonus-claims)              |
-| Open Parties and Claims                      |        0.27.5        |       Server Tools        |       Both       |           [Modrinth](https://modrinth.com/mod/open-parties-and-claims)           |
+| Open Parties and Claims                      |        0.27.6        |       Server Tools        |       Both       |           [Modrinth](https://modrinth.com/mod/open-parties-and-claims)           |
 | Open Parties and Claims PvP Support          |        1.0.1         |       Server Tools        |      Server      |                   [Modrinth](https://modrinth.com/mod/opacpvp)                   |
 | OpenPaC BlueMap - Refreshed                  |        1.2.1         |          Compat           |      Server      |          [Modrinth](https://modrinth.com/mod/openpac-bluemap-refreshed)          |
 | Packet Fixer                                 |        3.3.1         |        Performance        |       Both       |                [Modrinth](https://modrinth.com/mod/packet-fixer)                 |
@@ -160,7 +161,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Polymorph                                    |        1.1.0         |      User Interface       |       Both       |                  [Modrinth](https://modrinth.com/mod/polymorph)                  |
 | Prickle                                      |       21.1.11        |        Dependency         |      Client      |                   [Modrinth](https://modrinth.com/mod/prickle)                   |
 | Puzzles Lib                                  |       21.1.52        |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/puzzles-lib)                 |
-| Questlog                                     |        3.1.0         |         Dev Tools         |       Both       |                  [Modrinth](https://modrinth.com/mod/questlog)                   |
+| Questlog                                     |        3.2.0         |         Dev Tools         |       Both       |                  [Modrinth](https://modrinth.com/mod/questlog)                   |
 | Rechiseled                                   |        1.2.5         |         Building          |       Both       |                 [Modrinth](https://modrinth.com/mod/rechiseled)                  |
 | Rechiseled: Create                           |        1.1.1         |         Building          |       Both       |              [Modrinth](https://modrinth.com/mod/rechiseled-create)              |
 | Reese's Sodium Options                       |        2.0.5         |        Dependency         |      Client      |            [Modrinth](https://modrinth.com/mod/reeses-sodium-options)            |
@@ -179,14 +180,14 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | ShatterLib                                   |        0.6.2         |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/octo-lib)                   |
 | Simple Discord Link                          |        3.4.3         |       Server Tools        |      Server      |                   [Modrinth](https://modrinth.com/mod/sdlink)                    |
 | Simple Voice Chat                            |        2.6.20        |       Server Tools        |       Both       |              [Modrinth](https://modrinth.com/mod/simple-voice-chat)              |
-| Sodium                                       |    0.8.12-beta.2     |        Performance        |      Client      |                   [Modrinth](https://modrinth.com/mod/sodium)                    |
+| Sodium                                       |        0.8.12        |        Performance        |      Client      |                   [Modrinth](https://modrinth.com/mod/sodium)                    |
 | Sodium Dynamic Lights                        |        1.0.10        |      Quality of Life      |      Client      |            [Modrinth](https://modrinth.com/mod/sodium-dynamic-lights)            |
 | Sodium Extras                                |        1.0.8         |        Performance        |      Client      |                [Modrinth](https://modrinth.com/mod/sodium-extras)                |
 | Sodium Options API                           |        1.0.10        |        Dependency         |      Client      |             [Modrinth](https://modrinth.com/mod/sodium-options-api)              |
-| Sophisticated Backpacks                      |     3.25.65.1955     |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/sophisticated-backpacks)           |
-| Sophisticated Backpacks Create Integration   |      0.1.7.119       |      Quality of Life      |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
-| Sophisticated Core                           |     1.4.62.2079      |        Dependency         |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
-| Sophisticated Item Actions                   |      0.5.6.325       |      Quality of Life      |       Both       |         [Modrinth](https://modrinth.com/mod/sophisticated-item-actions)          |
+| Sophisticated Backpacks                      |     3.25.69.1979     |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/sophisticated-backpacks)           |
+| Sophisticated Backpacks Create Integration   |      0.1.8.134       |      Quality of Life      |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
+| Sophisticated Core                           |     1.4.70.2131      |        Dependency         |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
+| Sophisticated Item Actions                   |      0.5.8.342       |      Quality of Life      |       Both       |         [Modrinth](https://modrinth.com/mod/sophisticated-item-actions)          |
 | spark                                        |       1.10.124       |        Performance        |       Both       |                    [Modrinth](https://modrinth.com/mod/spark)                    |
 | Steam 'n' Rails Neoforge                     |    0.3.0-alpha.2     |          Content          |       Both       |         [Modrinth](https://modrinth.com/mod/create-steam-n-rails-1.21.1)         |
 | Structory                                    |        1.3.16        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/structory)                  |
@@ -194,13 +195,13 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Strut Your Stuff                             |        1.2.5         |        Dependency         |       Both       |              [Modrinth](https://modrinth.com/mod/strut-your-stuff)               |
 | SuperMartijn642's Config Lib                 |        1.1.8         |        Dependency         |       Both       |         [Modrinth](https://modrinth.com/mod/supermartijn642s-config-lib)         |
 | SuperMartijn642's Core Lib                   |        1.1.21        |        Dependency         |       Both       |          [Modrinth](https://modrinth.com/mod/supermartijn642s-core-lib)          |
-| Tectonic                                     |        3.0.22        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/tectonic)                   |
+| Tectonic                                     |        3.0.26        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/tectonic)                   |
 | Terralith                                    |        2.6.2         |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/terralith)                  |
 | Terraphilic                                  |        1.2.0         |     World Generation      |       Both       |                 [Modrinth](https://modrinth.com/mod/terraphilic)                 |
 | ToastBegone                                  |        1.2.0         |      User Interface       |      Client      |                 [Modrinth](https://modrinth.com/mod/toastbegone)                 |
-| Tooltip Overhaul                             |        1.4.4         |      User Interface       |      Client      |              [Modrinth](https://modrinth.com/mod/tooltip-overhaul)               |
+| Tooltip Overhaul                             |        1.5.1         |      User Interface       |      Client      |              [Modrinth](https://modrinth.com/mod/tooltip-overhaul)               |
 | Towns and Towers                             |        1.13.9        |     World Generation      |       Both       |              [Modrinth](https://modrinth.com/mod/towns-and-towers)               |
-| Trimmable Tools                              |        2.0.5         |      Quality of Life      |       Both       |               [Modrinth](https://modrinth.com/mod/trimmable-tools)               |
+| Trimmable Tools                              |        2.1.1         |      Quality of Life      |       Both       |               [Modrinth](https://modrinth.com/mod/trimmable-tools)               |
 | Universal Bone Meal                          |        21.1.0        |      Quality of Life      |       Both       |             [Modrinth](https://modrinth.com/mod/universal-bone-meal)             |
 | Universal Enchants                           |        21.1.6        |      Quality of Life      |       Both       |             [Modrinth](https://modrinth.com/mod/universal-enchants)              |
 | Villager Names                               |         8.5          |      Quality of Life      |       Both       |           [Modrinth](https://modrinth.com/mod/villager-names-serilum)            |

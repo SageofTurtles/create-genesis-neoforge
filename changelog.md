@@ -1,6 +1,33 @@
 # Changelog
 ---
-##  v0.1.0-alpha.8 (01 July 2026)
+## v0.1.0-alpha.9 (10 July 2026)
+### Changes:
+- Applied more custom recipe changes
+- Added colorless concrete powder from Create: Colorless Catalysts back in
+- Reworked all recipes for molten metals and ores to encourage automation
+  - Netherite and ancient debris are now renewable post-End
+### Added:
+- Datapatched (2.2.2)
+### Updated:
+- Amendments (2.1.4 > 2.1.5)
+- Blueprint (8.1.0 > 8.1.1)
+- Fusion (1.3.4 > 1.3.5)
+- JEI WorldGen (1.3.0 > 1.3.1)
+- Just Enough Items (19.27.0.344 > 19.32.0.359)
+- Lithostitched (1.7.12 > 1.7.13)
+- ModernFix (5.27.14 > 5.27.15)
+- Open Parties and Claims (0.27.5 > 0.27.6)
+- Questlog (3.1.0 > 3.2.0)
+- Sodium (0.8.12-beta.2 > 0.8.12)
+- Sophisticated Backpacks (3.25.65.1955 > 3.25.69.1979)
+- Sophisticated Backpacks Create Integration (0.1.7.119 > 0.1.8.134)
+- Sophisticated Core (1.4.62.2079 > 1.4.70.2131)
+- Sophisticated Item Actions (0.5.6.325 > 0.5.8.342)
+- Tectonic (3.0.22 > 3.0.26)
+- Tooltip Overhaul (1.4.4 > 1.5.1)
+- Trimmable Tools (2.0.5 > 2.1.1)
+---
+## v0.1.0-alpha.8 (01 July 2026)
 ### Changes:
 - Added files to repo:
   - Server configs
@@ -48,7 +75,7 @@
 - Sophisticated Core (1.4.59.2032 > 1.4.62.2079)
 - Sophisticated Item Actions (0.5.5.311 > 0.5.6.325)
 ---
-##  v0.1.0-alpha.7 (21 June 2026)
+## v0.1.0-alpha.7 (21 June 2026)
 **Now requires NeoForge version 21.1.233 or later!**
 ### Changes:
 - Applied custom changes to recipes for vanilla items
@@ -128,7 +155,7 @@
 - Terralith (2.5.8 > 2.6.2)
 - Villager Names (8.4 > 8.5)
 ---
-##  v0.1.0-alpha.6 (24 May 2026)
+## v0.1.0-alpha.6 (24 May 2026)
 **Now requires NeoForge version 21.1.230 or later!**
 ### Changes:
 - Added more Rechiseled compat for modded block variants
@@ -151,7 +178,7 @@
 - Sophisticated Item Actions (0.5.3.250 > 0.5.3.264)
 - Towns and Towers (1.13.7 > 1.13.9)
 ---
-##  v0.1.0-alpha.5 (20 May 2026)
+## v0.1.0-alpha.5 (20 May 2026)
 ### Changes:
 - Disabled enderman griefing
 - Changed Rechiseled copper variants to waxed copper
@@ -187,7 +214,7 @@
 - Sophisticated Core (1.4.38.1847 > 1.4.40.1855)
 - Steam 'n' Rails Neoforge (0.2.0-beta.2 > 0.2.0)
 ---
-##  v0.1.0-alpha.4 (12 May 2026)
+## v0.1.0-alpha.4 (12 May 2026)
 ### Changes:
 - Removed unused items by blacklist
 - Removed unnecessary recipes by type
@@ -195,7 +222,7 @@
 - Geophilic (3.4.6 > 3.5)
 - JourneyMap (6.0.0-beta.69 > 6.0.0-beta.72)
 ---
-##  v0.1.0-alpha.3 (10 May 2026)
+## v0.1.0-alpha.3 (10 May 2026)
 ### Changes:
 - Removed elytra from the game
 - Removed unused items
@@ -218,7 +245,7 @@
 - ModernFix (5.27.6 > 5.27.7)
 - Moonlight Lib (3.0.5 > 3.0.7)
 ---
-##  v0.1.0-alpha.2 (06 May 2026)
+## v0.1.0-alpha.2 (06 May 2026)
 ### Added:
 - Copycats + aeronautics weight (1.1.0)
 - Create Aeronautics: Claims (0.8.5)
@@ -238,5 +265,5 @@
 - Sophisticated Core (1.4.34.1815 > 1.4.38.1847)
 - Sophisticated Item Actions (0.5.2.237 > 0.5.3.250)
 ---
-##  v0.1.0-alpha.1 (05 May 2026)
+## v0.1.0-alpha.1 (05 May 2026)
 Initial release
