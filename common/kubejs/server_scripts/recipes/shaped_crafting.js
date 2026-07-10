@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
   eight_one('cying_obsidian', 'minecraft:obsidian', 'minecraft:ghast_tear', 'minecraft:crying_obsidian', 8)
   event.shaped('2x create:industrial_iron_window', ['ABA', 'BCB'], { A: 'minecraft:iron_nugget', B: 'createdeco:industrial_iron_nugget', C: '#c:glass_blocks/colorless' }).id('kubejs:industrial_iron_window_shaped')
   event.shaped('4x decorative_blocks:rocky_dirt', ['AB', 'BA'], { A: 'minecraft:dirt', B: 'minecraft:cobblestone' }).id('kubejs:rocky_dirt_shaped')
+  event.shaped('create_connected:sequenced_pulse_generator', [' A ', 'BCB', 'DDD'], { A: 'minecraft:redstone_torch', B: 'create:electron_tube', C: 'create:brass_sheet', D: '#c:stones' }).id('kubejs:sequenced_pulse_generator_shaped')
   event.shaped('create_vibrant_vaults:vertical_item_vault', ['A', 'B', 'A'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:vertical_item_vault_shaped')
   event.shaped('create:item_vault', ['ABA'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:item_vault_shaped')
   event.shaped('create:peculiar_bell', ['ABA', 'BCB'], { A: 'minecraft:stick', B: 'create:brass_sheet', C: 'create:brass_nugget' }).id('kubejs:peculiar_bell_shaped')
@@ -53,6 +54,10 @@ ServerEvents.recipes(event => {
   three_by_three('rose_quartz_block', 'create:rose_quartz', 'create:rose_quartz_block', 1)
 
   // BULK RECIPE CHANGES
+  global.COLORS.forEach(entry => {
+    eight_one(`${entry}_concrete_powder_dyeing`, 'kubejs:concrete_powder', `minecraft:${entry}_dye`, `minecraft:${entry}_concrete_powder`, 8)
+  })
+
   global.COPYCATS_CONVERSION.forEach(entry => {
     const { name, horizontal, vertical, stacked } = entry
     one_by_one(`copycat_${name}_horizontal_to_vertical`, horizontal, vertical, 1)

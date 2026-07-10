@@ -46,4 +46,25 @@ ServerEvents.recipes(event => {
     },
     'create_jetpack:netherite_jetpack'
   )
+
+  add(
+    'mechanical_spawner',
+    [
+      '  A  ',
+      'BCDCB',
+      'ECFCE',
+      'BCGCB',
+      '  A  '
+    ],
+    {
+      A: 'create:shaft',
+      B: 'create:brass_casing',
+      C: 'minecraft:netherite_ingot',
+      D: 'minecraft:ominous_bottle',
+      E: 'minecraft:chain',
+      F: 'minecraft:heavy_core',
+      G: 'minecraft:nether_star'
+    },
+    'create_mob_spawners:mechanical_spawner'
+  )
 })

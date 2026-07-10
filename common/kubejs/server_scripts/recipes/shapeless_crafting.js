@@ -8,6 +8,8 @@ ServerEvents.recipes(event => {
   }
 
   // TARGETED RECIPE CHANGES
+  add('banking_guide', ['create:sturdy_sheet', '#numismatics:id_cards'], 'numismatics:banking_guide', 1)
+  add('concrete_powder', ['4x minecraft:sand', '4x minecraft:gravel'], 'kubejs:concrete_powder', 8)
   add('crimson_nylium', ['minecraft:netherrack', 'minecraft:crimson_fungus'], 'minecraft:crimson_nylium', 1)
   add('flow_banner_pattern', ['minecraft:paper', 'minecraft:ominous_bottle'], 'minecraft:flow_banner_pattern', 1)
   add('globe_banner_pattern', ['minecraft:paper', 'naturescompass:naturescompass'], 'minecraft:globe_banner_pattern', 1)

@@ -95,6 +95,8 @@ ServerEvents.recipes(event => {
   id('create:haunting/blackstone')
   id('create:haunting/lapis_recycling')
   id('create:industrial_iron_block_from_ingots_iron_stonecutting')
+  id('create:mixing/andesite_alloy_from_zinc')
+  id('create:mixing/andesite_alloy')
   id('create:mixing/brass_ingot')
   id('create:mixing/lava_from_cobble')
   id('create:rose_quartz_block_from_rose_quartz_stonecutting')
@@ -122,16 +124,21 @@ ServerEvents.recipes(event => {
   id('minecraft:observer')
   id('minecraft:piston')
   id('minecraft:recovery_compass')
+  id('railways:stonecutting/riveted_locometal')
   id('simulated:rope_coupling')
   id('terralith:cobblestone_from_stone_slab')
   id(/create:copper_(shingles|tiles)_from_ingots_copper_stonecutting/)
   id(/create:crushing\/(asurine|crimsite|ochrum|veridium)$/)
   id(/createaddition:charging\/deoxidize.*/)
   id(/createdeco:.*_hull$/)
+  mod('createmetalwork')
   mod('mcwtrpdoors')
   output('another_furniture:service_bell')
   output('create_aquatic_ambitions:prismarine_alloy_rod')
+  output('create_mob_spawners:mechanical_spawner')
   output('create:industrial_iron_window')
+  output('numismatics:banking_guide')
+  output('railways:conductor_vent')
   output('simulated:spring')
   output(/(create|copycats):copycat_.*/)
   type('createvintageneoforged:coiling')
@@ -142,7 +149,6 @@ ServerEvents.recipes(event => {
   type('createvintageneoforged:pressurizing')
   type('createvintageneoforged:turning')
   type('createvintageneoforged:vacuumizing')
-
 
   custom({
     mod: 'mcwdoors',

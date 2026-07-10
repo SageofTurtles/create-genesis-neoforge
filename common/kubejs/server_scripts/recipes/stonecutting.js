@@ -31,6 +31,10 @@ ServerEvents.recipes(event => {
     add(`copycat_${base_name}_to_${crafted_name}`, base, crafted, count)
   })
 
+  global.LOCOMETAL_TYPES.forEach(entry => {
+    add(`${entry}`, 'minecraft:iron_block', `railways:${entry}`, 1)
+  })
+
   global.STONECUTTING_BLOCKSETS.forEach(entry => {
     const { name, block, slab, stairs, wall } = entry
     add(`${name}_slab`, block, slab, 2)
@@ -43,6 +47,7 @@ ServerEvents.recipes(event => {
   })
 
   // TARGETED RECIPE CHANGES
+  add('conductor_vent', 'createdeco:industrial_iron_ingot', 'railways:conductor_vent', 1)
   add('copycat_block', 'create:zinc_ingot', 'copycats:copycat_block', 1)
   add('iron_bars', 'minecraft:iron_ingot', 'minecraft:iron_bars', 4)
 })
