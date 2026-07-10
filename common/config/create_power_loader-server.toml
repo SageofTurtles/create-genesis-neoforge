@@ -97,7 +97,7 @@
 	enableContraption = false
 	#.
 	#Whether the chunk loader functions on trains
-	enableTrain = true
+	enableTrain = false
 	#.
 	#Whether the chunk loader functions when attached to train stations.
 	enableStation = true
