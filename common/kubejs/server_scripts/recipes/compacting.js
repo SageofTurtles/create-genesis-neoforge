@@ -20,12 +20,14 @@ ServerEvents.recipes(event => {
   }
 
   // TARGETED RECIPE CHANGES
+  heated('coal_from_charcoal', '4x minecraft:charcoal', 'minecraft:coal')
   heated('deepslate', ['2x minecraft:stone', Fluid.lava(100)], 'minecraft:deepslate')
   heated('industrial_iron_block', 'minecraft:iron_block', 'create:industrial_iron_block')
   heated('industrial_iron_ingot', 'minecraft:iron_ingot', 'createdeco:industrial_iron_ingot')
   heated('industrial_iron_nugget', 'minecraft:iron_nugget', 'createdeco:industrial_iron_nugget')
   heated('ochre_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:yellow_dye'], 'minecraft:ochre_froglight')
   heated('pearlescent_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:purple_dye'], 'minecraft:pearlescent_froglight')
+  heated('prismarine_alloy', ['8x minecraft:prismarine_shard', Fluid.of('createmetalwork:molten_copper', 90)], 'create_aquatic_ambitions:prismarine_alloy')
   heated('tuff', ['2x minecraft:flint', 'minecraft:cobblestone', Fluid.lava(100)], 'minecraft:tuff')
   heated('verdant_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:green_dye'], 'minecraft:verdant_froglight')
   superheated('diamond', ['12x minecraft:coal_block', Fluid.lava(1000)], 'minecraft:diamond')

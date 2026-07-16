@@ -33,8 +33,12 @@ ServerEvents.recipes(event => {
 
   // TARGETED RECIPE CHANGES
   eight_one('cying_obsidian', 'minecraft:obsidian', 'minecraft:ghast_tear', 'minecraft:crying_obsidian', 8)
+  eight_one('garage_white_door', '#kubejs:garage_doors', 'minecraft:white_dye', 'mcwdoors:garage_white_door', 8)
   event.shaped('2x create:industrial_iron_window', ['ABA', 'BCB'], { A: 'minecraft:iron_nugget', B: 'createdeco:industrial_iron_nugget', C: '#c:glass_blocks/colorless' }).id('kubejs:industrial_iron_window_shaped')
+  event.shaped('2x decorative_blocks:bar_panel', [' A ', 'A A', ' A '], { A: 'createaddition:iron_rod' }).id('kubejs:bar_panel_shaped')
   event.shaped('4x decorative_blocks:rocky_dirt', ['AB', 'BA'], { A: 'minecraft:dirt', B: 'minecraft:cobblestone' }).id('kubejs:rocky_dirt_shaped')
+  event.shaped('6x minecraft:chain', ['A', 'B', 'A'], { A: 'create:zinc_nugget', B: 'create:zinc_ingot' }).id('kubejs:chain_from_zinc_shaped')
+  event.shaped('6x minecraft:chain', ['A', 'B', 'A'], { A: 'minecraft:iron_nugget', B: 'minecraft:iron_ingot' }).id('kubejs:chain_from_iron_shaped')
   event.shaped('create_connected:sequenced_pulse_generator', [' A ', 'BCB', 'DDD'], { A: 'minecraft:redstone_torch', B: 'create:electron_tube', C: 'create:brass_sheet', D: '#c:stones' }).id('kubejs:sequenced_pulse_generator_shaped')
   event.shaped('create_vibrant_vaults:vertical_item_vault', ['A', 'B', 'A'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:vertical_item_vault_shaped')
   event.shaped('create:item_vault', ['ABA'], { A: 'create:iron_sheet', B: 'minecraft:barrel' }).id('kubejs:item_vault_shaped')
@@ -48,8 +52,17 @@ ServerEvents.recipes(event => {
   event.shaped('minecraft:lightning_rod', ['A', 'B', 'B'], { A: 'minecraft:copper_ingot', B: 'createaddition:copper_rod' }).id('kubejs:lightning_rod')
   event.shaped('minecraft:recovery_compass', [' A ', 'ABA', ' A '], { A: 'minecraft:iron_ingot', B: 'minecraft:echo_shard' }).id('kubejs:recovery_compass_shaped')
   event.shaped('minecraft:saddle', ['  A', 'AAA', 'B B'], { A: 'minecraft:leather', B: 'minecraft:iron_ingot' }).id('kubejs:saddle_shaped')
+  event.shaped('rechiseledcreate:mechanical_chisel', ['A', 'B', 'C'], { A: 'rechiseled:chisel', B: 'create:andesite_casing', C: 'create:shaft' }).id('kubejs:mechanical_chisel_shaped')
   event.shaped('simulated:rope_coupling', ['ABA'], { A: 'minecraft:iron_nugget', B: 'farmersdelight:rope' }).id('kubejs:rope_coupling_shaped')
+  event.shaped('sophisticatedbackpacks:battery_upgrade', ['ABA', 'CDC', 'ABA'], { A: 'minecraft:redstone', B: 'createaddition:modular_accumulator', C: 'createaddition:connector', D: 'sophisticatedbackpacks:upgrade_base' }).id('kubejs:battery_upgrade_shaped')
+  event.shaped('sophisticatedbackpacks:deposit_upgrade', [' A ', 'BCB', 'DED'], { A: 'create:chute', B: 'minecraft:iron_ingot', C: 'sophisticatedbackpacks:upgrade_base', D: 'minecraft:redstone', E: 'minecraft:chest' }).id('kubejs:deposit_upgrade_shaped')
+  event.shaped('sophisticatedbackpacks:filter_upgrade', [' A ', 'BCB', 'DDD'], { A: 'create:filter', B: 'minecraft:string', C: 'sophisticatedbackpacks:upgrade_base', D: 'minecraft:redstone' }).id('kubejs:filter_upgrade_shaped')
+  event.shaped('sophisticatedbackpacks:pump_upgrade', [' A ', 'BCB', 'DDD'], { A: 'create:mechanical_pump', B: 'minecraft:string', C: 'sophisticatedbackpacks:upgrade_base', D: 'minecraft:redstone' }).id('kubejs:pump_upgrade_shaped')
+  event.shaped('sophisticatedbackpacks:restock_upgrade', [' A ', 'BCB', 'DED'], { A: 'minecraft:chest', B: 'minecraft:iron_ingot', C: 'sophisticatedbackpacks:upgrade_base', D: 'minecraft:redstone', E: 'create:chute' }).id('kubejs:restock_upgrade_shaped')
+  event.shaped('sophisticatedbackpacks:tank_upgrade', ['AAA', 'BCB', 'AAA'], { A: 'create:copper_sheet', B: '#c:glass_blocks/colorless', C: 'sophisticatedbackpacks:upgrade_base' }).id('kubejs:tank_upgrade_shaped')
+  one_by_three('gutter_middle', 'create:iron_sheet', 'mcwroofs:gutter_middle', 3)
   one_by_three('rope_from_string', 'minecraft:string', 'farmersdelight:rope', 1)
+  three_by_one('gutter_base', 'create:iron_sheet', 'mcwroofs:gutter_base', 3)
   three_by_one('paper_from_tree_bark', 'farmersdelight:tree_bark', 'minecraft:paper', 3)
   three_by_three('rose_quartz_block', 'create:rose_quartz', 'create:rose_quartz_block', 1)
 
@@ -117,6 +130,12 @@ ServerEvents.recipes(event => {
   global.METAL_TRAPDOORS.forEach(entry => {
     const { name, material, trapdoor } = entry
     two_by_two(`${name}_trapdoor`, material, trapdoor, 2)
+  })
+
+  global.SHEET_METALS.forEach(entry => {
+    const { sheet, block } = entry
+    let name = block.split(':')[1]
+    two_by_two(name, sheet, block, 1)
   })
 
   global.STONECUTTING_BLOCKSETS.forEach(entry => {
