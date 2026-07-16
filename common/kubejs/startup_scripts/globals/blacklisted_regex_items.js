@@ -7,5 +7,6 @@ global['BLACKLISTED_REGEX_ITEMS'] = [
   /^dndecor:.*_catwalk$/,
   /^dndecor:.*container$/,
   /^mcwdoors:print_.*/,
-  /^mcwtrpdoors:print_.*/
+  /^mcwtrpdoors:print_.*/,
+  /^opacbonusclaims:.*_forceload$/
 ]
