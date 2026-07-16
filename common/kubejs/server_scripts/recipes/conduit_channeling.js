@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
 
   // BULK RECIPE CHANGES
   global.COPPER_BLOCKSETS_OXIDIZATION.forEach(entry => {
-    const { base, exposed, weathered, oxidized } = entry
-    add(`${base}_to_${exposed}`, `create:${base}`, `create:${exposed}`, 1.0, 1)
-    add(`${exposed}_to_${weathered}`, `create:${exposed}`, `create:${weathered}`, 1.0, 1)
-    add(`${weathered}_to_${oxidized}`, `create:${weathered}`, `create:${oxidized}`, 1.0, 1)
+    const { mod, base, exposed, weathered, oxidized } = entry
+    add(`${base}_to_${exposed}`, `${mod}:${base}`, `${mod}:${exposed}`, 1.0, 1)
+    add(`${exposed}_to_${weathered}`, `${mod}:${exposed}`, `${mod}:${weathered}`, 1.0, 1)
+    add(`${weathered}_to_${oxidized}`, `${mod}:${weathered}`, `${mod}:${oxidized}`, 1.0, 1)
   })
 })
