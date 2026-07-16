@@ -22,7 +22,8 @@ ServerEvents.recipes(event => {
 
   // BULK RECIPE CHANGES
   global.COLORS.forEach(entry => {
-    add(`${entry}_portable_engine_from_dyeing`, ['#kubejs:portable_engines', `minecraft:${entry}_dye`], `simulated:${entry}_portable_engine`, 1)
+    add(`${entry}_portable_engine_dyeing`, ['#kubejs:portable_engines', `minecraft:${entry}_dye`], `simulated:${entry}_portable_engine`, 1)
+    add(`${entry}_velvet_block_dyeing`, [`#dndecor:dyed_velvet_block`, `minecraft:${entry}_dye`], `dndecor:${entry}_velvet_block`, 1)
   })
 
   global.COPYCATS_FUNCTIONAL.forEach(entry => {
