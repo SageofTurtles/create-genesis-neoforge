@@ -13,7 +13,6 @@ glintSpeed:0.5
 glintStrength:0.5086597711267606
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:1.0
 graphicsMode:0
 guiScale:3
 maxFps:120
@@ -128,9 +127,9 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
-key_key.jetpack.toggle_active.description:key.keyboard.y
+key_key.jetpack.toggle_active.description:key.keyboard.z
 key_key.jetpack.toggle_hover.description:key.keyboard.h
-key_key.sophisticateditemactions.item_highlight:key.keyboard.i
+key_key.sophisticateditemactions.item_highlight:key.keyboard.slash:SHIFT
 key_key.sophisticateditemactions.deposit_item:key.keyboard.up
 key_key.sophisticateditemactions.restock_item:key.keyboard.down
 key_key.jei.toggleOverlay:key.keyboard.unknown
@@ -145,6 +144,7 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.quickMove:key.mouse.left:SHIFT
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -183,8 +183,8 @@ key_key.journeypac.forceload_mode:key.keyboard.unknown
 key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.unknown
 key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.unknown
 key_key.sophisticatedcore.sort:key.mouse.middle
-key_key.sophisticatedcore.transfer_to_storage:key.keyboard.period
-key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.comma
+key_key.sophisticatedcore.transfer_to_storage:key.keyboard.up:SHIFT
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.down:SHIFT
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.x
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
@@ -224,6 +224,7 @@ key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
 key_key.journeymap.fullscreen_options:key.keyboard.unknown
 key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.questlog.open:key.keyboard.unknown
+key_key.guideme.guide:key.keyboard.i
 key_key.observable.profile:key.keyboard.f6
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.keypad.0
@@ -236,6 +237,8 @@ key_key.freecam.toggle:key.keyboard.f4
 key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
+key_key.schematician.toggle_drafting_view:key.keyboard.left.bracket
+key_key.schematician.toggle_force_tooltip:key.keyboard.right.bracket
 key_justzoom.keybinds.keybind.zoom:key.keyboard.c
 key_key.ponder.ponder:key.keyboard.w
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -244,6 +247,7 @@ key_create.keyinfo.rotate_menu:key.keyboard.left.alt
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
+key_key.aeroworks.joystick.free_camera:key.keyboard.left.shift
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
 key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.r
 soundCategory_master:1.0
