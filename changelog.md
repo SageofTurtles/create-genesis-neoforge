@@ -3,7 +3,14 @@
 ## v0.1.0-alpha.10 (15 July 2026)
 ### Changes:
 - Applied more custom recipe changes
-- 
+- Modified some backpack upgrade recipes to use Create items
+- Standardized recipes for:
+  - Metal floor blocks
+  - Sheet metal blocks
+  - Macaw's roof variants
+- Added many "unpacking" recipes using vibrating table
+  - Allows players to undo automated packing recipes
+- Applied temporary fix for bugged new Steam 'n' Rails recipes
 ### Added:
 - Create: Advanced Optimization (1.0)
 - Genesis - World Previewer & Pregenerator (1.0.0)
