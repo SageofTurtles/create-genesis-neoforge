@@ -1,5 +1,30 @@
 # Changelog
 ---
+## v0.1.0-alpha.10 (15 July 2026)
+### Changes:
+- Applied more custom recipe changes
+- 
+### Added:
+- Create: Advanced Optimization (1.0)
+- Genesis - World Previewer & Pregenerator (1.0.0)
+### Updated:
+- Amendments (2.1.5 > 2.1.7)
+- Azimuth API (1.4.0 > 1.4.1)
+- Create Aeronautics: Compatibility (1.1.2 > 1.1.3)
+- Create: Aeroworks (1.2.11 > 1.3.0)
+- Create: Aquatic Ambitions (2.0.2 > 2.0.3)
+- Create: Bits 'n' Bobs (2.1.9 > 2.1.11)
+- Create: Mob Spawners (1.0.0 > 1.1.0)
+- GuideME (21.1.16 > 21.1.17)
+- JEI WorldGen (1.3.1 > 1.4.0)
+- Just Enough Items (19.32.0.359 > 19.39.0.368)
+- Moonlight Lib (3.0.22 > 3.1.1)
+- Schematician's Goggles (0.9.0 > 0.10.0)
+- Sophisticated Backpacks (3.25.69.1979 > 3.25.71.1997)
+- Sophisticated Core (1.4.70.2131 > 1.4.75.2161)
+- Steam 'n' Rails Neoforge (0.3.0-alpha.2 > 0.3.0-beta)
+- Strut Your Stuff (1.2.5 > 1.2.7)
+---
 ## v0.1.0-alpha.9 (10 July 2026)
 ### Changes:
 - Applied more custom recipe changes

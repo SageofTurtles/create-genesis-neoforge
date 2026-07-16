@@ -6,13 +6,13 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | **Name**                                     |     **Version**      |       **Category**        | **Installed On** |                                     **Link**                                     |
 |----------------------------------------------|:--------------------:|:-------------------------:|:----------------:|:--------------------------------------------------------------------------------:|
 | Aeronautics Preflight Checklist              |        1.0.1         |      User Interface       |       Both       |       [Modrinth](https://modrinth.com/mod/aeronautics-preflight-checklist)       |
-| Amendments                                   |        2.1.5         |      Quality of Life      |       Both       |                 [Modrinth](https://modrinth.com/mod/amendments)                  |
+| Amendments                                   |        2.1.7         |      Quality of Life      |       Both       |                 [Modrinth](https://modrinth.com/mod/amendments)                  |
 | Another Furniture                            |        4.0.2         |         Building          |       Both       |              [Modrinth](https://modrinth.com/mod/another-furniture)              |
 | AntiPortals                                  |         2.2          |       Server Tools        |      Server      |                 [Modrinth](https://modrinth.com/mod/antiportals)                 |
 | AntiXray                                     |        1.4.8         |       Server Tools        |      Server      |                  [Modrinth](https://modrinth.com/mod/anti-xray)                  |
 | AppleSkin                                    |        3.0.9         |      User Interface       |       Both       |                  [Modrinth](https://modrinth.com/mod/appleskin)                  |
 | Architectury API                             |        13.0.8        |        Dependency         |       Both       |              [Modrinth](https://modrinth.com/mod/architectury-api)               |
-| Azimuth API                                  |        1.4.0         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/azimuth-api)                 |
+| Azimuth API                                  |        1.4.1         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/azimuth-api)                 |
 | BaguetteLib                                  |        2.0.3         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/baguettelib)                 |
 | Better Advancements                          |       0.4.3.21       |      User Interface       |      Client      |             [Modrinth](https://modrinth.com/mod/better-advancements)             |
 | Better Compatibility Checker                 |        21.1.8        |       Server Tools        |       Both       |        [Modrinth](https://modrinth.com/mod/better-compatibility-checker)         |
@@ -42,7 +42,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Create                                       |        6.0.10        |          Content          |       Both       |                   [Modrinth](https://modrinth.com/mod/create)                    |
 | Create Additions - Sable Compat              |        0.1.13        |          Compat           |       Both       |        [Modrinth](https://modrinth.com/mod/create-additions-sable-compat)        |
 | Create Aeronautics: Claims                   |        0.9.2         |          Compat           |       Both       |             [Modrinth](https://modrinth.com/mod/aeronautics-claims)              |
-| Create Aeronautics: Compatibility            |        1.1.2         |          Compat           |       Both       |      [Modrinth](https://modrinth.com/mod/create-aeronautics-compatability)       |
+| Create Aeronautics: Compatibility            |        1.1.3         |          Compat           |       Both       |      [Modrinth](https://modrinth.com/mod/create-aeronautics-compatability)       |
 | Create Aeronautics: Rechiseled Compatibility |        1.2.2         |          Compat           |       Both       | [Modrinth](https://modrinth.com/mod/create-aeronautics-rechiseled-compatibility) |
 | Create BlueMap                               |        1.1.1         |          Compat           |      Server      |               [Modrinth](https://modrinth.com/mod/create-bluemap)                |
 | Create Cobblestone                           |        1.4.11        |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-cobblestone)              |
@@ -56,11 +56,12 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Create Slice & Dice                          |        4.3.2         |          Content          |       Both       |               [Modrinth](https://modrinth.com/mod/slice-and-dice)                |
 | Create Style Sophisticated Backpacks         |         1.2          | Aesthetic (Resource Pack) |      Client      |   [Modrinth](https://modrinth.com/resourcepack/create-sophisticated-backpacks)   |
 | Create: Additional Logistics                 |        1.4.5         |          Content          |       Both       |         [Modrinth](https://modrinth.com/mod/create-additional-logistics)         |
+| Create: Advanced Optimizations               |         1.0          |        Performance        |       Both       |        [Modrinth](https://modrinth.com/mod/create-advanced-optimization)         |
 | Create: Aeronautics                          |        1.3.0         |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-aeronautics)              |
-| Create: Aeroworks                            |        1.2.11        |          Content          |       Both       |              [Modrinth](https://modrinth.com/mod/create-aeroworks)               |
-| Create: Aquatic Ambitions                    |        2.0.2         |          Content          |       Both       |          [Modrinth](https://modrinth.com/mod/create-aquatic-ambitions)           |
+| Create: Aeroworks                            |        1.3.0         |          Content          |       Both       |              [Modrinth](https://modrinth.com/mod/create-aeroworks)               |
+| Create: Aquatic Ambitions                    |        2.0.3         |          Content          |       Both       |          [Modrinth](https://modrinth.com/mod/create-aquatic-ambitions)           |
 | Create: Better Goggles                       |        1.0.2         | Aesthetic (Resource Pack) |      Client      |               [Modrinth](https://modrinth.com/mod/better-goggles)                |
-| Create: Bits 'n' Bobs                        |      2.1.9-beta      |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-bits-n-bobs)              |
+| Create: Bits 'n' Bobs                        |        2.1.11        |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-bits-n-bobs)              |
 | Create: Cardboarded Conveynience             |        1.0.0         |      Quality of Life      |       Both       |             [Modrinth](https://modrinth.com/mod/create-bits-n-bobs)              |
 | Create: Central Kitchen                      |        2.5.0         |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/create-central-kitchen)            |
 | Create: Connected                            |        1.3.2         |          Content          |       Both       |              [Modrinth](https://modrinth.com/mod/create-connected)               |
@@ -75,7 +76,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Create: Gears n' Kinetics                    |         1.0m         |          Content          |       Both       |              [Modrinth](https://modrinth.com/mod/gears-n-kinetics)               |
 | Create: Lazy Tick                            |        2.4.9         |        Performance        |       Both       |               [Modrinth](https://modrinth.com/mod/createlazytick)                |
 | Create: Metalwork                            |        2.0.0         |          Content          |       Both       |              [Modrinth](https://modrinth.com/mod/create-metalwork)               |
-| Create: Mob Spawners                         |        1.0.0         |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-mob-spawners)             |
+| Create: Mob Spawners                         |        1.1.0         |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-mob-spawners)             |
 | Create: Mobile Packages                      |        0.7.6         |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/create-mobile-packages)            |
 | Create: Molten Vents                         |        2.1.1         |          Content          |       Both       |             [Modrinth](https://modrinth.com/mod/create-molten-vents)             |
 | Create: Numismatics                          |        1.0.20        |          Content          |       Both       |                 [Modrinth](https://modrinth.com/mod/numismatics)                 |
@@ -104,8 +105,9 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Fusion                                       |        1.3.5         |        Dependency         |       Both       |          [Modrinth](https://modrinth.com/mod/fusion-connected-textures)          |
 | Fzzy Config                                  |        0.7.6         |        Dependency         |       Both       |                 [Modrinth](https://modrinth.com/mod/fzzy-config)                 |
 | Gallery                                      |        2.0.1         |      Quality of Life      |       Both       |                   [Modrinth](https://modrinth.com/mod/gallery)                   |
+| Genesis - World Previewer & Pregenerator     |        1.0.0         |        Performance        |      Client      |    [Modrinth](https://modrinth.com/mod/genesis-world-previewer-pregenerator)     |
 | Geophilic                                    |         3.6          |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/geophilic)                  |
-| GuideME                                      |       21.1.16        |      User Interface       |       Both       |                   [Modrinth](https://modrinth.com/mod/guideme)                   |
+| GuideME                                      |       21.1.17        |      User Interface       |       Both       |                   [Modrinth](https://modrinth.com/mod/guideme)                   |
 | Horseman                                     |        1.5.11        |      Quality of Life      |       Both       |                  [Modrinth](https://modrinth.com/mod/horseman)                   |
 | ImmediatelyFast                              |        1.6.11        |        Performance        |      Client      |               [Modrinth](https://modrinth.com/mod/immediatelyfast)               |
 | Inv View                                     |        3.0.2         |       Server Tools        |      Server      |               [Modrinth](https://modrinth.com/mod/inv-view-forge)                |
@@ -115,13 +117,13 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Jade Addons                                  |        6.1.0         |      User Interface       |       Both       |              [Modrinth](https://modrinth.com/mod/jade-addons-forge)              |
 | JamLib                                       |        1.3.6         |        Dependency         |       Both       |                   [Modrinth](https://modrinth.com/mod/jamlib)                    |
 | JEI Integration: Reborn                      |        1.0.2         |      User Interface       |       Both       |           [Modrinth](https://modrinth.com/mod/jei-integration-reborn)            |
-| JEI WorldGen                                 |        1.3.1         |      User Interface       |       Both       |                [Modrinth](https://modrinth.com/mod/jei-worldgen)                 |
+| JEI WorldGen                                 |        1.4.0         |      User Interface       |       Both       |                [Modrinth](https://modrinth.com/mod/jei-worldgen)                 |
 | JourneyMap                                   |        6.0.0         |      User Interface       |       Both       |                 [Modrinth](https://modrinth.com/mod/journeymap)                  |
 | JourneyPAC                                   |        1.1.7         |      User Interface       |      Client      |                 [Modrinth](https://modrinth.com/mod/journey-pac)                 |
 | Just Enough Archaeology                      |        1.1.5         |      User Interface       |       Both       |           [Modrinth](https://modrinth.com/mod/just-enough-archaeology)           |
 | Just Enough Breeding (JEBr)                  |        3.1.0         |      User Interface       |       Both       |             [Modrinth](https://modrinth.com/mod/justenoughbreeding)              |
 | Just Enough Effect Descriptions (JEED)       |        2.3.2         |      User Interface       |       Both       |    [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)     |
-| Just Enough Items (JEI)                      |     19.32.0.359      |      User Interface       |       Both       |                     [Modrinth](https://modrinth.com/mod/jei)                     |
+| Just Enough Items (JEI)                      |     19.39.0.368      |      User Interface       |       Both       |                     [Modrinth](https://modrinth.com/mod/jei)                     |
 | Just Enough Resources (JER)                  |       1.6.0.17       |      User Interface       |       Both       |          [Modrinth](https://modrinth.com/mod/just-enough-resources-jer)          |
 | Just Zoom                                    |        2.1.0         |      User Interface       |      Client      |                  [Modrinth](https://modrinth.com/mod/just-zoom)                  |
 | Konkrete                                     |        1.9.9         |        Dependency         |      Client      |                  [Modrinth](https://modrinth.com/mod/konkrete)                   |
@@ -144,7 +146,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | MidnightLib                                  |        1.9.3         |        Dependency         |      Client      |                 [Modrinth](https://modrinth.com/mod/midnightlib)                 |
 | Model Gap Fix                                |         1.1          |      Quality of Life      |      Client      |                  [Modrinth](https://modrinth.com/mod/modelfix)                   |
 | ModernFix                                    |       5.27.15        |        Performance        |       Both       |                  [Modrinth](https://modrinth.com/mod/modernfix)                  |
-| Moonlight Lib                                |        3.0.22        |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/moonlight)                  |
+| Moonlight Lib                                |        3.1.1         |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/moonlight)                  |
 | Mouse Tweaks                                 |        2.26.1        |      User Interface       |      Client      |                [Modrinth](https://modrinth.com/mod/mouse-tweaks)                 |
 | Nature's Compass                             |        3.4.0         |      Quality of Life      |       Both       |               [Modrinth](https://modrinth.com/mod/natures-compass)               |
 | Necronomicon API                             |        1.6.0         |        Dependency         |       Both       |                [Modrinth](https://modrinth.com/mod/necronomicon)                 |
@@ -174,7 +176,7 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Sable: Weighted - Add-On Bundle              |        1.0.21        |          Compat           |       Both       |        [Modrinth](https://modrinth.com/mod/sable-weighted-add-on-bundle)         |
 | Sable: Weighted - Create: Deco               |        1.0.2         |          Compat           |       Both       |         [Modrinth](https://modrinth.com/mod/sable-weighted-create-deco)          |
 | Sable: Weighted - Design n' Decor            |        1.1.0         |          Compat           |       Both       |        [Modrinth](https://modrinth.com/mod/sable-weighted-design-n-decor)        |
-| Schematician's Goggles                       |        0.9.0         |      User Interface       |       Both       |            [Modrinth](https://modrinth.com/mod/schematicians-goggles)            |
+| Schematician's Goggles                       |        0.10.0        |      User Interface       |       Both       |            [Modrinth](https://modrinth.com/mod/schematicians-goggles)            |
 | Searchables                                  |        1.0.2         |      User Interface       |      Client      |                 [Modrinth](https://modrinth.com/mod/searchables)                 |
 | ServerCore                                   |        1.5.19        |        Performance        |       Both       |                 [Modrinth](https://modrinth.com/mod/servercore)                  |
 | ShatterLib                                   |        0.6.2         |        Dependency         |       Both       |                  [Modrinth](https://modrinth.com/mod/octo-lib)                   |
@@ -184,15 +186,15 @@ Below is a list of mods, resource packs, and shaders included in the latest vers
 | Sodium Dynamic Lights                        |        1.0.10        |      Quality of Life      |      Client      |            [Modrinth](https://modrinth.com/mod/sodium-dynamic-lights)            |
 | Sodium Extras                                |        1.0.8         |        Performance        |      Client      |                [Modrinth](https://modrinth.com/mod/sodium-extras)                |
 | Sodium Options API                           |        1.0.10        |        Dependency         |      Client      |             [Modrinth](https://modrinth.com/mod/sodium-options-api)              |
-| Sophisticated Backpacks                      |     3.25.69.1979     |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/sophisticated-backpacks)           |
+| Sophisticated Backpacks                      |     3.25.71.1997     |          Content          |       Both       |           [Modrinth](https://modrinth.com/mod/sophisticated-backpacks)           |
 | Sophisticated Backpacks Create Integration   |      0.1.8.134       |      Quality of Life      |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
-| Sophisticated Core                           |     1.4.70.2131      |        Dependency         |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
+| Sophisticated Core                           |     1.4.75.2161      |        Dependency         |       Both       | [Modrinth](https://modrinth.com/mod/sophisticated-backpacks-create-integration)  |
 | Sophisticated Item Actions                   |      0.5.8.342       |      Quality of Life      |       Both       |         [Modrinth](https://modrinth.com/mod/sophisticated-item-actions)          |
 | spark                                        |       1.10.124       |        Performance        |       Both       |                    [Modrinth](https://modrinth.com/mod/spark)                    |
-| Steam 'n' Rails Neoforge                     |    0.3.0-alpha.2     |          Content          |       Both       |         [Modrinth](https://modrinth.com/mod/create-steam-n-rails-1.21.1)         |
+| Steam 'n' Rails Neoforge                     |      0.3.0-beta      |          Content          |       Both       |         [Modrinth](https://modrinth.com/mod/create-steam-n-rails-1.21.1)         |
 | Structory                                    |        1.3.16        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/structory)                  |
 | Structory: Towers                            |        1.0.16        |     World Generation      |       Both       |              [Modrinth](https://modrinth.com/mod/structory-towers)               |
-| Strut Your Stuff                             |        1.2.5         |        Dependency         |       Both       |              [Modrinth](https://modrinth.com/mod/strut-your-stuff)               |
+| Strut Your Stuff                             |        1.2.7         |        Dependency         |       Both       |              [Modrinth](https://modrinth.com/mod/strut-your-stuff)               |
 | SuperMartijn642's Config Lib                 |        1.1.8         |        Dependency         |       Both       |         [Modrinth](https://modrinth.com/mod/supermartijn642s-config-lib)         |
 | SuperMartijn642's Core Lib                   |        1.1.21        |        Dependency         |       Both       |          [Modrinth](https://modrinth.com/mod/supermartijn642s-core-lib)          |
 | Tectonic                                     |        3.0.26        |     World Generation      |       Both       |                  [Modrinth](https://modrinth.com/mod/tectonic)                   |
