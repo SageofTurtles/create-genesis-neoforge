@@ -165,9 +165,7 @@
       "slab": "rechiseled:cobbled_deepslate_worn_stripes_slab",
       "slab_worth": 0.5,
       "stairs": "rechiseled:cobbled_deepslate_worn_stripes_stairs"
-    },
-    "dndecor:deepslate_tiles",
-    "dndecor:red_deepslate_tiles"
+    }
   ],
   "overwrite": true
 }
