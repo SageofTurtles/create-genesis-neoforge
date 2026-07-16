@@ -8,5 +8,6 @@ ServerEvents.recipes(event => {
   }
 
   // RECIPE CHANGES
+  add('netherite_ingot', 'minecraft:netherite_ingot', 'createvintageneoforged:netherite_sheet')
   add('paper_from_tree_bark', 'farmersdelight:tree_bark', 'minecraft:paper')
 })
