@@ -17,22 +17,8 @@ global['COPYCATS_DECORATIVE'] = [
     count: 1,
     base_name: 'block',
     base: 'copycats:copycat_block',
-    crafted_name: 'stairs',
-    crafted: 'copycats:copycat_stairs'
-  },
-  {
-    count: 1,
-    base_name: 'block',
-    base: 'copycats:copycat_block',
     crafted_name: 'vertical_stairs',
     crafted: 'copycats:copycat_vertical_stairs'
-  },
-  {
-    count: 1,
-    base_name: 'block',
-    base: 'copycats:copycat_block',
-    crafted_name: 'wall',
-    crafted: 'copycats:copycat_wall'
   },
   {
     count: 2,
@@ -40,13 +26,6 @@ global['COPYCATS_DECORATIVE'] = [
     base: 'copycats:copycat_box',
     crafted_name: 'catwalk',
     crafted: 'copycats:copycat_catwalk'
-  },
-  {
-    count: 2,
-    base_name: 'block',
-    base: 'copycats:copycat_block',
-    crafted_name: 'slab',
-    crafted: 'copycats:copycat_slab'
   },
   {
     count: 2,

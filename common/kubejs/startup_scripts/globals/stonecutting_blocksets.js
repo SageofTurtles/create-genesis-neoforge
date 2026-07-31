@@ -1699,5 +1699,12 @@ global['STONECUTTING_BLOCKSETS'] = [
     slab: 'mcwroofs:base_roof_slab',
     stairs: null,
     wall: null
+  },
+  {
+    name: 'copycat',
+    block: 'copycats:copycat_block',
+    slab: 'copycats:copycat_slab',
+    stairs: 'copycats:copycat_stairs',
+    wall: 'copycats:copycat_wall'
   }
 ]
