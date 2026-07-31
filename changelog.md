@@ -1,5 +1,65 @@
 # Changelog
 ---
+## v0.1.0-alpha.11 (31 July 2026)
+**Now requires NeoForge version 21.1.238 or later!**
+### Changes:
+- Updated splash texts in memory of mossymoose5802
+- Set max height for jetpack flight to 32 blocks
+- Adjusted molten metal conversion ratio in recipes
+- Some minor recipe changes due to conflicts/rebalancing
+- Removed temporary fix for Steam 'n' Rails recipes (resolved in latest release)
+- Implemented custom tooltip borders according to when items can be obtained:
+  - Andesite Age (early game items)
+  - Brass Age (post-Nether)
+  - Dragon Age (post-End)
+  - Unobtainable (can't be obtained as items in survival)
+- Added various recipe catalysts in JEI for easier recipe searching
+- Added custom recipe categories in JEI:
+  - Block Interaction
+  - Mob Interaction
+  - Cauldron Filling
+  - Stone Generation
+  - Fluid Conversion
+  - Locometal Painting (Steam 'n' Rails)
+### Added:
+- Advanced Loot Info (1.12.0)
+- Create: Shuffle Filter (2.1.1)
+- KubeJS Additions (6.0.0)
+### Removed:
+- Just Enough Archaeology
+- Just Enough Resources
+### Updated:
+- Architectury API (13.0.8 > 13.0.11)
+- Azimuth API (1.4.1 > 1.4.3)
+- Create Aeronautics: Claims (0.9.2 > 0.9.3)
+- Create Cobblestone (1.4.11 > 1.4.12)
+- Create Jetpack (5.1.2 > 5.2.1)
+- Create Slice & Dice (4.3.2 > 4.3.3)
+- Create: Advanced Optimization (1.0 > 1.2)
+- Create: Aquatic Ambitions (2.0.3 > 2.0.4)
+- Create: Bits 'n' Bobs (2.1.11 > 2.1.15)
+- Create: Dragons Plus (1.11.2b > 1.11.3)
+- Create: LazyTick (2.4.9 > 2.5.15)
+- Create: Mobile Packages (0.7.6 > 0.7.7)
+- Fusion (1.3.5 > 1.3.12)
+- Horseman (1.5.11 > 1.5.12)
+- JourneyMap (6.0.0 > 6.0.2)
+- Just Enough Breeding (3.1.0 > 3.2.1)
+- Just Enough Effects Descriptions (2.3.2 > 2.3.3)
+- Just Enough Items (19.39.0.368 > 19.43.0.390)
+- ModernFix (5.27.15 > 5.27.20)
+- Moonlight Lib (3.1.1 > 3.3.0)
+- Open Parties and Claims (0.27.6 > 0.29.3)
+- Questlog (3.2.0 > 3.3.0)
+- Rhino (2101.2.7-build.85 > 2101.2.8-build.91)
+- Simple Voice Chat (2.6.20 > 2.6.21)
+- Sodium (0.8.12 > 0.8.13-beta.1)
+- Sophisticated Backpacks (3.25.71.1997 > 3.25.73.2020)
+- Sophisticated Core (1.4.75.2161 > 1.4.80.2194)
+- Steam 'n' Rails Neoforge (0.3.0-beta > 0.3.0-beta.2)
+- Strut Your Stuff (1.2.7 > 1.3.0)
+- SuperMartijn642's Core Lib (1.1.21 > 1.1.22)
+---
 ## v0.1.0-alpha.10 (15 July 2026)
 ### Changes:
 - Applied more custom recipe changes
