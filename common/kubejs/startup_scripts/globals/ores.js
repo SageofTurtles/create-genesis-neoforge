@@ -20,7 +20,7 @@ global['ORES'] = [
     stone: 'minecraft:cobblestone',
     productType: 'fluid',
     product: 'createmetalwork:molten_iron',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 15
   },
   {
@@ -28,23 +28,23 @@ global['ORES'] = [
     stone: 'minecraft:cobbled_deepslate',
     productType: 'fluid',
     product: 'createmetalwork:molten_iron',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 15
   },
   {
     ore: 'minecraft:copper_ore',
     stone: 'minecraft:cobblestone',
-    productType: 'item',
-    product: 'minecraft:copper_block',
-    productQuantity: 3,
+    productType: 'fluid',
+    product: 'createmetalwork:molten_copper',
+    productQuantity: 729,
     xp: 75
   },
   {
     ore: 'minecraft:deepslate_copper_ore',
     stone: 'minecraft:cobbled_deepslate',
-    productType: 'item',
-    product: 'minecraft:copper_block',
-    productQuantity: 3,
+    productType: 'fluid',
+    product: 'createmetalwork:molten_copper',
+    productQuantity: 729,
     xp: 75
   },
   {
@@ -52,7 +52,7 @@ global['ORES'] = [
     stone: 'minecraft:cobblestone',
     productType: 'fluid',
     product: 'createmetalwork:molten_zinc',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 15
   },
   {
@@ -60,7 +60,7 @@ global['ORES'] = [
     stone: 'minecraft:cobbled_deepslate',
     productType: 'fluid',
     product: 'createmetalwork:molten_zinc',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 15
   },
   {
@@ -68,7 +68,7 @@ global['ORES'] = [
     stone: 'minecraft:cobblestone',
     productType: 'fluid',
     product: 'createmetalwork:molten_gold',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 30
   },
   {
@@ -76,7 +76,7 @@ global['ORES'] = [
     stone: 'minecraft:cobbled_deepslate',
     productType: 'fluid',
     product: 'createmetalwork:molten_gold',
-    productQuantity: 450,
+    productQuantity: 135,
     xp: 30
   },
   {
@@ -84,7 +84,7 @@ global['ORES'] = [
     stone: 'minecraft:netherrack',
     productType: 'fluid',
     product: 'createmetalwork:molten_gold',
-    productQuantity: 300,
+    productQuantity: 90,
     xp: 6
   },
   {
@@ -164,7 +164,7 @@ global['ORES'] = [
     stone: 'minecraft:blackstone',
     productType: 'fluid',
     product: 'createmetalwork:molten_gold',
-    productQuantity: 180,
+    productQuantity: 54,
     xp: 3
   },
   {

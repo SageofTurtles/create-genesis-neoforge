@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
   heated('industrial_iron_nugget', 'minecraft:iron_nugget', 'createdeco:industrial_iron_nugget')
   heated('ochre_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:yellow_dye'], 'minecraft:ochre_froglight')
   heated('pearlescent_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:purple_dye'], 'minecraft:pearlescent_froglight')
-  heated('prismarine_alloy', ['8x minecraft:prismarine_shard', Fluid.of('createmetalwork:molten_copper', 90)], 'create_aquatic_ambitions:prismarine_alloy')
+  heated('prismarine_alloy', ['8x minecraft:prismarine_shard', Fluid.of('createmetalwork:molten_copper', 27)], 'create_aquatic_ambitions:prismarine_alloy')
   heated('tuff', ['2x minecraft:flint', 'minecraft:cobblestone', Fluid.lava(100)], 'minecraft:tuff')
   heated('verdant_froglight', ['2x minecraft:magma_cream', Fluid.water(500), 'minecraft:green_dye'], 'minecraft:verdant_froglight')
   superheated('diamond', ['12x minecraft:coal_block', Fluid.lava(1000)], 'minecraft:diamond')
@@ -37,9 +37,9 @@ ServerEvents.recipes(event => {
   global.MOLTEN_METALS.forEach(entry => {
     const { name, molten, block, crushed, raw, ingot, sheet, nugget } = entry
     if (name == 'electrum' || name == 'industrial_iron') return
-    unheated(`${name}_molten_to_block`, Fluid.of(molten, 810), block)
+    unheated(`${name}_molten_to_block`, Fluid.of(molten, 243), block)
     if (ingot != null) {
-      unheated(`${name}_molten_to_ingot`, Fluid.of(molten, 90), ingot)
+      unheated(`${name}_molten_to_ingot`, Fluid.of(molten, 27), ingot)
       if (crushed != null) {
         heated(`${name}_crushed_to_ingot`, crushed, ingot)
       }
