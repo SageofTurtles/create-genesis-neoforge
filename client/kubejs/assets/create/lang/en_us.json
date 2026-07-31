@@ -5,5 +5,7 @@
   "block.create.andesite_door": "Andesite Folding Door",
   "block.create.brass_door": "Brass Sliding Door",
   "block.create.copper_door": "Copper Folding Door",
-  "block.create.placard": "White Placard"
+  "block.create.placard": "White Placard",
+  "item.create.red_sand_paper": "Red Sandpaper",
+  "item.create.sand_paper": "Sandpaper"
 }
