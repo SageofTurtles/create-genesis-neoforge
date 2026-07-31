@@ -41,7 +41,7 @@
 	# Preview model to render in the second panel. Options: armor_stand, player_skin.
 	# 
 	# Default: armor_stand
-	PREVIEW_PANEL_MODEL = "armor_stand"
+	PREVIEW_PANEL_MODEL = "player_skin"
 	# If PREVIEW_PANEL_MODEL is set to player_skin, renders the current player skin (true) or a placeholder skin (false).
 	# 
 	# Default: true
@@ -165,15 +165,15 @@
 	# Title alignment. Options: left, middle, right.
 	# 
 	# Default: left
-	TITLE_X_ALIGNMENT = "left"
+	TITLE_X_ALIGNMENT = "middle"
 	# Rating alignment. Options: left, middle, right.
 	# 
 	# Default: left
-	RATING_X_ALIGNMENT = "left"
+	RATING_X_ALIGNMENT = "middle"
 	# Show rating text.
 	# 
 	# Default: false
-	SHOW_RATING = false
+	SHOW_RATING = true
 	# Appends the display name of the mod that adds the hovered item as the last tooltip line (blue italic), always visible in both
 	# survival and creative (previously visible only in creative mode).
 	# 
