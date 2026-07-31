@@ -1,4 +1,5 @@
 global['BLACKLISTED_ITEMS'] = [
+  'bits_n_bobs:test_rope',
   'brewinandchewin:kombucha',
   'create_aquatic_ambitions:calcium_rich_powder',
   'create_aquatic_ambitions:suspicious_rock',
