@@ -26,3 +26,7 @@
 	#Only enable this if you know what you're doing.
 	#Default: false
 	enableDeleteCommand = false
+	#If true, sublevel forceloading consumes OPAC/FTB forceload slots.
+	#If false, all activated claims get a free sub-level forceload.
+	#Default: false
+	providerSlotsForceload = true
