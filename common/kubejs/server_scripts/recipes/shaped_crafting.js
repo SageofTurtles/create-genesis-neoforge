@@ -33,9 +33,14 @@ ServerEvents.recipes(event => {
 
   // TARGETED RECIPE CHANGES
   eight_one('cying_obsidian', 'minecraft:obsidian', 'minecraft:ghast_tear', 'minecraft:crying_obsidian', 8)
+  eight_one('dark_metal_cogwheel', 'create:cogwheel', 'dndecor:dark_metal_block', 'dndecor:dark_metal_cogwheel', 8)
   eight_one('garage_white_door', '#kubejs:garage_doors', 'minecraft:white_dye', 'mcwdoors:garage_white_door', 8)
+  eight_one('large_dark_metal_cogwheel', 'create:large_cogwheel', 'dndecor:dark_metal_block', 'dndecor:large_dark_metal_cogwheel', 8)
   event.shaped('2x create:industrial_iron_window', ['ABA', 'BCB'], { A: 'minecraft:iron_nugget', B: 'createdeco:industrial_iron_nugget', C: '#c:glass_blocks/colorless' }).id('kubejs:industrial_iron_window_shaped')
   event.shaped('2x decorative_blocks:bar_panel', [' A ', 'A A', ' A '], { A: 'createaddition:iron_rod' }).id('kubejs:bar_panel_shaped')
+  event.shaped('2x minecraft:cobweb', [' A ', 'A A', ' A '], { A: 'minecraft:string' }).id('kubejs:cobweb_shaped')
+  event.shaped('2x minecraft:ender_eye', [' A ', 'BCD', ' E '], { A: 'minecraft:wind_charge', B: 'create_aquatic_ambitions:spiky_shell', C: 'minecraft:ender_pearl', D: 'minecraft:echo_shard', E: 'minecraft:blaze_rod' }).id('kubejs:ender_eye_shaped')
+  event.shaped('4x bits_n_bobs:industrial_grating', [' A ', 'A A', ' A '], { A: 'create:industrial_iron_block' }).id('kubejs:industrial_grating_shaped')
   event.shaped('4x decorative_blocks:rocky_dirt', ['AB', 'BA'], { A: 'minecraft:dirt', B: 'minecraft:cobblestone' }).id('kubejs:rocky_dirt_shaped')
   event.shaped('6x minecraft:chain', ['A', 'B', 'A'], { A: 'create:zinc_nugget', B: 'create:zinc_ingot' }).id('kubejs:chain_from_zinc_shaped')
   event.shaped('6x minecraft:chain', ['A', 'B', 'A'], { A: 'minecraft:iron_nugget', B: 'minecraft:iron_ingot' }).id('kubejs:chain_from_iron_shaped')
@@ -48,7 +53,6 @@ ServerEvents.recipes(event => {
   event.shaped('minecraft:bee_nest', ['AAA', 'BBB', 'AAA'], { A: '#minecraft:logs', B: 'minecraft:honeycomb' }).id('kubejs:bee_nest_shaped')
   event.shaped('minecraft:bell', ['ABA', 'BCB'], { A: 'minecraft:stick', B: 'create:golden_sheet', C: 'minecraft:gold_nugget' }).id('kubejs:bell_shaped')
   event.shaped('minecraft:dispenser', [' AB', 'ACB', ' AB'], { A: 'minecraft:stick', B: 'minecraft:string', C: 'minecraft:dropper' }).id('kubejs:dispenser_stackable_shaped')
-  event.shaped('minecraft:ender_eye', [' A ', 'BCD', ' E '], { A: 'minecraft:wind_charge', B: 'create_aquatic_ambitions:spiky_shell', C: 'minecraft:ender_pearl', D: 'minecraft:echo_shard', E: 'minecraft:blaze_powder' }).id('kubejs:ender_eye_shaped')
   event.shaped('minecraft:lightning_rod', ['A', 'B', 'B'], { A: 'minecraft:copper_ingot', B: 'createaddition:copper_rod' }).id('kubejs:lightning_rod')
   event.shaped('minecraft:recovery_compass', [' A ', 'ABA', ' A '], { A: 'minecraft:iron_ingot', B: 'minecraft:echo_shard' }).id('kubejs:recovery_compass_shaped')
   event.shaped('minecraft:saddle', ['  A', 'AAA', 'B B'], { A: 'minecraft:leather', B: 'minecraft:iron_ingot' }).id('kubejs:saddle_shaped')
@@ -86,10 +90,14 @@ ServerEvents.recipes(event => {
     const { count, base_name, base, crafted_name, crafted } = entry
     switch (count) {
       case 1:
-        one_by_one(`copycat_${crafted_name}_to_${base_name}`, crafted, base, 1)
+        if (crafted_name != 'stairs' && crafted_name != 'vertical_stairs' && crafted_name != 'wall') {
+          one_by_one(`copycat_${crafted_name}_to_${base_name}`, crafted, base, 1)
+        }
         break
       case 2:
-        two_by_one(`copycat_${crafted_name}_to_${base_name}`, crafted, base, 1)
+        if (crafted_name != 'slab') {
+          two_by_one(`copycat_${crafted_name}_to_${base_name}`, crafted, base, 1)
+        }
         break
       case 3:
         event.shaped(base, ['A A', ' A '], { A: crafted }).id(`kubejs:copycat_${crafted_name}_to_${base_name}_shaped`)

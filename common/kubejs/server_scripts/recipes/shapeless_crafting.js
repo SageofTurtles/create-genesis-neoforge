@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
   }
 
   // TARGETED RECIPE CHANGES
+  add('andesite_depositor', ['create:andesite_casing', 'create:iron_sheet', 'create:electron_tube'], 'numismatics:andesite_depositor', 1)
   add('banking_guide', ['create:sturdy_sheet', '#numismatics:id_cards'], 'numismatics:banking_guide', 1)
   add('concrete_powder', ['4x minecraft:sand', '4x minecraft:gravel'], 'kubejs:concrete_powder', 8)
   add('crimson_nylium', ['minecraft:netherrack', 'minecraft:crimson_fungus'], 'minecraft:crimson_nylium', 1)

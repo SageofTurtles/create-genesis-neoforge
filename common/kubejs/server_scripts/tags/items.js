@@ -33,6 +33,7 @@ ServerEvents.tags('item', event => {
   // TARGETED TAG CHANGES
   add('createaddition:plants', 'minecraft:poisonous_potato')
   add('dndecor:dark_metal_decor', ['create:industrial_iron_block', 'dndecor:industrial_plating_block'])
+  add('dndecor:industrial_cogwheels', 'gnkinetics:industrial_gear')
   add('kubejs:folding_doors', ['create:andesite_door', 'create:copper_door'])
   add('kubejs:garage_doors', /mcwdoors:garage_.*_door$/)
   add('kubejs:portable_engines', /^simulated:.*_portable_engine$/)

@@ -24,6 +24,6 @@ ServerEvents.recipes(event => {
   })
   Ingredient.of('#minecraft:decorated_pot_sherds').itemIds.forEach(entry => {
     let name = entry.split(':')[1]
-    add(name, entry, 'minecraft:brick', 'createmetalwork:molten_gold', 180, entry, 'block.grindstone.use')
+    add(name, entry, 'minecraft:brick', 'createmetalwork:molten_gold', 54, entry, 'block.grindstone.use')
   })
 })
