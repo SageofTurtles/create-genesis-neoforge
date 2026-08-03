@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": {
+    "#minecraft:lava": {
+      "burn_time": 19200
+    },
+    "#c:plantoil": {
+      "burn_time": 4800
+    }
+  }
+}

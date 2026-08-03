@@ -73,6 +73,25 @@ JEIAddedEvents.registerRecipeCatalysts(event => {
   let CONDUIT_CHANNELING = event.data.jeiHelpers.getRecipeType('create_aquatic_ambitions:channeling').get()
   event.data[addRecipeCatalyst]('minecraft:conduit', CONDUIT_CHANNELING)
 
+  // FUELING
+  let FUELING = event.data.jeiHelpers.getRecipeType('createaddition:liquid_burning').get()
+  event.data[addRecipeCatalyst]('simulated:white_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:light_gray_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:gray_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:black_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:brown_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:red_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:orange_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:yellow_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:lime_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:green_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:cyan_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:light_blue_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:blue_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:purple_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:magenta_portable_engine', FUELING)
+  event.data[addRecipeCatalyst]('simulated:pink_portable_engine', FUELING)
+
   // ANVIL
   let ANVIL = event.data.jeiHelpers.getRecipeType('minecraft:anvil').get()
   event.data[addRecipeCatalyst]('create_enchantment_industry:blaze_forger', ANVIL)

@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": {
+    "create_dragons_plus:dragon_breath": {
+      "burn_time": 19200
+    },
+    "#c:biofuel": {
+      "burn_time": 24000
+    }
+  }
+}
