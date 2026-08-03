@@ -13,6 +13,7 @@ glintSpeed:0.5
 glintStrength:0.5086597711267606
 prioritizeChunkUpdates:0
 fullscreen:false
+gamma:0.5
 graphicsMode:0
 guiScale:3
 maxFps:120
@@ -129,6 +130,7 @@ key_key.corpse.death_history:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.jetpack.toggle_active.description:key.keyboard.z
 key_key.jetpack.toggle_hover.description:key.keyboard.h
+key_key.jetpack.activate_elytra.description:key.keyboard.unknown
 key_key.sophisticateditemactions.item_highlight:key.keyboard.slash:SHIFT
 key_key.sophisticateditemactions.deposit_item:key.keyboard.up
 key_key.sophisticateditemactions.restock_item:key.keyboard.down
@@ -144,7 +146,9 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.showBookmarkTooltipFeatures:key.keyboard.left.control
 key_key.jei.quickMove:key.mouse.left:SHIFT
+key_key.jei.shareToChat:key.keyboard.unknown
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -160,6 +164,7 @@ key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
 key_key.jei.recipeBack:key.keyboard.backspace
 key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.pauseRecipeCycling:key.keyboard.left.shift
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
@@ -188,11 +193,11 @@ key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.down:SHIFT
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.x
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
