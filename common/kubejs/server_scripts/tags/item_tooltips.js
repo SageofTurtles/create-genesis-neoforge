@@ -178,6 +178,8 @@ ServerEvents.tags('item', event => {
     'numismatics:bank_terminal',
     'numismatics:banking_guide',
     'numismatics:vendor',
+    'numismaticsutils:bank_meter',
+    'numismaticsutils:portable_bank_terminal',
     'offroad:borehead_bearing',
     'offroad:rockcutting_wheel',
     'railways:conductor_vent',
