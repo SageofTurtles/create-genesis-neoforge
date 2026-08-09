@@ -9,6 +9,8 @@ ServerEvents.tags('item', event => {
   ]
 
   const UNOBTAINABLE_ITEMS = [
+    'create_marketplace:debug_paper',
+    'create_marketplace:server_vendor',
     'create_power_loader:andesite_chunk_loader',
     'create:handheld_worldshaper',
     'createlazytick:clock',

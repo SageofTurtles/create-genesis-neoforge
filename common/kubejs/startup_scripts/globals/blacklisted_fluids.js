@@ -3,5 +3,6 @@ global['BLACKLISTED_FLUIDS'] = [
   'createmetalwork:molten_bronze',
   'createmetalwork:molten_steel',
   'createmetalwork:molten_tin',
-  'sophisticatedcore:xp_still'
+  'sophisticatedcore:xp_still',
+  'streamsreflowing:stream'
 ]

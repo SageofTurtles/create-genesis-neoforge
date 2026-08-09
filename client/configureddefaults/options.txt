@@ -13,7 +13,6 @@ glintSpeed:0.5
 glintStrength:0.5086597711267606
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:0.5
 graphicsMode:0
 guiScale:3
 maxFps:120
@@ -71,7 +70,7 @@ notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -252,6 +251,7 @@ key_create.keyinfo.rotate_menu:key.keyboard.left.alt
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
+key_key.createmarketplace.open_market:key.keyboard.unknown
 key_key.aeroworks.joystick.free_camera:key.keyboard.left.shift
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
 key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.r

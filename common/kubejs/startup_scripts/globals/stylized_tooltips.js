@@ -43,6 +43,15 @@ global['STYLIZED_TOOLTIPS'] = [
     ]
   },
   {
+    item: 'create_marketplace:registration_book',
+    uses: [
+      {
+        action: 'R-Clicked on a Vendor or Tablecloth',
+        text: 'Adds the $trade$ offer to the global $Global Market$'
+      }
+    ]
+  },
+  {
     item: 'extra_gauges:integer_selector',
     summary: [
       'Can be set to output a $whole number$. Useful for connecting to $Logic Gauges$ and $Display Links$.'
