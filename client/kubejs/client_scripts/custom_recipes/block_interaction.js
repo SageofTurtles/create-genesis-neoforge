@@ -11,7 +11,7 @@ JEIAddedEvents.registerCategories(event => {
     category
       .title('Block Interaction')
       .background(guiHelper.createBlankDrawable(BLOCK_INTERACTION_W, BLOCK_INTERACTION_H))
-      .icon(guiHelper.createDrawableItemStack(Item.of('minecraft:carved_pumpkin')))
+      .icon(guiHelper.createDrawableItemStack(Item.of('create_enchantment_industry:super_experience_block')))
 
       .isRecipeHandled(recipe => !!(recipe && recipe.data))
 
@@ -133,6 +133,14 @@ JEIAddedEvents.registerRecipes(event => {
       ],
       output: 'minecraft:honey_bottle',
       note: 'Right-click on a full beehive or bee nest with a glass bottle to extract honey.'
+    })
+
+    .add({
+      type: 'block_interaction',
+      item: 'minecraft:lightning_rod',
+      block: 'create:experience_block',
+      output: 'create_enchantment_industry:super_experience_block',
+      note: 'When lightning strikes a block of experience, it has a chance to transform into super experience.'
     })
 
     .add({

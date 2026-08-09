@@ -113,4 +113,12 @@ JEIAddedEvents.registerRecipes(event => {
       ],
       note: 'A bogged will drop two mushrooms when sheared.'
     })
+
+    .add({
+      type: 'mob_interaction',
+      item: 'minecraft:wither_spawn_egg',
+      spawn_egg: '#kubejs:spawn_eggs',
+      output: 'minecraft:wither_rose',
+      note: 'When a wither kills a mob, it drops a wither rose.'
+    })
 })
