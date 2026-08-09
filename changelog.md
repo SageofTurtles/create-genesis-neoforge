@@ -1,5 +1,44 @@
 # Changelog
 ---
+## v0.1.0-alpha.12 (09 August 2026)
+### Changes:
+- Removed dynamic lighting support due to dependency conflicts
+- New liquid fuel compat for portable engines & train fuel tanks
+- Added dragon's breath as a superheating liquid fuel
+- More custom JEI information for ease of use
+- Added new Create-themed tooltips for various items, explaining their usage where less intuitive
+### Added:
+- Create Aeronautics: Portable Engine Liquid Fuel (2.0.0)
+- Create Aeronautics: Portable Engine Overdrive (1.0.1)
+- Create: Marketplace (0.5.0)
+- Create: Numismatics Utils (2.2)
+- Streams Reflowing (2.11.0)
+### Removed:
+- Create Sable Dynamic Lights
+- Create: Dynamic Lights
+- Reese's Sodium Options
+- Sodium Dynamic Lights
+- Sodium Extras
+- Sodium Options API
+### Updated:
+- Create: Advanced Optimization (1.2 > 1.3)
+- Create: Aeroworks (1.3.0 > 1.4.2)
+- Create: Dragons Plus (1.11.3 > 1.11.4)
+- Create: Enchantment Industry (2.5.0-preview-alpha1 > 2.5.1)
+- Create: Shuffle Filter (2.1.1 > 2.2.0)
+- Jade (15.10.5 > 15.10.6)
+- JEI WorldGen (1.4.0 > 1.4.1)
+- JourneyMap (6.0.2 > 6.0.3)
+- Just Enough Items (19.43.0.390 > 19.43.0.395)
+- Moonlight Lib (3.3.0 > 3.3.3)
+- Questlog (3.3.0 > 3.3.2)
+- Simple Voice Chat (2.6.21 > 2.6.22)
+- Sodium (0.8.13-beta.1 > 0.8.13-beta.2)
+- Sophisticated Backpacks (3.25.73.2020 > 3.25.74.2056)
+- Sophisticated Core (1.4.80.2194 > 1.4.84.2248)
+- Sophisticated Item Actions (0.5.8.342 > 0.5.9.366)
+- SuperMartijn642's Core Lib (1.1.22 > 1.1.23a)
+---
 ## v0.1.0-alpha.11 (31 July 2026)
 **Now requires NeoForge version 21.1.238 or later!**
 ### Changes:
