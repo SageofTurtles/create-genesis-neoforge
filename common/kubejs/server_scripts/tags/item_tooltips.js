@@ -60,6 +60,7 @@ ServerEvents.tags('item', event => {
     'aeronautics:mounted_potato_cannon',
     'aeronautics:propeller_bearing',
     'aeroworks:control_desk',
+    'aeroworks:copycat_control_desk',
     'aeroworks:gyroscope',
     'aeroworks:joystick',
     'aeroworks:mechanical_servo',
