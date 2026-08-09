@@ -176,7 +176,7 @@ global['STYLIZED_TOOLTIPS'] = [
   {
     item: 'railways:fuel_tank',
     summary: [
-      'Can be placed on a $train$ and filled with $Lava$, $Biofuel$, or $Seed Oil$. Increases the $train\'s speed$ by consuming the $fuel$.'
+      'Can be placed on a $train$ and filled with $Lava$, $Biofuel$, $Seed Oil$, or $Dragon\'s Breath$. Increases the $train\'s speed$ by consuming the $fuel$.'
     ]
   },
   {
