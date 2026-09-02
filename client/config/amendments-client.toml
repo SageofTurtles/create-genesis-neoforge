@@ -1,10 +1,11 @@
 [general]
 	tooltip_hints = false
-	custom_configured_screen = true
 	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
 	texture_pack_support = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
+	#Disables the chat warning shown when Enhanced Block Entities is installed
+	no_enhanced_block_entities_warn = false
 
 [sign]
 	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
@@ -79,6 +80,8 @@
 [lantern]
 	#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
 	fast_lanterns = false
+	#Renders the swaying wall lantern through the item renderer so its shading comes from the model's normals instead of the block model's baked per-face shading. This makes the lantern shade correctly no matter which wall it faces, at the cost of losing block ambient occlusion. Only affects the animated (close-up) renderer
+	entity_shading = true
 	#Size lanterns when held in hand
 	# Default: 0.625
 	# Range: 0.0 ~ 2.0
@@ -86,9 +89,7 @@
 	#Gives a special animation to lanterns when held in hand
 	lantern_item_holding = true
 	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
-	lantern_item_holding_up = true
-	#Renders the swaying wall lantern through the item renderer so its shading comes from the model's normals instead of the block model's baked per-face shading. This makes the lantern shade correctly no matter which wall it faces, at the cost of losing block ambient occlusion. Only affects the animated (close-up) renderer
-	entity_shading = true
+	lantern_item_holding_up = false
 
 	[lantern.swing_physics]
 		frequency = 0.6000000238418579
@@ -116,6 +117,8 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0
 	torch_item_size = 1.0
+	#Renders a flame particle on top of held torches
+	torch_item_flame = true
 	#Gives a special animation to supplementaries candle holders when held in hand
 	candle_holder_item_holding = true
 	#Size lanterns when held in hand
@@ -126,5 +129,3 @@
 	fixed_holding_animations = false
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
-	#Renders a flame particle on top of held torches
-	torch_item_flame = true
