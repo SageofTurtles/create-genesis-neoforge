@@ -1,4 +1,57 @@
 # Changelog
+## v0.1.0-alpha.13 (02 September 2026)
+**Now requires NeoForge version 21.1.248 or later!**
+### Changes:
+- Added modded items to chest loot tables to encourage exploration
+- Minor tweaks to default Complementary shader settings
+- Reworked custom tooltips:
+  - Borders and colors simplified
+  - Added "Currency" category for coins
+  - Switched from tags to explicitly-defined item groups
+### Added:
+- Create: Transmission! (1.2.2)
+### Updated:
+- Amendments (2.1.7 > 2.1.9)
+- Azimuth API (1.4.3 > 1.4.8)
+- BaguetteLib (2.0.3 > 2.0.6)
+- Create Aeronautics (1.3.0 > 1.3.2)
+- Create Cobblestone (1.4.12 > 1.5.0)
+- Create Crafts & Additions (1.6.0 > 1.7.0)
+- Create: Advanced Optimization (1.3 > 1.4)
+- Create: Aeroworks (1.4.2 > 1.5.0)
+- Create: Bits 'n' Bobs (2.1.15-beta > 2.2.9)
+- Create: Central Kitchen (2.5.0 > 2.6.0)
+- Create: Connected (1.3.2 > 1.3.3)
+- Create: Copycats+ (3.0.4 > 3.0.8)
+- Create: Dragons Plus (1.11.4 > 1.11.7b)
+- Create: Enchantment Industry (2.5.1 > 2.5.3b)
+- Create: LazyTick (2.5.15 > 2.6.25)
+- Create: Numismatics (1.0.20 > 1.1.0)
+- Create: Vintage (1.3.7 > 1.3.9)
+- Enchantment Descriptions (21.1.10 > 21.1.11)
+- Farmer's Delight (1.3.2 > 1.3.4)
+- Fusion (1.3.12 > 1.3.14a)
+- Horseman (1.5.12 > 1.5.13)
+- ImmediatelyFast (1.6.11 > 1.6.13)
+- Jade Addons (6.1.0 > 6.1.1)
+- JEI WorldGen (1.4.1 > 1.4.4)
+- JourneyMap (6.0.3 > 6.0.7)
+- Just Enough Items (19.43.0.395 > 19.51.0.418)
+- KubeJS (2101.7.2-build.368 > 2101.7.2-build.374)
+- Lithostitched (1.7.13 > 1.8.0)
+- ModernFix (5.27.20 > 5.27.24)
+- Moonlight Lib (3.3.3 > 3.6.0)
+- Open Parties and Claims (0.29.3 > 0.30.3)
+- Particular Reforged (1.5.5 > 1.5.7)
+- Puzzles Lib (21.1.52 > 21.1.56)
+- Sable (2.0.3 > 2.0.5)
+- Sodium (0.8.13-beta.2 > 0.8.13)
+- Sophisticated Backpacks (3.25.74.2056 > 3.25.78.2107)
+- Sophisticated Core (1.4.84.2248 > 1.4.90.2299)
+- Sophisticated Item Actions (0.5.9.366 > 0.5.15.409)
+- Streams Reflowing (2.11.0 > 2.13.1)
+- SuperMartijn642's Core Lib (1.1.23a > 1.1.24)
+- Towns and Towers (1.13.9 > 1.13.11)
 ---
 ## v0.1.0-alpha.12 (09 August 2026)
 ### Changes:
