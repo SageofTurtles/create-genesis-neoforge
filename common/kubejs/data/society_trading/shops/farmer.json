@@ -1,0 +1,442 @@
+{
+  "shop_id": "farmer",
+  "name": "Farmer",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/farmer",
+  "villager_profession": "farmer",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:brown_mushroom",
+            "count": 4
+          },
+          "trade_id": "farmer/buy/brown_mushroom"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:red_mushroom",
+            "count": 4
+          },
+          "trade_id": "farmer/buy/red_mushroom"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:carrot",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/carrot"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:potato",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/potato"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "farmersdelight:onion",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/onion"
+        },
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:beetroot_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/beetroot_seeds"
+        },
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:wheat_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/wheat_seeds"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:pumpkin_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/pumpkin_seeds"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:melon_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/melon_seeds"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 4
+          },
+          "request": {
+            "id": "farmersdelight:tomato_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/tomato_seeds"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 4
+          },
+          "request": {
+            "id": "farmersdelight:cabbage_seeds",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/cabbage_seeds"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "farmersdelight:rice",
+            "count": 8
+          },
+          "trade_id": "farmer/buy/rice"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "sliceanddice:fertilizer_bucket",
+            "count": 1
+          },
+          "trade_id": "farmer/buy/fertilizer_bucket"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:brown_mushroom",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "farmer/sell/brown_mushroom"
+        },
+        {
+          "offer": {
+            "id": "minecraft:red_mushroom",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "farmer/sell/red_mushroom"
+        },
+        {
+          "offer": {
+            "id": "minecraft:carrot",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/carrot"
+        },
+        {
+          "offer": {
+            "id": "minecraft:potato",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/potato"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:rice_panicle",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/rice_panicle"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:onion",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/onion"
+        },
+        {
+          "offer": {
+            "id": "minecraft:beetroot",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "farmer/sell/beetroot"
+        },
+        {
+          "offer": {
+            "id": "minecraft:wheat",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "farmer/sell/wheat"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:tomato",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "farmer/sell/tomato"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:cabbage",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "farmer/sell/cabbage"
+        },
+        {
+          "offer": {
+            "id": "minecraft:pumpkin",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/pumpkin"
+        },
+        {
+          "offer": {
+            "id": "minecraft:melon",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "farmer/sell/melon"
+        },
+        {
+          "offer": {
+            "id": "minecraft:beef",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "farmer/sell/beef"
+        },
+        {
+          "offer": {
+            "id": "minecraft:porkchop",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "farmer/sell/porkchop"
+        },
+        {
+          "offer": {
+            "id": "minecraft:chicken",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "farmer/sell/chicken"
+        },
+        {
+          "offer": {
+            "id": "minecraft:mutton",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "farmer/sell/mutton"
+        },
+        {
+          "offer": {
+            "id": "minecraft:rabbit",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "farmer/sell/rabbit"
+        },
+        {
+          "offer": {
+            "id": "minecraft:milk_bucket",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "farmer/sell/milk_bucket"
+        }
+      ]
+    }
+  ]
+}

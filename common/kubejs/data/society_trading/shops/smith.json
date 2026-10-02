@@ -1,0 +1,412 @@
+{
+  "shop_id": "smith",
+  "name": "Smith",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/smith",
+  "villager_profession": "weaponsmith",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_oak_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_spruce_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_spruce_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_birch_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_birch_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_jungle_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_jungle_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_acacia_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_acacia_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_dark_oak_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_dark_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_mangrove_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_mangrove_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_cherry_log",
+            "count": 8
+          },
+          "trade_id": "smith/buy/stripped_cherry_log"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:iron_sheet",
+            "count": 4
+          },
+          "trade_id": "smith/buy/iron_sheet"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:golden_sheet",
+            "count": 4
+          },
+          "trade_id": "smith/buy/golden_sheet"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:diamond",
+            "count": 4
+          },
+          "trade_id": "smith/buy/diamond"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 2
+          },
+          "request": {
+            "id": "minecraft:netherite_upgrade_smithing_template",
+            "count": 1
+          },
+          "trade_id": "smith/buy/netherite_upgrade_smithing_template"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:lava_bucket",
+            "count": 1
+          },
+          "trade_id": "smith/buy/lava_bucket"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:chain",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "smith/sell/chain"
+        },
+        {
+          "offer": {
+            "id": "minecraft:shears",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "smith/sell/shears"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_sword",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "smith/sell/iron_sword"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_sword",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "smith/sell/golden_sword"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_sword",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 19
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 306,
+          "trade_id": "smith/sell/diamond_sword"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_axe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "smith/sell/iron_axe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_axe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "smith/sell/golden_axe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_axe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 19
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 306,
+          "trade_id": "smith/sell/diamond_axe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_shovel",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "smith/sell/iron_shovel"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_shovel",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "smith/sell/golden_shovel"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_shovel",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 18
+          },
+          "numismatics_cost": 288,
+          "trade_id": "smith/sell/diamond_shovel"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_hoe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "smith/sell/iron_hoe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_hoe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "smith/sell/golden_hoe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_hoe",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 4
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 270,
+          "trade_id": "smith/sell/diamond_hoe"
+        },
+        {
+          "offer": {
+            "id": "minecraft:mace",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 22
+          },
+          "numismatics_cost": 342,
+          "trade_id": "smith/sell/mace"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "shop_id": "cook",
+  "name": "Cook",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/cook",
+  "villager_profession": "butcher",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:coal_block",
+            "count": 4
+          },
+          "trade_id": "cook/buy/coal_block"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "farmersdelight:cooking_pot",
+            "count": 1
+          },
+          "trade_id": "cook/buy/cooking_pot"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "farmersdelight:skillet",
+            "count": 1
+          },
+          "trade_id": "cook/buy/skillet"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "farmersdelight:cutting_board",
+            "count": 2
+          },
+          "trade_id": "cook/buy/cutting_board"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "farmersdelight:iron_knife",
+            "count": 1
+          },
+          "trade_id": "cook/buy/iron_knife"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "farmersdelight:carrot_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/carrot_crate"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "farmersdelight:potato_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/potato_crate"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "farmersdelight:beetroot_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/beetroot_crate"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create:dough",
+            "count": 4
+          },
+          "trade_id": "cook/buy/dough"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "farmersdelight:rice_bag",
+            "count": 1
+          },
+          "trade_id": "cook/buy/rice_bag"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "farmersdelight:tomato_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/tomato_crate"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "farmersdelight:onion_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/onion_crate"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "farmersdelight:cabbage_crate",
+            "count": 1
+          },
+          "trade_id": "cook/buy/cabbage_crate"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:egg",
+            "count": 4
+          },
+          "trade_id": "cook/buy/egg"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:milk_bucket",
+            "count": 1
+          },
+          "trade_id": "cook/buy/milk_bucket"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:beef",
+            "count": 4
+          },
+          "trade_id": "cook/buy/beef"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:porkchop",
+            "count": 4
+          },
+          "trade_id": "cook/buy/porkchop"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:chicken",
+            "count": 4
+          },
+          "trade_id": "cook/buy/chicken"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:mutton",
+            "count": 4
+          },
+          "trade_id": "cook/buy/mutton"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:rabbit",
+            "count": 4
+          },
+          "trade_id": "cook/buy/rabbit"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:cookie",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cook/sell/cookie"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:cake_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cook/sell/cake_slice"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:pumpkin_pie_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "cook/sell/pumpkin_pie_slice"
+        },
+        {
+          "offer": {
+            "id": "minecraft:rabbit_stew",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cook/sell/rabbit_stew"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:pizza_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cook/sell/pizza_slice"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:quiche_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cook/sell/quiche_slice"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:ham_and_cheese_sandwich",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "cook/sell/ham_and_cheese_sandwich"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:cocoa_fudge",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "cook/sell/cocoa_fudge"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:flaxen_cheese_wedge",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 63,
+          "trade_id": "cook/sell/flaxen_cheese_wedge"
+        },
+        {
+          "offer": {
+            "id": "create:honeyed_apple",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "cook/sell/honeyed_apple"
+        },
+        {
+          "offer": {
+            "id": "create:sweet_roll",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "cook/sell/sweet_roll"
+        },
+        {
+          "offer": {
+            "id": "createaddition:straw",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "cook/sell/straw"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:apple_pie_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "cook/sell/apple_pie_slice"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:sweet_berry_cheesecake_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "cook/sell/sweet_berry_cheesecake_slice"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:chocolate_pie_slice",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cook/sell/chocolate_pie_slice"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:sweet_berry_cookie",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 63,
+          "trade_id": "cook/sell/sweet_berry_cookie"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:honey_cookie",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 63,
+          "trade_id": "cook/sell/honey_cookie"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:chicken_sandwich",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cook/sell/chicken_sandwich"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:barbecue_stick",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "cook/sell/barbecue_stick"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:hamburger",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cook/sell/hamburger"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:bacon_sandwich",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "cook/sell/bacon_sandwich"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:mutton_wrap",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cook/sell/mutton_wrap"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:cabbage_rolls",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "cook/sell/cabbage_rolls"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:salmon_roll",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "cook/sell/salmon_roll"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:cod_roll",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "cook/sell/cod_roll"
+        }
+      ]
+    }
+  ]
+}

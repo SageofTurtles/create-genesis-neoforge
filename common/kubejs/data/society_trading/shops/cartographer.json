@@ -1,0 +1,1146 @@
+{
+  "shop_id": "cartographer",
+  "name": "Cartographer",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/cartographer",
+  "villager_profession": "cartographer",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:writable_book",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/writable_book"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:feather",
+            "count": 8
+          },
+          "trade_id": "cartographer/buy/feather"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:lantern",
+            "count": 4
+          },
+          "trade_id": "cartographer/buy/lantern"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "farmersdelight:rope",
+            "count": 4
+          },
+          "trade_id": "cartographer/buy/rope"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:white_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/white_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:light_gray_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/light_gray_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:gray_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/gray_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:black_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/black_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:brown_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/brown_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:red_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/red_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:orange_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/orange_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:yellow_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/yellow_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:lime_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/lime_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:green_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/green_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:cyan_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/cyan_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:light_blue_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/light_blue_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:blue_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/blue_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:purple_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/purple_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:magenta_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/magenta_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:pink_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/pink_dye_bucket"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:angler_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/angler_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:archer_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/archer_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:arms_up_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/arms_up_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:blade_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/blade_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:brewer_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/brewer_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:burn_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/burn_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:danger_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/danger_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:explorer_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/explorer_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:flow_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/flow_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:friend_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/friend_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:guster_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/guster_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:heart_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/heart_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:heartbreak_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/heartbreak_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:howl_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/howl_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:miner_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/miner_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:mourner_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/mourner_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:plenty_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/plenty_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:prize_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/prize_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:scrape_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/scrape_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:sheaf_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/sheaf_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:shelter_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/shelter_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:skull_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/skull_pottery_sherd"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:snort_pottery_sherd",
+            "count": 1
+          },
+          "trade_id": "cartographer/buy/snort_pottery_sherd"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:map",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "cartographer/sell/map"
+        },
+        {
+          "offer": {
+            "id": "create:crafting_blueprint",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cartographer/sell/crafting_blueprint"
+        },
+        {
+          "offer": {
+            "id": "simulated:contraption_diagram",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cartographer/sell/contraption_diagram"
+        },
+        {
+          "offer": {
+            "id": "create:empty_schematic",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cartographer/sell/empty_schematic"
+        },
+        {
+          "offer": {
+            "id": "create_pattern_schematics:empty_pattern_schematic",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cartographer/sell/empty_pattern_schematic"
+        },
+        {
+          "offer": {
+            "id": "minecraft:trial_key",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 4
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 270,
+          "trade_id": "cartographer/sell/trial_key"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:ponder_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_ponder"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:sing_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_sing"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:seek_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_seek"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:feel_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_feel"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:admire_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_admire"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:call_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_call"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:yearn_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_yearn"
+        },
+        {
+          "offer": {
+            "id": "horseman:copper_horn",
+            "count": 1,
+            "components": {
+              "minecraft:instrument": "minecraft:dream_goat_horn"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cartographer/sell/copper_horn_dream"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:angler_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/angler_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:archer_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/archer_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:arms_up_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/arms_up_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:blade_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/blade_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:brewer_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/brewer_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:burn_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/burn_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:danger_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/danger_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:explorer_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/explorer_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:flow_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/flow_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:friend_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/friend_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:guster_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/guster_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:heart_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/heart_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:heartbreak_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/heartbreak_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:howl_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/howl_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:miner_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/miner_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:mourner_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/mourner_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:plenty_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/plenty_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:prize_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/prize_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:scrape_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/scrape_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:sheaf_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/sheaf_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:shelter_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/shelter_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:skull_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/skull_pottery_sherd"
+        },
+        {
+          "offer": {
+            "id": "minecraft:snort_pottery_sherd",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cartographer/sell/snort_pottery_sherd"
+        }
+      ]
+    }
+  ]
+}

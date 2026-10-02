@@ -1,0 +1,550 @@
+{
+  "shop_id": "cleric",
+  "name": "Cleric",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/cleric",
+  "villager_profession": "cleric",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 6,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "request": {
+            "id": "create:rose_quartz",
+            "count": 1
+          },
+          "trade_id": "cleric/buy/rose_quartz"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:quartz",
+            "count": 8
+          },
+          "trade_id": "cleric/buy/quartz"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:emerald",
+            "count": 1
+          },
+          "trade_id": "cleric/buy/emerald"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 19
+          },
+          "request": {
+            "id": "minecraft:nether_wart",
+            "count": 4
+          },
+          "trade_id": "cleric/buy/nether_wart"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 12
+          },
+          "request": {
+            "id": "minecraft:ghast_tear",
+            "count": 4
+          },
+          "trade_id": "cleric/buy/ghast_tear"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:goat_horn",
+            "count": 1
+          },
+          "trade_id": "cleric/buy/goat_horn"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:lapis_lazuli",
+            "count": 4
+          },
+          "trade_id": "cleric/buy/lapis_lazuli"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 4
+          },
+          "request": {
+            "id": "minecraft:rabbit_foot",
+            "count": 1
+          },
+          "trade_id": "cleric/buy/rabbit_foot"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 29
+          },
+          "request": {
+            "id": "create_enchantment_industry:super_experience_nugget",
+            "count": 4
+          },
+          "trade_id": "cleric/buy/super_experience_nugget"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "amendments:dragon_charge",
+            "count": 1
+          },
+          "trade_id": "cleric/buy/dragon_charge"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "request": {
+            "id": "create:powdered_obsidian",
+            "count": 8
+          },
+          "trade_id": "cleric/buy/powdered_obsidian"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:amethyst_shard",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/amethyst_shard"
+        },
+        {
+          "offer": {
+            "id": "minecraft:blaze_powder",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cleric/sell/blaze_powder"
+        },
+        {
+          "offer": {
+            "id": "minecraft:bone",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 3
+          },
+          "numismatics_cost": 27,
+          "trade_id": "cleric/sell/bone"
+        },
+        {
+          "offer": {
+            "id": "minecraft:ender_pearl",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "cleric/sell/ender_pearl"
+        },
+        {
+          "offer": {
+            "id": "minecraft:glowstone_dust",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "cleric/sell/glowstone_dust"
+        },
+        {
+          "offer": {
+            "id": "minecraft:spider_eye",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "cleric/sell/spider_eye"
+        },
+        {
+          "offer": {
+            "id": "minecraft:glow_ink_sac",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "cleric/sell/glow_ink_sac"
+        },
+        {
+          "offer": {
+            "id": "create_enchantment_industry:enchanting_template",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "cleric/sell/enchanting_template"
+        },
+        {
+          "offer": {
+            "id": "minecraft:candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:white_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/white_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:light_gray_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/light_gray_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:gray_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/gray_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:black_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/black_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:brown_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/brown_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:red_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/red_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:orange_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/orange_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:yellow_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/yellow_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:lime_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/lime_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:green_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/green_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cyan_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/cyan_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:light_blue_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/light_blue_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:blue_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/blue_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:purple_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/purple_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:magenta_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/magenta_candle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:pink_candle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 13
+          },
+          "numismatics_cost": 45,
+          "trade_id": "cleric/sell/pink_candle"
+        }
+      ]
+    }
+  ]
+}

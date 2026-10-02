@@ -1,0 +1,342 @@
+{
+  "shop_id": "fletcher",
+  "name": "Fletcher",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/fletcher",
+  "villager_profession": "fletcher",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_oak_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_spruce_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_spruce_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_birch_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_birch_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_jungle_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_jungle_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_acacia_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_acacia_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_dark_oak_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_dark_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_mangrove_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_mangrove_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_cherry_log",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/stripped_cherry_log"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:string",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/string"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:iron_ingot",
+            "count": 4
+          },
+          "trade_id": "fletcher/buy/iron_ingot"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 1
+          },
+          "request": {
+            "id": "minecraft:flint",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/flint"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:feather",
+            "count": 8
+          },
+          "trade_id": "fletcher/buy/feather"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:hay_block",
+            "count": 1
+          },
+          "trade_id": "fletcher/buy/hay_block"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:bow",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "fletcher/sell/bow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:crossbow",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "fletcher/sell/crossbow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:target",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "fletcher/sell/target"
+        },
+        {
+          "offer": {
+            "id": "minecraft:arrow",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "fletcher/sell/arrow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:spectral_arrow",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "fletcher/sell/spectral_arrow"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:tipped_arrow",
+            "count": 8,
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_slowness"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "flatcher/sell/long_slowness_arrow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tipped_arrow",
+            "count": 8,
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_harming"
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "flatcher/sell/strong_harming_arrow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tipped_arrow",
+            "count": 8,
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_poison"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "flatcher/sell/long_poison_arrow"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tipped_arrow",
+            "count": 8,
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_weakness"
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "flatcher/sell/long_weakness_arrow"
+        }
+      ]
+    }
+  ]
+}

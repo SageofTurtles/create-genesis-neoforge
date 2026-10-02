@@ -1,0 +1,310 @@
+{
+  "shop_id": "mason",
+  "name": "Mason",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/mason",
+  "villager_profession": "mason",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:dripstone_block",
+            "count": 8
+          },
+          "trade_id": "mason/buy/dripstone_block"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:tuff",
+            "count": 8
+          },
+          "trade_id": "mason/buy/tuff"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create:asurine",
+            "count": 8
+          },
+          "trade_id": "mason/buy/asurine"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create:crimsite",
+            "count": 8
+          },
+          "trade_id": "mason/buy/crimsite"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create:ochrum",
+            "count": 8
+          },
+          "trade_id": "mason/buy/ochrum"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create:veridium",
+            "count": 8
+          },
+          "trade_id": "mason/buy/veridium"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:quartz_block",
+            "count": 8
+          },
+          "trade_id": "mason/buy/quartz_block"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:nether_bricks",
+            "count": 8
+          },
+          "trade_id": "mason/buy/nether_bricks"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:red_nether_bricks",
+            "count": 8
+          },
+          "trade_id": "mason/buy/red_nether_bricks"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:prismarine",
+            "count": 8
+          },
+          "trade_id": "mason/buy/prismarine"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:prismarine_bricks",
+            "count": 8
+          },
+          "trade_id": "mason/buy/prismarine_bricks"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "request": {
+            "id": "minecraft:dark_prismarine",
+            "count": 8
+          },
+          "trade_id": "mason/buy/dark_prismarine"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "rechiseled:chisel",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mason/sell/chisel"
+        },
+        {
+          "offer": {
+            "id": "sophisticatedbackpacks:stonecutter_upgrade",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "mason/sell/stonecutter_upgrade"
+        },
+        {
+          "offer": {
+            "id": "minecraft:andesite",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mason/sell/andesite"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diorite",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "mason/sell/diorite"
+        },
+        {
+          "offer": {
+            "id": "minecraft:granite",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "mason/sell/granite"
+        },
+        {
+          "offer": {
+            "id": "minecraft:sandstone",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "mason/sell/sandstone"
+        },
+        {
+          "offer": {
+            "id": "minecraft:red_sandstone",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "mason/sell/red_sandstone"
+        },
+        {
+          "offer": {
+            "id": "minecraft:bricks",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mason/sell/bricks"
+        },
+        {
+          "offer": {
+            "id": "minecraft:terracotta",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "mason/sell/terracotta"
+        }
+      ]
+    }
+  ]
+}

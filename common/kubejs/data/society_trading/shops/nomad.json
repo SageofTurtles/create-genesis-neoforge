@@ -1,0 +1,522 @@
+{
+  "shop_id": "nomad",
+  "name": "Nomad",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/nomad",
+  "entity": "minecraft:wandering_trader",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 4,
+      "trades": [
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 1
+          },
+          "request": {
+            "id": "minecraft:crimson_fungus",
+            "count": 4
+          },
+          "trade_id": "nomad/buy/crimson_fungus"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 1
+          },
+          "request": {
+            "id": "minecraft:warped_fungus",
+            "count": 4
+          },
+          "trade_id": "nomad/buy/warped_fungus"
+        },
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:decorated_pot",
+            "count": 4
+          },
+          "trade_id": "nomad/buy/decorated_pot"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 17
+          },
+          "request": {
+            "id": "minecraft:dragon_egg",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/dragon_egg"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "request": {
+            "id": "minecraft:dragon_head",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/dragon_head"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:creeper_head",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/creeper_head"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:piglin_head",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/piglin_head"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "request": {
+            "id": "minecraft:wither_skeleton_skull",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/wither_skeleton_skull"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 2
+          },
+          "request": {
+            "id": "minecraft:totem_of_undying",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/totem_of_undying"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "request": {
+            "id": "minecraft:ender_eye",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/ender_eye"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 2
+          },
+          "request": {
+            "id": "create_dragons_plus:blaze_upgrade_smithing_template",
+            "count": 1
+          },
+          "trade_id": "nomad/buy/blaze_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 4,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:bamboo",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/bamboo"
+        },
+        {
+          "offer": {
+            "id": "minecraft:oak_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/oak_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:spruce_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/spruce_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:birch_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/birch_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:jungle_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/jungle_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:acacia_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/acacia_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:dark_oak_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/dark_oak_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:mangrove_propagule",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/mangrove_propagule"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cherry_sapling",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/cherry_sapling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:azalea",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/azalea"
+        },
+        {
+          "offer": {
+            "id": "minecraft:flowering_azalea",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/flowering_azalea"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cocoa_beans",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "nomad/sell/cocoa_beans"
+        },
+        {
+          "offer": {
+            "id": "minecraft:sugar_cane",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/sugar_cane"
+        },
+        {
+          "offer": {
+            "id": "minecraft:hanging_roots",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "nomad/sell/hanging_roots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cactus",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/cactus"
+        },
+        {
+          "offer": {
+            "id": "minecraft:spore_blossom",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 5
+          },
+          "numismatics_cost": 45,
+          "trade_id": "nomad/sell/spore_blossom"
+        },
+        {
+          "offer": {
+            "id": "minecraft:torchflower_seeds",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "nomad/sell/torchflower_seeds"
+        },
+        {
+          "offer": {
+            "id": "minecraft:pitcher_pod",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "nomad/sell/pitcher_pod"
+        },
+        {
+          "offer": {
+            "id": "minecraft:glow_berries",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/glow_berries"
+        },
+        {
+          "offer": {
+            "id": "minecraft:turtle_egg",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 5
+          },
+          "numismatics_cost": 117,
+          "trade_id": "nomad/sell/turtle_egg"
+        },
+        {
+          "offer": {
+            "id": "minecraft:honeycomb",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 5
+          },
+          "numismatics_cost": 45,
+          "trade_id": "nomad/sell/honeycomb"
+        },
+        {
+          "offer": {
+            "id": "minecraft:wet_sponge",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "nomad/sell/wet_sponge"
+        },
+        {
+          "offer": {
+            "id": "minecraft:sculk_sensor",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "nomad/sell/sculk_sensor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "shop_id": "armorer",
+  "name": "Armorer",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/armorer",
+  "villager_profession": "armorer",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 8
+          },
+          "request": {
+            "id": "create:iron_sheet",
+            "count": 4
+          },
+          "trade_id": "armorer/buy/iron_sheet"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 8
+          },
+          "request": {
+            "id": "create:golden_sheet",
+            "count": 4
+          },
+          "trade_id": "armorer/buy/golden_sheet"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:diamond",
+            "count": 4
+          },
+          "trade_id": "armorer/buy/diamond"
+        },
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:leather",
+            "count": 1
+          },
+          "trade_id": "armorer/buy/leather"
+        },
+        {
+          "limit": 10,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 4
+          },
+          "request": {
+            "id": "minecraft:armadillo_scute",
+            "count": 1
+          },
+          "trade_id": "armorer/buy/armadillo_scute"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 8
+          },
+          "request": {
+            "id": "minecraft:netherite_ingot",
+            "count": 1
+          },
+          "trade_id": "armorer/buy/netherite_ingot"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:string",
+            "count": 8
+          },
+          "trade_id": "armorer/buy/string"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 8
+          },
+          "request": {
+            "id": "minecraft:netherite_upgrade_smithing_template",
+            "count": 1
+          },
+          "trade_id": "armorer/buy/netherite_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:chainmail_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "armorer/sell/chainmail_helmet"
+        },
+        {
+          "offer": {
+            "id": "minecraft:chainmail_chestplate",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/chainmail_chestplate"
+        },
+        {
+          "offer": {
+            "id": "minecraft:chainmail_leggings",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/chainmail_leggings"
+        },
+        {
+          "offer": {
+            "id": "minecraft:chainmail_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "armorer/sell/chainmail_boots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/iron_helmet"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_chestplate",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "armorer/sell/iron_chestplate"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_leggings",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "armorer/sell/iron_leggings"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/iron_boots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/golden_helmet"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_chestplate",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "armorer/sell/golden_chestplate"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_leggings",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "armorer/sell/golden_leggings"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "armorer/sell/golden_boots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 19
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 306,
+          "trade_id": "armorer/sell/diamond_helmet"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_chestplate",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 20
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 324,
+          "trade_id": "armorer/sell/diamond_chestplate"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_leggings",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 20
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 324,
+          "trade_id": "armorer/sell/diamond_leggings"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 19
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 306,
+          "trade_id": "armorer/sell/diamond_boots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:shield",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "armorer/sell/shield"
+        },
+        {
+          "offer": {
+            "id": "minecraft:iron_horse_armor",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 16
+          },
+          "second_request": {
+            "id": "numismatics:bevel",
+            "count": 1
+          },
+          "numismatics_cost": 216,
+          "trade_id": "armorer/sell/iron_horse_armor"
+        },
+        {
+          "offer": {
+            "id": "minecraft:golden_horse_armor",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 16
+          },
+          "second_request": {
+            "id": "numismatics:bevel",
+            "count": 1
+          },
+          "numismatics_cost": 216,
+          "trade_id": "armorer/sell/golden_horse_armor"
+        },
+        {
+          "offer": {
+            "id": "minecraft:diamond_horse_armor",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 21
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 342,
+          "trade_id": "armorer/sell/diamond_horse_armor"
+        },
+        {
+          "offer": {
+            "id": "minecraft:wolf_armor",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 12
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "armorer/sell/wolf_armor"
+        }
+      ]
+    }
+  ]
+}

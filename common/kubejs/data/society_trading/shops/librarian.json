@@ -1,0 +1,1287 @@
+{
+  "shop_id": "librarian",
+  "name": "Librarian",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/librarian",
+  "villager_profession": "librarian",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:book",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/book"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 1
+          },
+          "request": {
+            "id": "minecraft:paper",
+            "count": 8
+          },
+          "trade_id": "librarian/buy/paper"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:feather",
+            "count": 8
+          },
+          "trade_id": "librarian/buy/feather"
+        },
+        {
+          "limit": 6,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "request": {
+            "id": "minecraft:chiseled_bookshelf",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/chiseled_bookshelf"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:lectern",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/lectern"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:lantern",
+            "count": 4
+          },
+          "trade_id": "librarian/buy/lantern"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:white_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/white_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:light_gray_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/light_gray_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:gray_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/gray_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:black_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/black_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:brown_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/brown_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:red_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/red_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:orange_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/orange_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:yellow_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/yellow_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:lime_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/lime_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:green_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/green_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:cyan_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/cyan_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:light_blue_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/light_blue_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:blue_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/blue_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:purple_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/purple_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:magenta_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/magenta_dye_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "create_dragons_plus:pink_dye_bucket",
+            "count": 1
+          },
+          "trade_id": "librarian/buy/pink_dye_bucket"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:painting",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 3
+          },
+          "numismatics_cost": 27,
+          "trade_id": "librarian/sell/painting"
+        },
+        {
+          "offer": {
+            "id": "minecraft:book",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 27,
+          "trade_id": "librarian/sell/book"
+        },
+        {
+          "offer": {
+            "id": "minecraft:paper",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "librarian/sell/paper"
+        },
+        {
+          "offer": {
+            "id": "simulated:white_nameplate",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "librarian/sell/white_nameplate"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:aqua_affinity": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/aqua_infinity"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "farmersdelight:backstabbing": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/backstabbing"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:bane_of_arthropods": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/bane_of_arthropods"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:blast_protection": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/blast_protection"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:breach": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "librarian/sell/breach"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "create:capacity": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "librarian/sell/capacity"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:channeling": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "librarian/sell/channeling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:binding_curse": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "librarian/sell/binding_curse"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "librarian/sell/vanishing_curse"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:density": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "librarian/sell/density"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:depth_strider": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/depth_strider"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:efficiency": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "librarian/sell/efficiency"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:feather_falling": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "librarian/sell/feather_falling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:fire_aspect": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "librarian/sell/fire_aspect"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:fire_protection": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/fire_protection"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:flame": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "librarian/sell/flame"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:fortune": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 18
+          },
+          "numismatics_cost": 288,
+          "trade_id": "librarian/sell/fortune"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:frost_walker": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/frost_walker"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:impaling": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/impaling"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:infinity": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "librarian/sell/infinity"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:knockback": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/knockback"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:looting": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 18
+          },
+          "numismatics_cost": 288,
+          "trade_id": "librarian/sell/looting"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:loyalty": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/loyalty"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:luck_of_the_sea": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/luck_of_the_sea"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:lure": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "librarian/sell/lure"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:mending": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 22
+          },
+          "numismatics_cost": 342,
+          "trade_id": "librarian/sell/mending"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:multishot": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/multishot"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:piercing": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/piercing"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "create:potato_recovery": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "librarian/sell/potato_recovery"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:power": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/power"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:projectile_protection": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/projectile_protection"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 4
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 270,
+          "trade_id": "librarian/sell/protection"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:punch": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/punch"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:quick_charge": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "librarian/sell/quick_charge"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:respiration": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "librarian/sell/respiration"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:riptide": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "librarian/sell/riptide"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "librarian/sell/sharpness"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:silk_touch": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 18
+          },
+          "numismatics_cost": 288,
+          "trade_id": "librarian/sell/silk_touch"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:smite": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "librarian/sell/smite"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:soul_speed": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "librarian/sell/soul_speed"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:sweeping_edge": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 10
+          },
+          "numismatics_cost": 234,
+          "trade_id": "librarian/sell/sweeping_edge"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:swift_sneak": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "librarian/sell/swift_sneak"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:thorns": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "librarian/sell/thorns"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:unbreaking": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 19
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 306,
+          "trade_id": "librarian/sell/unbreaking"
+        },
+        {
+          "offer": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:wind_burst": 1
+              }
+            }
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 22
+          },
+          "numismatics_cost": 342,
+          "trade_id": "librarian/sell/wind_burst"
+        }
+      ]
+    }
+  ]
+}

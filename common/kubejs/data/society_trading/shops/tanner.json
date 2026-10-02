@@ -1,0 +1,286 @@
+{
+  "shop_id": "tanner",
+  "name": "Tanner",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/tanner",
+  "villager_profession": "leatherworker",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:leather",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/leather"
+        },
+        {
+          "limit": 10,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "request": {
+            "id": "minecraft:rabbit_hide",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/rabbit_hide"
+        },
+        {
+          "limit": 13,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 3
+          },
+          "request": {
+            "id": "minecraft:stick",
+            "count": 8
+          },
+          "trade_id": "tanner/buy/stick"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:water_bucket",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/water_bucket"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "farmersdelight:iron_knife",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/iron_knife"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:cauldron",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/cauldron"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:string",
+            "count": 8
+          },
+          "trade_id": "tanner/buy/string"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:chest",
+            "count": 1
+          },
+          "trade_id": "tanner/buy/chest"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:phantom_membrane",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "tanner/sell/phantom_membrane"
+        },
+        {
+          "offer": {
+            "id": "sophisticatedbackpacks:upgrade_base",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "tanner/sell/upgrade_base"
+        },
+        {
+          "offer": {
+            "id": "aeronautics:aviators_goggles",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "tanner/sell/aviators_goggles"
+        },
+        {
+          "offer": {
+            "id": "minecraft:item_frame",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 3
+          },
+          "numismatics_cost": 27,
+          "trade_id": "tanner/sell/item_frame"
+        },
+        {
+          "offer": {
+            "id": "minecraft:saddle",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "tanner/sell/saddle"
+        },
+        {
+          "offer": {
+            "id": "sophisticatedbackpacks:backpack",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "tanner/sell/backpack"
+        },
+        {
+          "offer": {
+            "id": "minecraft:leather_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "tanner/sell/leather_helmet"
+        },
+        {
+          "offer": {
+            "id": "minecraft:leather_chestplate",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "tanner/sell/leather_chestplate"
+        },
+        {
+          "offer": {
+            "id": "minecraft:leather_leggings",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "tanner/sell/leather_leggings"
+        },
+        {
+          "offer": {
+            "id": "minecraft:leather_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "tanner/sell/leather_boots"
+        },
+        {
+          "offer": {
+            "id": "minecraft:leather_horse_armor",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "tanner/sell/leather_horse_armor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "shop_id": "fisherman",
+  "name": "Fisherman",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/fisherman",
+  "villager_profession": "fisherman",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_oak_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_spruce_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_spruce_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_birch_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_birch_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_jungle_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_jungle_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_acacia_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_acacia_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_dark_oak_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_dark_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_mangrove_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_mangrove_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_cherry_log",
+            "count": 8
+          },
+          "trade_id": "fisherman/buy/stripped_cherry_log"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:white_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/white_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:light_gray_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/light_gray_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:gray_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/gray_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:black_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/black_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:brown_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/brown_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:red_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/red_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:orange_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/orange_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:yellow_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/yellow_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:lime_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/lime_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:green_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/green_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:cyan_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/cyan_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:light_blue_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/light_blue_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:blue_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/blue_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:purple_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/purple_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:magenta_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/magenta_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:pink_wool",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/pink_wool"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "farmersdelight:rope",
+            "count": 4
+          },
+          "trade_id": "fisherman/buy/rope"
+        },
+        {
+          "limit": 5,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "request": {
+            "id": "farmersdelight:safety_net",
+            "count": 1
+          },
+          "trade_id": "fisherman/buy/safety_net"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:fishing_rod",
+            "count": 1
+          },
+          "trade_id": "fisherman/buy/fishing_rod"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:nautilus_shell",
+            "count": 1
+          },
+          "trade_id": "fisherman/buy/nautilus_shell"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 19
+          },
+          "request": {
+            "id": "create_aquatic_ambitions:spiky_shell",
+            "count": 1
+          },
+          "trade_id": "fisherman/buy/spiky_shell"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 14
+          },
+          "request": {
+            "id": "minecraft:trident",
+            "count": 1
+          },
+          "trade_id": "fisherman/buy/trident"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:prismarine_shard",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "fisherman/sell/prismarine_shard"
+        },
+        {
+          "offer": {
+            "id": "minecraft:prismarine_crystals",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "fisherman/sell/prismarine_crystals"
+        },
+        {
+          "offer": {
+            "id": "minecraft:kelp",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/kelp"
+        },
+        {
+          "offer": {
+            "id": "minecraft:sea_pickle",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "fisherman/sell/sea_pickle"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tube_coral",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/tube_coral"
+        },
+        {
+          "offer": {
+            "id": "minecraft:brain_coral",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/brain_coral"
+        },
+        {
+          "offer": {
+            "id": "minecraft:bubble_coral",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/bubble_coral"
+        },
+        {
+          "offer": {
+            "id": "minecraft:fire_coral",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/fire_coral"
+        },
+        {
+          "offer": {
+            "id": "minecraft:horn_coral",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/horn_coral"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tube_coral_fan",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/tube_coral_fan"
+        },
+        {
+          "offer": {
+            "id": "minecraft:brain_coral_fan",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/brain_coral_fan"
+        },
+        {
+          "offer": {
+            "id": "minecraft:bubble_coral_fan",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/bubble_coral_fan"
+        },
+        {
+          "offer": {
+            "id": "minecraft:fire_coral_fan",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/fire_coral_fan"
+        },
+        {
+          "offer": {
+            "id": "minecraft:horn_coral_fan",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "fisherman/sell/horn_coral_fan"
+        },
+        {
+          "offer": {
+            "id": "minecraft:seagrass",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "fisherman/sell/seagrass"
+        },
+        {
+          "offer": {
+            "id": "minecraft:lily_pad",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "fisherman/sell/lily_pad"
+        },
+        {
+          "offer": {
+            "id": "minecraft:ink_sac",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "fisherman/sell/ink_sac"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cod",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "fisherman/sell/cod"
+        },
+        {
+          "offer": {
+            "id": "minecraft:salmon",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "fisherman/sell/salmon"
+        },
+        {
+          "offer": {
+            "id": "minecraft:pufferfish_bucket",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "fisherman/sell/pufferfish_bucket"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tropical_fish_bucket",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "fisherman/sell/tropical_fish_bucket"
+        },
+        {
+          "offer": {
+            "id": "minecraft:tadpole_bucket",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "fisherman/sell/tadpole_bucket"
+        },
+        {
+          "offer": {
+            "id": "brewinandchewin:kippers",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 63,
+          "trade_id": "fisherman/sell/kippers"
+        }
+      ]
+    }
+  ]
+}

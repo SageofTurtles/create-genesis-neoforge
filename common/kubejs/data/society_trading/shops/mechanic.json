@@ -1,0 +1,680 @@
+{
+  "shop_id": "mechanic",
+  "name": "Mechanic",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/mechanic",
+  "villager_profession": "toolsmith",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:andesite_alloy",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/andesite_alloy"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:iron_sheet",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/iron_sheet"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:copper_sheet",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/copper_sheet"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "createaddition:zinc_sheet",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/zinc_sheet"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "create:brass_sheet",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/brass_sheet"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_oak_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_spruce_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_spruce_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_birch_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_birch_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_jungle_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_jungle_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_acacia_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_acacia_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_dark_oak_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_dark_oak_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_mangrove_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_mangrove_log"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:stripped_cherry_log",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/stripped_cherry_log"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "create:precision_mechanism",
+            "count": 1
+          },
+          "trade_id": "mechanic/buy/precision_mechanism"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "simulated:gyroscopic_mechanism",
+            "count": 1
+          },
+          "trade_id": "mechanic/buy/gyroscopic_mechanism"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:redstone",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/redstone"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "minecraft:slime_ball",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/slime_ball"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "request": {
+            "id": "minecraft:lightning_rod",
+            "count": 1
+          },
+          "trade_id": "mechanic/buy/lightning_rod"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "create:railway_casing",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/railway_casing"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "create:electron_tube",
+            "count": 4
+          },
+          "trade_id": "mechanic/buy/electron_tube"
+        },
+        {
+          "limit": 10,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 4
+          },
+          "request": {
+            "id": "create:crafting_blueprint",
+            "count": 1
+          },
+          "trade_id": "mechanic/buy/crafting_blueprint"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 15
+          },
+          "request": {
+            "id": "create:belt_connector",
+            "count": 8
+          },
+          "trade_id": "mechanic/buy/belt_connector"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "create:copper_backtank",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "mechanic/sell/copper_backtank"
+        },
+        {
+          "offer": {
+            "id": "create:copper_diving_helmet",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/copper_diving_helmet"
+        },
+        {
+          "offer": {
+            "id": "create:copper_diving_boots",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/copper_diving_boots"
+        },
+        {
+          "offer": {
+            "id": "create:wrench",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/wrench"
+        },
+        {
+          "offer": {
+            "id": "create:goggles",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "mechanic/sell/goggles"
+        },
+        {
+          "offer": {
+            "id": "cmparallelpipes:pipe_wrench",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 180,
+          "trade_id": "mechanic/sell/pipe_wrench"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 2,
+      "trades": [
+        {
+          "offer": {
+            "id": "create:andesite_casing",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/andesite_casing"
+        },
+        {
+          "offer": {
+            "id": "create:copper_casing",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/copper_casing"
+        },
+        {
+          "offer": {
+            "id": "create:cogwheel",
+            "count": 8
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 9
+          },
+          "numismatics_cost": 144,
+          "trade_id": "mechanic/sell/cogwheel"
+        },
+        {
+          "offer": {
+            "id": "create:water_wheel",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mechanic/sell/water_wheel"
+        },
+        {
+          "offer": {
+            "id": "create:linked_controller",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "mechanic/sell/linked_controller"
+        },
+        {
+          "offer": {
+            "id": "create:item_vault",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 135,
+          "trade_id": "mechanic/sell/item_vault"
+        },
+        {
+          "offer": {
+            "id": "create:fluid_tank",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 135,
+          "trade_id": "mechanic/sell/fluid_tank"
+        },
+        {
+          "offer": {
+            "id": "create:package_frogport",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "mechanic/sell/package_frogport"
+        },
+        {
+          "offer": {
+            "id": "create:stock_link",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mechanic/sell/stock_link"
+        },
+        {
+          "offer": {
+            "id": "create:redstone_link",
+            "count": 2
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "numismatics_cost": 112,
+          "trade_id": "mechanic/sell/redstone_link"
+        },
+        {
+          "offer": {
+            "id": "create:brown_toolbox",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mechanic/sell/brown_toolbox"
+        },
+        {
+          "offer": {
+            "id": "create:super_glue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "mechanic/sell/super_glue"
+        },
+        {
+          "offer": {
+            "id": "simulated:honey_glue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "mechanic/sell/honey_glue"
+        },
+        {
+          "offer": {
+            "id": "createaddition:copper_spool",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 10
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 162,
+          "trade_id": "mechanic/sell/copper_spool"
+        },
+        {
+          "offer": {
+            "id": "simulated:physics_assembler",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 108,
+          "trade_id": "mechanic/sell/physics_assembler"
+        },
+        {
+          "offer": {
+            "id": "simulated:engine_assembly",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 15
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 12
+          },
+          "numismatics_cost": 252,
+          "trade_id": "mechanic/sell/engine_assembly"
+        },
+        {
+          "offer": {
+            "id": "create_mobile_packages:robo_bee",
+            "count": 2
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 8
+          },
+          "numismatics_cost": 216,
+          "trade_id": "mechanic/sell/robo_bee"
+        },
+        {
+          "offer": {
+            "id": "createtransmission:transmission_chain",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 198,
+          "trade_id": "mechanic/sell/transmission_chain"
+        }
+      ]
+    }
+  ]
+}

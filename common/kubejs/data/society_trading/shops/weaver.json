@@ -1,0 +1,1516 @@
+{
+  "shop_id": "weaver",
+  "name": "Weaver",
+  "display_type": "default",
+  "texture": "society_trading:shop_icons/weaver",
+  "villager_profession": "shepherd",
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 3,
+      "trades": [
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:white_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/white_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:light_gray_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/light_gray_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:gray_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/gray_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:black_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/black_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:brown_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/brown_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:red_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/red_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:orange_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/orange_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:yellow_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/yellow_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:lime_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/lime_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:green_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/green_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:cyan_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/cyan_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:light_blue_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/light_blue_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:blue_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/blue_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:purple_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/purple_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:magenta_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/magenta_wool"
+        },
+        {
+          "limit": 4,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "request": {
+            "id": "minecraft:pink_wool",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/pink_wool"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:creeper_banner_pattern",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/creeper_banner_pattern"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 11
+          },
+          "request": {
+            "id": "minecraft:piglin_banner_pattern",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/piglin_banner_pattern"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:cog",
+            "count": 3
+          },
+          "request": {
+            "id": "minecraft:mojang_banner_pattern",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/mojang_banner_pattern"
+        },
+        {
+          "limit": 1,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 13
+          },
+          "request": {
+            "id": "minecraft:skull_banner_pattern",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/skull_banner_pattern"
+        },
+        {
+          "limit": 8,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 5
+          },
+          "request": {
+            "id": "farmersdelight:straw_bale",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/straw_bale"
+        },
+        {
+          "limit": 13,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 3
+          },
+          "request": {
+            "id": "minecraft:stick",
+            "count": 8
+          },
+          "trade_id": "weaver/buy/stick"
+        },
+        {
+          "limit": 2,
+          "offer": {
+            "id": "numismatics:bevel",
+            "count": 17
+          },
+          "request": {
+            "id": "create:andesite_alloy",
+            "count": 4
+          },
+          "trade_id": "weaver/buy/andesite_alloy"
+        },
+        {
+          "limit": 3,
+          "offer": {
+            "id": "numismatics:sprocket",
+            "count": 6
+          },
+          "request": {
+            "id": "minecraft:shears",
+            "count": 1
+          },
+          "trade_id": "weaver/buy/shears"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {
+          "offer": {
+            "id": "farmersdelight:canvas",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 7
+          },
+          "numismatics_cost": 63,
+          "trade_id": "weaver/sell/canvas"
+        },
+        {
+          "offer": {
+            "id": "farmersdelight:rope",
+            "count": 4
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 7
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 14
+          },
+          "numismatics_cost": 126,
+          "trade_id": "weaver/sell/rope"
+        },
+        {
+          "offer": {
+            "id": "create:white_sail",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 5
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 1
+          },
+          "numismatics_cost": 81,
+          "trade_id": "weaver/sell/sail"
+        }
+      ]
+    },
+    {
+      "random_style": "per_day",
+      "rolled_count": 4,
+      "trades": [
+        {
+          "offer": {
+            "id": "minecraft:white_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/white_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:light_gray_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/light_gray_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:gray_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/gray_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:black_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/black_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:brown_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/brown_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:red_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/red_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:orange_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/orange_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:yellow_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/yellow_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:lime_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/lime_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:green_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/green_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:cyan_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/cyan_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:light_blue_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/light_blue_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:blue_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/blue_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:purple_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/purple_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:magenta_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/magenta_banner"
+        },
+        {
+          "offer": {
+            "id": "minecraft:pink_banner",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sell/pink_banner"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:white_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/white_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:light_gray_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/light_gray_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:gray_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/gray_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:black_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/black_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:brown_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/brown_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:red_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/red_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:orange_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/orange_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:yellow_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/yellow_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:lime_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/lime_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:green_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/green_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:cyan_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/cyan_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:light_blue_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/light_blue_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:blue_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/blue_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:purple_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/purple_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:magenta_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/magenta_curtain"
+        },
+        {
+          "offer": {
+            "id": "another_furniture:pink_curtain",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 2
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 4
+          },
+          "numismatics_cost": 36,
+          "trade_id": "weaver/sell/pink_curtain"
+        },
+        {
+          "offer": {
+            "id": "create:white_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/white_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:light_gray_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/light_gray_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:gray_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/gray_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:black_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/black_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:brown_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/brown_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:red_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/red_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:orange_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/orange_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:yellow_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/yellow_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:lime_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/lime_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:green_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/green_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:cyan_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/cyan_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:light_blue_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/light_blue_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:blue_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/blue_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:purple_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/purple_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:magenta_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/magenta_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "create:pink_table_cloth",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:sprocket",
+            "count": 3
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 6
+          },
+          "numismatics_cost": 54,
+          "trade_id": "weaver/sell/pink_table_cloth"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_white",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_white"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_light_gray",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_light_gray"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_gray",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_gray"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_black",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_black"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_brown",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_brown"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_red",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_red"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_orange",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_orange"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_yellow",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_yellow"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_lime",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_lime"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_green",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_green"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_cyan",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_cyan"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_light_blue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_light_blue"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_blue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_blue"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_purple",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_purple"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_magenta",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_magenta"
+        },
+        {
+          "offer": {
+            "id": "comforts:sleeping_bag_pink",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 9
+          },
+          "numismatics_cost": 72,
+          "trade_id": "weaver/sleeping_bag_pink"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_white",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_white"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_light_gray",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_light_gray"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_gray",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_gray"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_black",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_black"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_brown",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_brown"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_red",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_red"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_orange",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_orange"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_yellow",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_yellow"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_lime",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_lime"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_green",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_green"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_cyan",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_cyan"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_light_blue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_light_blue"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_blue",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_blue"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_purple",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_purple"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_magenta",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_magenta"
+        },
+        {
+          "offer": {
+            "id": "comforts:hammock_pink",
+            "count": 1
+          },
+          "request": {
+            "id": "numismatics:bevel",
+            "count": 13
+          },
+          "second_request": {
+            "id": "numismatics:spur",
+            "count": 2
+          },
+          "numismatics_cost": 90,
+          "trade_id": "weaver/hammock_pink"
+        }
+      ]
+    }
+  ]
+}
