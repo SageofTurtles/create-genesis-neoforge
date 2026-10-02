@@ -33,6 +33,7 @@ global['BLACKLISTED_ITEMS'] = [
   'gnkinetics:large_cog_crank',
   'mcwroofs:rain_gutter',
   'minecraft:elytra',
+  'society_trading:auto_trader',
   'sophisticatedbackpacks:advanced_mob_catcher_upgrade',
   'sophisticatedbackpacks:inception_upgrade',
   'sophisticatedbackpacks:infinity_upgrade',
