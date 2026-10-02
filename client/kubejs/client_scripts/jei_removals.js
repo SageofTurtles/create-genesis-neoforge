@@ -16,4 +16,5 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
 RecipeViewerEvents.removeCategories(event => {
   event.remove('create_dragons_plus:sanding')
   event.remove('ali:shearing')
+  event.remove('ali:trade_loot')
 })
