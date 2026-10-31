@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'create:mechanical_crafting/wand_of_symmetry' }, 'minecraft:ender_pearl', 'minecraft:echo_shard')
   event.replaceInput({ id: 'create:splashing/stained_glass_pane' }, '#c:glass_panes', '#kubejs:stained_glass_panes')
   event.replaceInput({ id: 'create:splashing/stained_glass' }, '#c:glass_blocks', '#kubejs:stained_glass')
+  event.replaceInput({ id: 'createrailwaysnavigator:penalty_anchor' }, 'minecraft:ender_eye', 'minecraft:ender_pearl')
   event.replaceInput({ id: 'minecraft:ender_chest' }, 'minecraft:ender_eye', 'minecraft:ender_pearl')
   event.replaceInput({ id: 'minecraft:lodestone' }, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
   event.replaceInput({ id: 'railways:crafting/remote_lens' }, 'minecraft:ender_eye', 'minecraft:ender_pearl')
