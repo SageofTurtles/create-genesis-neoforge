@@ -1,0 +1,11 @@
+#Genesis World Map Settings
+[world_map]
+	#On a server: answer players' world maps with the world's biomes. Off keeps the world's layout from players.
+	server_world_map = true
+	#On a server: include structure locations in what players' world maps receive.
+	server_world_map_structures = true
+
+#Genesis Update Settings
+[updates]
+	#Once per game start, read https://alkeari.com/updates/genesis.json and say in chat only when a newer Genesis is out for this Minecraft version and loader. Nothing else is sent.
+	check_for_updates = false

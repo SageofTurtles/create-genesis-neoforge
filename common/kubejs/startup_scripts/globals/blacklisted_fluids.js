@@ -1,8 +1,19 @@
 global['BLACKLISTED_FLUIDS'] = [
   'brewinandchewin:kombucha',
+  'createmetalwork:molten_aluminum',
   'createmetalwork:molten_bronze',
+  'createmetalwork:molten_cast_iron',
+  'createmetalwork:molten_lead',
+  'createmetalwork:molten_lithium',
+  'createmetalwork:molten_nickel',
+  'createmetalwork:molten_osmium',
+  'createmetalwork:molten_silver',
   'createmetalwork:molten_steel',
   'createmetalwork:molten_tin',
+  'createmetalwork:molten_tungsten',
   'sophisticatedcore:xp_still',
-  'streamsreflowing:stream'
+  'streamsreflowing:stream',
+  'vintage:sulfur_dioxide',
+  'vintage:sulfur_trioxide',
+  'vintage:sulfuric_acid'
 ]

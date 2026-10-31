@@ -157,7 +157,7 @@ global['UNPACKING_SETS'] = [
   {
     packed: 'dndecor:netherite_sheet_metal',
     count: 4,
-    unpacked: 'createvintageneoforged:netherite_sheet'
+    unpacked: 'vintage:netherite_sheet'
   },
   {
     packed: 'dndecor:zinc_sheet_metal',

@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
       D: 'create:andesite_casing',
       E: 'create:shaft'
     },
-    'createvintageneoforged:helve_hammer'
+    'vintage:helve_hammer'
   )
 
   add(

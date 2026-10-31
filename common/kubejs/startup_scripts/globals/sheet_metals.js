@@ -28,7 +28,7 @@ global['SHEET_METALS'] = [
     block: 'dndecor:iron_sheet_metal'
   },
   {
-    sheet: 'createvintageneoforged:netherite_sheet',
+    sheet: 'vintage:netherite_sheet',
     block: 'dndecor:netherite_sheet_metal'
   }
 ]

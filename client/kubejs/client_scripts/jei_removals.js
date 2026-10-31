@@ -17,4 +17,8 @@ RecipeViewerEvents.removeCategories(event => {
   event.remove('create_dragons_plus:sanding')
   event.remove('ali:shearing')
   event.remove('ali:trade_loot')
+  event.remove('society_trading:shop')
+  event.remove('society_trading:trade')
+  event.remove('vintage:auto_curving')
+  event.remove('vintage:polishing')
 })
