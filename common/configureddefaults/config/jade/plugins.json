@@ -44,7 +44,7 @@
     "entity_health": true,
     "enchantment_power": true,
     "zombie_villager": true,
-    "villager_profession": true,
+    "villager_profession": false,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "total_enchantment_power": true,
@@ -75,8 +75,8 @@
     "entity": true,
     "entity_variant": true
   },
-  "pet_home": {
-    "collar_tag": true
+  "create_aeronautics_automated_logistics": {
+    "logistics_identity": true
   },
   "jade": {
     "coordinates.rel": false,
