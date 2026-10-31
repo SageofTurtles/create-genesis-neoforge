@@ -36,6 +36,7 @@ ServerEvents.tags('item', event => {
   add('dndecor:industrial_cogwheels', 'gnkinetics:industrial_gear')
   add('kubejs:folding_doors', ['create:andesite_door', 'create:copper_door'])
   add('kubejs:garage_doors', /mcwdoors:garage_.*_door$/)
+  add('kubejs:netherite_sources', ['minecraft:netherite_scrap', 'createmetalwork:crushed_netherite_scrap'])
   add('kubejs:portable_engines', /^simulated:.*_portable_engine$/)
   add('kubejs:sliding_doors', ['create:brass_door', 'create:train_door', 'create:framed_glass_door'])
   add('kubejs:spawn_eggs', /.*_spawn_egg$/)

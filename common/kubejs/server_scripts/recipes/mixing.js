@@ -20,13 +20,13 @@ ServerEvents.recipes(event => {
   }
 
   // TARGETED RECIPE CHANGES
-  heated('lava_from_cobblestone', Ingredient.of('#c:cobblestones'), Fluid.lava(50))
+  heated('lava_from_cobblestone', Ingredient.of('#c:cobblestones', 20), Fluid.lava(250))
   heated('molten_andesite_alloy_from_molten_iron', [Fluid.of('createmetalwork:molten_andesite', 27), Fluid.of('createmetalwork:molten_iron', 3)], Fluid.of('createmetalwork:molten_andesite_alloy', 27))
   heated('molten_andesite_alloy_from_molten_zinc', [Fluid.of('createmetalwork:molten_andesite', 27), Fluid.of('createmetalwork:molten_zinc', 3)], Fluid.of('createmetalwork:molten_andesite_alloy', 27))
   heated('molten_brass_from_ingots', ['minecraft:copper_ingot', 'create:zinc_ingot'], Fluid.of('createmetalwork:molten_brass', 27))
   heated('molten_brass_from_molten', [Fluid.of('createmetalwork:molten_copper', 27), Fluid.of('createmetalwork:molten_zinc', 27)], Fluid.of('createmetalwork:molten_brass', 54))
-  superheated('molten_netherite_from_electrum', ['3x createmetalwork:crushed_netherite_scrap', '2x createaddition:electrum_ingot'], Fluid.of('createmetalwork:molten_netherite', 27))
-  superheated('molten_netherite_from_gold', ['4x minecraft:netherite_scrap', Fluid.of('createmetalwork:molten_gold', 108)], Fluid.of('createmetalwork:molten_netherite', 27))
+  superheated('molten_netherite_from_electrum', [Ingredient.of('#kubejs:netherite_sources', 4), Fluid.of('createmetalwork:molten_electrum', 54)], Fluid.of('createmetalwork:molten_netherite', 27))
+  superheated('molten_netherite_from_gold', [Ingredient.of('#kubejs:netherite_sources', 4), Fluid.of('createmetalwork:molten_gold', 108)], Fluid.of('createmetalwork:molten_netherite', 27))
   unheated('diorite', ['minecraft:cobblestone', 'minecraft:quartz'], 'minecraft:diorite')
   unheated('powder_snow_bucket', ['minecraft:snow_block', 'minecraft:bucket'], 'minecraft:powder_snow_bucket')
 

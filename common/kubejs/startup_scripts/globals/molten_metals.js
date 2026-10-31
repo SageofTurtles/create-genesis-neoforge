@@ -41,7 +41,7 @@ global['MOLTEN_METALS'] = [
   },
   {
     name: 'electrum',
-    molten: 'createmetalwork:molten_gold',
+    molten: 'createmetalwork:molten_electrum',
     block: 'createaddition:electrum_block',
     crushed: null,
     raw: null,

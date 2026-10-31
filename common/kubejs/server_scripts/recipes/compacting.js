@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
   // BULK RECIPE CHANGES
   global.MOLTEN_METALS.forEach(entry => {
     const { name, molten, block, crushed, raw, ingot, sheet, nugget } = entry
-    if (name == 'electrum' || name == 'industrial_iron') return
+    if (name == 'industrial_iron') return
     unheated(`${name}_molten_to_block`, Fluid.of(molten, 243), block)
     if (ingot != null) {
       unheated(`${name}_molten_to_ingot`, Fluid.of(molten, 27), ingot)
