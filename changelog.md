@@ -1,4 +1,120 @@
 # Changelog
+## v0.1.0-alpha.14 (TBD)
+### Changes:
+- Implemented fully-customized trades for villagers:
+  - Some villager professions have been renamed for thematic consistency
+  - Villagers now offer ~3 "buying" and ~3 "selling" trades per day
+  - Numismatics coins are now the universal currency for trading
+  - Trades are universal across all villagers of the same profession
+  - Trades will be re-rolled each day
+  - Villager "buying" trades are limited based on value per day
+  - Villager "selling" trades have no limits
+- Added custom JEI recipes to see possible villager trades
+  - Parses the KubeJS data files to pull directly from Society Trading trades
+- Added Pelmen0526 to credits and splash texts for his contribution with the custom JEI category scripts!
+- Made a few corrections to the tooltip groups based on progression
+- Revised recipes for gold and netherite with new molten electrum now added (Create: Metalwork)
+- Reduced blaze burner fluid capacity to 2 buckets
+- Minor recipe tweaks
+- Adjusted claim settings:
+  - Increased Aeronautics physics contraption claims to 4096 blocks per claim (16x16x16 volume)
+  - Reduced party claim bonus to 6 chunks per member
+  - Added 1 chunk per member for party forceload claim bonus
+### Added:
+- Advanced Core Info (1.5.0)
+- Aeronautics Hot Air Fix (1.1.1)
+- Climbable Ropes for Create Aeronautics (2.2.2)
+- Create Aeronautics: Automated Logistics (0.7.0)
+- Create Collision Crashfix (1.0.0)
+- Create: Access Denied (0.0.4)
+- Create: Bits 'n' Dyes (1.1.3)
+- Jade Sable Compat (1.3.0)
+- Placebo (9.9.4)
+- Sable: Weighted (1.0)
+- Society Trading (1.2.12)
+### Removed:
+- Create Additions - Sable Compat
+- Create Aeronautics: Compatibility
+- Create: Marketplace
+- Create: Power Loader
+- Create: Vibrant Vaults
+- Data Trades
+- Sable: Weighted - Add-On Bundle
+- Sable: Weighted - Create: Deco
+- Sable: Weighted - Design n' Decor
+### Updated:
+- Advanced Loot Info (1.12.0 > 2.5.0)
+- Amendments (2.1.9 > 2.2.7)
+- Another Furniture (4.0.2 > 4.0.3)
+- Azimuth API (1.4.8 > 1.4.10)
+- BaguetteLib (2.0.6 > 2.0.7)
+- Blueprint (8.1.1 > 8.2.0)
+- Collective (8.39 > 8.86)
+- Colorwheel (1.2.9 > 1.3.2)
+- Complementary Shaders (r5.8.1 > r5.9.3)
+- Configurable Despawn Timer (4.5 > 4.8)
+- Corpse (1.1.13 > 1.1.22)
+- Corpse x Curios API Compat (4.0.1 > 4.2.1)
+- Create Aeronautics: Claims (0.9.3 > 0.9.5)
+- Create Cobblestone (1.5.0 > 1.5.1)
+- Create Crafts & Additions (1.7.0 > 1.7.2)
+- Create Railways Navigator (beta-0.9.1 > beta-0.10.0)
+- Create Slice & Dice (4.3.3 > 4.3.4)
+- Create: Advanced Optimization (1.4 > 1.6)
+- Create: Bits 'n' Bobs (2.2.9 > 2.3.5)
+- Create: Central Kitchen (2.6.0 > 2.6.2b)
+- Create: Copycats+ (3.0.8 > 3.0.11)
+- Create: Deployer API (0.1.2 > 0.1.3)
+- Create: Dragons Plus (1.11.7b > 1.11.9)
+- Create: Enchantment Industry (2.5.3b > 2.5.4b)
+- Create: Extra Gauges (2.1.2 > 2.1.3)
+- Create: Filters Anywhere (2.3.0 > 2.7.0)
+- Create: LazyTick (2.6.25 > 2.7.33)
+- Create: Metalwork (2.0.0 > 3.0.0)
+- Create: Mobile Packages (0.7.7 > 0.7.8)
+- Create: Numismatics Utils (2.2 > 2.3)
+- Create: Vintage (1.3.9 > 1.6.5)
+- DragonLib (3.0.28 > 3.0.29)
+- Full Brightness Toggle (4.4 > 4.9)
+- Fusion (1.3.14a > 1.3.16)
+- Fzzy Config (0.7.6 > 0.7.7+fix1)
+- Genesis (1.1.0 > 2.4.0)
+- Geophilic (3.6 . 3.7)
+- GuideME (21.1.17 > 21.1.22)
+- ImmediatelyFast (1.6.13 > 1.6.15)
+- Jade Addons (6.1.1 > 6.1.2)
+- JEI WorldGen (1.4.4 > 1.4.5)
+- JourneyMap (6.0.7 > 6.0.9)
+- Just Enough Breeding (3.2.1 > 3.3.1)
+- Just Enough Effects Descriptions (2.3.3 > 2.3.5)
+- Just Enough Items (19.51.0.418 > 19.70.0.469)
+- Just Zoom (2.1.0 > 3.1.0)
+- KubeJS (2101.7.2-build.374 > 2101.7.2-build.381)
+- Lithostitched (1.8.0+beta.4 > 1.8.1)
+- MidnightLib (1.9.3 > 1.10.0)
+- ModernFix (5.27.24 > 5.27.27)
+- Moonlight Lib (3.6.0 > 3.8.3)
+- Not Enough Recipe Book (0.4.3 > 0.6)
+- Open Parties and Claims (0.30.3 > 0.33.0)
+- Polymorph (1.1.0 > 1.2.0)
+- Puzzles Lib (21.1.56 > 21.1.66)
+- Questlog (3.3.2 > 3.5.4)
+- Rechiseled (1.2.5 > 1.2.6)
+- Sable (2.0.5 > 2.0.6)
+- ShatterLib (0.6.2 > 0.6.3)
+- Simple Voice Chat (2.6.22 > 2.6.27)
+- Sophisticated Backpacks (3.25.78.2107 > 3.26.21.2249)
+- Sophisticated Backpacks Create Integration (0.1.8.134 > 0.2.3.194)
+- Sophisticated Core (1.2.90.2299 > 1.5.33.2470)
+- Sophisticated Item Actions (0.5.15.409 > 0.5.19.446)
+- Streams Reflowing (2.13.1 > 2.17.1)
+- Strut Your Stuff (1.3.0 > 1.3.1)
+- SuperMartijn642's Core Lib (1.1.24 > 1.1.26a)
+- Tectonic (3.0.26 > 3.0.28)
+- Tooltip Overhaul (1.5.1 > 2.1.0)
+- Universal Enchants (21.1.6 > 21.1.9)
+- Villager Names (8.5 > 9.0)
+---
 ## v0.1.0-alpha.13 (02 September 2026)
 **Now requires NeoForge version 21.1.248 or later!**
 ### Changes:
