@@ -9,3 +9,26 @@
 [updates]
 	#Once per game start, read https://alkeari.com/updates/genesis.json and say in chat only when a newer Genesis is out for this Minecraft version and loader. Nothing else is sent.
 	check_for_updates = false
+
+#Genesis Server Pre-Generation Settings
+[pregen_server]
+	#On a server: the area a pre-generation covers around its center, square or circle. Default square.
+	server_pregen_shape = "square"
+	#On a server: pause pre-generation while any player is online. Default off.
+	server_pregen_pause_with_players = false
+	#On a server: pause pre-generation while the mean tick time is above this many milliseconds, resuming below 80 percent of it. 0 = off.
+	# Default: 0
+	# Range: 0 ~ 1000
+	server_pregen_pause_mspt = 45
+	#On a server: pause pre-generation while free memory is below this many megabytes. 0 = off.
+	# Default: 0
+	# Range: 0 ~ 65536
+	server_pregen_pause_free_memory_mb = 0
+	#On a server: the largest radius, in chunks, a pre-generation may be started with. Default 2048.
+	# Default: 2048
+	# Range: 1 ~ 2048
+	server_pregen_max_radius = 2048
+	#On a server: the most chunk futures a pre-generation may keep in flight. Default 16.
+	# Default: 16
+	# Range: 1 ~ 16
+	server_pregen_max_threads = 16
