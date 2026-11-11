@@ -45,4 +45,5 @@ ServerEvents.tags('item', event => {
   add('kubejs:stone_pressure_plates', ['minecraft:stone_pressure_plate', 'minecraft:polished_blackstone_pressure_plate'])
   remove('dndecor:dark_metal_decor', ['dndecor:dark_metal_block_stairs', 'dndecor:dark_metal_brick_stairs'])
   remove('kubejs:spawn_eggs', 'minecraft:wither_spawn_egg')
+  remove('minecraft:wooden_trapdoors', 'copycats:copycat_trapdoor')
 })
