@@ -1,5 +1,8 @@
 Credits:
 
+Pelmen0526:
+  Custom JEI recipe categories
+
 Vanilla Tweaks: https://vanillatweaks.net/
   Selected Resource Packs:
   	ConsistentDecorPot
