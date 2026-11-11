@@ -99,4 +99,13 @@ JEIAddedEvents.registerRecipeCatalysts(event => {
   // SANDPAPER_POLISHING
   let SANDPAPER_POLISHING = event.data.jeiHelpers.getRecipeType('create:sandpaper_polishing').get()
   event.data[addRecipeCatalyst]('create_enchantment_industry:mechanical_grindstone', SANDPAPER_POLISHING)
+
+  // VILLAGER_TRADING
+  let VILLAGER_TRADING = event.data.jeiHelpers.getRecipeType('kubejs:villager_trading').get()
+  event.data[addRecipeCatalyst]('numismatics:spur', VILLAGER_TRADING)
+  event.data[addRecipeCatalyst]('numismatics:bevel', VILLAGER_TRADING)
+  event.data[addRecipeCatalyst]('numismatics:sprocket', VILLAGER_TRADING)
+  event.data[addRecipeCatalyst]('numismatics:cog', VILLAGER_TRADING)
+  event.data[addRecipeCatalyst]('numismatics:crown', VILLAGER_TRADING)
+  event.data[addRecipeCatalyst]('numismatics:sun', VILLAGER_TRADING)
 })

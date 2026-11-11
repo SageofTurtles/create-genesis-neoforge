@@ -46,6 +46,15 @@ var JEIInfo = (function () {
       if (ingredient.fluid) return slot.addFluidStack(ingredient.fluid, ingredient.amount || 1000)
       if (ingredient.tag) return slot.addIngredients(Ingredient.of(ingredient.tag))
       if (ingredient.item) return slot.addItemStack(Item.of(ingredient.item, ingredient.count || 1))
+      if (ingredient.id) {
+        let item
+        if (ingredient.components) {
+          item = Item.of(ingredient.id, ingredient.count || 1, ingredient.components)
+        } else {
+          item = Item.of(ingredient.id, ingredient.count || 1)
+        }
+        return slot.addItemStack(item)
+      }
       return slot
     }
 
